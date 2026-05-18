@@ -1,0 +1,205 @@
+2026-05-16 15:15:44 [INFO] alerts.telegram: Telegram connected: @avrora_romania_bot
+2026-05-16 15:21:36 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:21:39 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:21:41 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:21:49 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:21:50 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:21:53 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:35 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:36 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:39 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:40 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:41 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:42 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:43 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:44 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:45 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:46 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:48 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:49 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:50 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:51 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:52 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:53 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:54 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:55 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:56 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:57 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:22:58 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:01 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:03 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:04 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:05 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:07 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:08 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:10 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:11 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:12 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:13 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:14 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:15 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:16 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:16 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:17 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:19 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:20 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:21 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:22 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:23 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:24 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:25 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:25 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:26 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:28 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:29 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:29 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:30 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:32 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:33 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:33 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:34 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:35 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:36 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:37 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:38 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-16 15:23:39 [INFO] alerts.telegram: Sent alert: NEW_STORE
+2026-05-17 16:45:13 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:14 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:15 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:16 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:16 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:18 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:19 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:20 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:21 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:21 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:22 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:23 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:23 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:24 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:25 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:26 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:26 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 16:45:27 [INFO] alerts.telegram: Sent 17/22 alerts (0 cities via cluster alerts)
+2026-05-17 16:45:29 [INFO] alerts.telegram: Sent 2 Instagram signal alerts
+2026-05-17 17:20:58 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 17:21:03 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 17:21:03 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 17:21:05 [INFO] alerts.telegram: Sent 3/20 alerts (0 cities via cluster alerts)
+2026-05-17 17:21:07 [INFO] alerts.telegram: Sent 2 Instagram signal alerts
+2026-05-17 19:09:46 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 19:09:52 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 19:09:53 [INFO] alerts.telegram: Sent alert: POSSIBLE_FUTURE_OPENING
+2026-05-17 19:09:54 [INFO] alerts.telegram: Sent 3/31 alerts (0 cities via cluster alerts)
+2026-05-17 19:09:56 [INFO] alerts.telegram: Sent 2 Instagram signal alerts
+2026-05-17 19:49:40 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 19:49:43 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Iași — suppressed)
+2026-05-17 19:49:45 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 19:49:46 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Botoșani — suppressed)
+2026-05-17 19:49:46 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Galați — suppressed)
+2026-05-17 19:49:47 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brăila — suppressed)
+2026-05-17 19:49:47 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Roman — suppressed)
+2026-05-17 19:49:49 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 19:49:51 [INFO] alerts.telegram: Sent 0/49 alerts (0 cities via cluster alerts)
+2026-05-17 19:49:51 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=80 url=https://www.instagram.com/p/DYKqQH-oiUd/
+2026-05-17 19:49:51 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=125 url=https://www.instagram.com/p/DYIQjG4iA3k/
+2026-05-17 19:49:51 [INFO] alerts.telegram: 2 Instagram opening signal(s) suppressed (no location) — included in daily executive summary
+2026-05-17 20:01:43 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:01:45 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Iași — suppressed)
+2026-05-17 20:01:48 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:01:48 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Botoșani — suppressed)
+2026-05-17 20:01:49 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Galați — suppressed)
+2026-05-17 20:01:49 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brăila — suppressed)
+2026-05-17 20:01:50 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Roman — suppressed)
+2026-05-17 20:01:52 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:01:53 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:01:54 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Timișoara — suppressed)
+2026-05-17 20:01:55 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Arad — suppressed)
+2026-05-17 20:01:55 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Constanța — suppressed)
+2026-05-17 20:01:56 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Iași — suppressed)
+2026-05-17 20:01:58 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Ploiești — suppressed)
+2026-05-17 20:01:58 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:01:59 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:01:59 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brăila — suppressed)
+2026-05-17 20:02:00 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Cluj-Napoca — suppressed)
+2026-05-17 20:02:00 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Craiova — suppressed)
+2026-05-17 20:02:01 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brașov — suppressed)
+2026-05-17 20:02:01 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Galați — suppressed)
+2026-05-17 20:02:02 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Oradea — suppressed)
+2026-05-17 20:02:02 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Alba Iulia — suppressed)
+2026-05-17 20:02:03 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Alexandria — suppressed)
+2026-05-17 20:02:03 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Baia Mare — suppressed)
+2026-05-17 20:02:04 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bistrița — suppressed)
+2026-05-17 20:02:06 [INFO] alerts.telegram: Sent 0/74 alerts (0 cities via cluster alerts)
+2026-05-17 20:02:06 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=80 url=https://www.instagram.com/p/DYKqQH-oiUd/
+2026-05-17 20:02:06 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=125 url=https://www.instagram.com/p/DYIQjG4iA3k/
+2026-05-17 20:02:06 [INFO] alerts.telegram: 2 Instagram opening signal(s) suppressed (no location) — included in daily executive summary
+2026-05-17 20:26:19 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:26:21 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Iași — suppressed)
+2026-05-17 20:26:24 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:26:24 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Botoșani — suppressed)
+2026-05-17 20:26:25 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Galați — suppressed)
+2026-05-17 20:26:25 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brăila — suppressed)
+2026-05-17 20:26:26 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Roman — suppressed)
+2026-05-17 20:26:28 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:26:29 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:26:30 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Timișoara — suppressed)
+2026-05-17 20:26:31 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Arad — suppressed)
+2026-05-17 20:26:31 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Constanța — suppressed)
+2026-05-17 20:26:32 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Iași — suppressed)
+2026-05-17 20:26:34 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Ploiești — suppressed)
+2026-05-17 20:26:34 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:26:35 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:26:35 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brăila — suppressed)
+2026-05-17 20:26:36 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Cluj-Napoca — suppressed)
+2026-05-17 20:26:36 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Craiova — suppressed)
+2026-05-17 20:26:37 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brașov — suppressed)
+2026-05-17 20:26:37 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Galați — suppressed)
+2026-05-17 20:26:38 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Oradea — suppressed)
+2026-05-17 20:26:38 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Alba Iulia — suppressed)
+2026-05-17 20:26:39 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Alexandria — suppressed)
+2026-05-17 20:26:39 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Baia Mare — suppressed)
+2026-05-17 20:26:40 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bistrița — suppressed)
+2026-05-17 20:26:42 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:26:47 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Roman — suppressed)
+2026-05-17 20:26:47 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:26:49 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:26:51 [INFO] alerts.telegram: Sent 0/92 alerts (0 cities via cluster alerts)
+2026-05-17 20:26:51 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=80 url=https://www.instagram.com/p/DYKqQH-oiUd/
+2026-05-17 20:26:51 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=125 url=https://www.instagram.com/p/DYIQjG4iA3k/
+2026-05-17 20:26:51 [INFO] alerts.telegram: 2 Instagram opening signal(s) suppressed (no location) — included in daily executive summary
+2026-05-17 20:34:04 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:34:06 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Iași — suppressed)
+2026-05-17 20:34:09 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:34:09 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Botoșani — suppressed)
+2026-05-17 20:34:10 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Galați — suppressed)
+2026-05-17 20:34:10 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brăila — suppressed)
+2026-05-17 20:34:11 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Roman — suppressed)
+2026-05-17 20:34:13 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:34:14 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:34:15 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Timișoara — suppressed)
+2026-05-17 20:34:16 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Arad — suppressed)
+2026-05-17 20:34:16 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Constanța — suppressed)
+2026-05-17 20:34:17 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Iași — suppressed)
+2026-05-17 20:34:19 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Ploiești — suppressed)
+2026-05-17 20:34:19 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:34:20 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:34:20 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brăila — suppressed)
+2026-05-17 20:34:21 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Cluj-Napoca — suppressed)
+2026-05-17 20:34:21 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Craiova — suppressed)
+2026-05-17 20:34:22 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Brașov — suppressed)
+2026-05-17 20:34:22 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Galați — suppressed)
+2026-05-17 20:34:23 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Oradea — suppressed)
+2026-05-17 20:34:23 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Alba Iulia — suppressed)
+2026-05-17 20:34:24 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Alexandria — suppressed)
+2026-05-17 20:34:24 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Baia Mare — suppressed)
+2026-05-17 20:34:25 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bistrița — suppressed)
+2026-05-17 20:34:27 [INFO] alerts.telegram: Alert suppressed (Confidence empty for București — suppressed)
+2026-05-17 20:34:32 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Roman — suppressed)
+2026-05-17 20:34:32 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Suceava — suppressed)
+2026-05-17 20:34:34 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:34:41 [INFO] alerts.telegram: Alert suppressed (Confidence empty for Bacău — suppressed)
+2026-05-17 20:34:45 [INFO] alerts.telegram: Sent 0/110 alerts (0 cities via cluster alerts)
+2026-05-17 20:34:45 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=80 url=https://www.instagram.com/p/DYKqQH-oiUd/
+2026-05-17 20:34:45 [INFO] alerts.telegram: Instagram signal suppressed (no location): confirmed_opening_signal score=125 url=https://www.instagram.com/p/DYIQjG4iA3k/
+2026-05-17 20:34:45 [INFO] alerts.telegram: 2 Instagram opening signal(s) suppressed (no location) — included in daily executive summary

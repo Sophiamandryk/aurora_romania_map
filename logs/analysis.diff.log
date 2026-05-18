@@ -1,0 +1,249 @@
+2026-05-16 14:40:33 [INFO] analysis.diff: Diff complete: 1 → 2 stores. Changes: {'NEW_STORE': 1}
+2026-05-16 14:40:33 [INFO] analysis.diff: Diff complete: 2 → 1 stores. Changes: {'REMOVED_STORE': 1}
+2026-05-16 14:52:49 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 14:52:49 [INFO] analysis.diff: Generated 0 future opening predictions
+2026-05-16 15:21:34 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 15:21:34 [INFO] analysis.diff: Generated 0 future opening predictions
+2026-05-16 15:30:50 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 15:30:50 [INFO] analysis.diff: Generated 0 future opening predictions
+2026-05-16 15:46:05 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 15:46:05 [INFO] analysis.diff: Generated 0 future opening predictions
+2026-05-16 15:56:50 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 15:56:50 [INFO] analysis.diff: Generated 6 future opening predictions
+2026-05-16 16:12:09 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 16:12:09 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Lidl România', 'Kaufland Romania & Moldova', 'NORMAL A/S', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-16 16:12:09 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Kaufland Romania & Moldova', 'NORMAL A/S', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-16 16:12:09 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-16 16:12:09 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 16:12:09 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 16:12:09 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 16:12:09 [INFO] analysis.diff: Signals: 0 Aurora predictions, 6 market activity signals
+2026-05-16 22:02:08 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 22:02:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['NORMAL A/S', 'Lidl România', 'Kaufland Romania & Moldova', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-16 22:02:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['NORMAL A/S', 'Kaufland Romania & Moldova', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-16 22:02:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-16 22:02:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 22:02:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 22:02:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 22:02:08 [INFO] analysis.diff: Signals: 0 Aurora predictions, 6 market activity signals
+2026-05-16 23:09:14 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 23:09:14 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Undelucram.ro', 'Kaufland Romania & Moldova', 'Lidl România', 'NORMAL A/S'] (no Aurora evidence)
+2026-05-16 23:09:14 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Undelucram.ro', 'Kaufland Romania & Moldova', 'NORMAL A/S'] (no Aurora evidence)
+2026-05-16 23:09:14 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-16 23:09:14 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:09:14 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:09:14 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:09:14 [INFO] analysis.diff: Signals: 0 Aurora predictions, 6 market activity signals
+2026-05-16 23:14:07 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 23:14:07 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Lidl România', 'NORMAL A/S', 'Kaufland Romania & Moldova', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:14:07 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['NORMAL A/S', 'Kaufland Romania & Moldova', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:14:07 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-16 23:14:07 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:14:07 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:14:07 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:14:07 [INFO] analysis.diff: Signals: 0 Aurora predictions, 6 market activity signals
+2026-05-16 23:38:41 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-16 23:38:41 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Kaufland Romania & Moldova', 'Undelucram.ro', 'NORMAL A/S', 'Lidl România'] (no Aurora evidence)
+2026-05-16 23:38:41 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Kaufland Romania & Moldova', 'Undelucram.ro', 'NORMAL A/S'] (no Aurora evidence)
+2026-05-16 23:38:41 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-16 23:38:41 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:38:41 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:38:41 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-16 23:38:41 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=[] (no Aurora evidence)
+2026-05-16 23:38:41 [INFO] analysis.diff: Signals: 0 Aurora predictions, 7 market activity signals
+2026-05-17 00:27:20 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-17 00:27:20 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Kaufland Romania & Moldova', 'Undelucram.ro', 'NORMAL A/S', 'Lidl România'] (no Aurora evidence)
+2026-05-17 00:27:20 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Kaufland Romania & Moldova', 'Undelucram.ro', 'NORMAL A/S'] (no Aurora evidence)
+2026-05-17 00:27:20 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-17 00:27:20 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 00:27:20 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 00:27:20 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 00:27:20 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=[] (no Aurora evidence)
+2026-05-17 00:27:20 [INFO] analysis.diff: Signals: 0 Aurora predictions, 7 market activity signals
+2026-05-17 00:29:22 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-17 00:29:22 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['NORMAL A/S', 'Undelucram.ro', 'Kaufland Romania & Moldova', 'Lidl România'] (no Aurora evidence)
+2026-05-17 00:29:22 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['NORMAL A/S', 'Undelucram.ro', 'Kaufland Romania & Moldova'] (no Aurora evidence)
+2026-05-17 00:29:22 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-17 00:29:22 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 00:29:22 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 00:29:22 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 00:29:22 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=[] (no Aurora evidence)
+2026-05-17 00:29:22 [INFO] analysis.diff: Signals: 0 Aurora predictions, 7 market activity signals
+2026-05-17 14:51:38 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-17 14:51:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Lidl România', 'NORMAL A/S', 'Undelucram.ro', 'Kaufland Romania & Moldova'] (no Aurora evidence)
+2026-05-17 14:51:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Undelucram.ro', 'Kaufland Romania & Moldova', 'NORMAL A/S'] (no Aurora evidence)
+2026-05-17 14:51:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark'] (no Aurora evidence)
+2026-05-17 14:51:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 14:51:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 14:51:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 14:51:38 [INFO] analysis.diff: Signals: 0 Aurora predictions, 6 market activity signals
+2026-05-17 16:08:33 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-17 16:08:33 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Lidl România', 'Kaufland Romania & Moldova', 'NORMAL A/S', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:08:33 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Kaufland Romania & Moldova', 'NORMAL A/S', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:08:33 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark', 'Oasis'] (no Aurora evidence)
+2026-05-17 16:08:33 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Agora Mall', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:08:33 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:08:33 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:08:33 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=['Scallier'] (no Aurora evidence)
+2026-05-17 16:08:33 [INFO] analysis.diff: Signals: 0 Aurora predictions, 7 market activity signals
+2026-05-17 16:27:08 [INFO] analysis.diff: Diff complete: 0 → 62 stores. Changes: {'NEW_STORE': 62}
+2026-05-17 16:27:08 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [București] aurora=1 comp=0 generic=2 score=0.29
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark', 'Oasis'] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['NORMAL A/S', 'Undelucram.ro', 'Kaufland Romania & Moldova'] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Oradea] companies=['froo Romania'] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Cluj] companies=['froo Romania'] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Agora Mall'] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=['Scallier'] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Brăila] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Pitești] companies=[] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Baia Mare] companies=[] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Brașov] companies=[] (no Aurora evidence)
+2026-05-17 16:27:08 [INFO] analysis.diff: Signals: 2 Aurora predictions, 10 market activity signals
+2026-05-17 16:45:13 [INFO] analysis.diff: Diff complete: 62 → 62 stores. Changes: {}
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [București] aurora=2 comp=0 generic=9 score=0.68
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Timișoara] aurora=1 comp=0 generic=4 score=0.33
+2026-05-17 16:45:13 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark', 'Oasis'] (no Aurora evidence)
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Arad] aurora=1 comp=0 generic=2 score=0.29
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Constanța] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Iași] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 16:45:13 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:45:13 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 16:45:13 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Tulcea] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Ploiești] aurora=1 comp=1 generic=2 score=0.34
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Suceava] aurora=1 comp=1 generic=1 score=0.32
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Brăila] aurora=2 comp=0 generic=0 score=0.50
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Cluj-Napoca] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Craiova] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Brașov] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bacău] aurora=4 comp=0 generic=0 score=0.90
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Galați] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Oradea] aurora=1 comp=1 generic=0 score=0.30
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Alba Iulia] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Alexandria] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 16:45:13 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Baia Mare] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 16:45:13 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Pitești] companies=[] (no Aurora evidence)
+2026-05-17 16:45:13 [INFO] analysis.diff: Signals: 17 Aurora predictions, 5 market activity signals
+2026-05-17 17:20:55 [INFO] analysis.diff: Diff complete: 62 → 62 stores. Changes: {}
+2026-05-17 17:20:55 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [București] aurora=1 comp=1 generic=7 score=0.44
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Kaufland Romania & Moldova', 'NORMAL A/S', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark', 'Oasis'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Agora Mall', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Constanța] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Iași] companies=['MANGO'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Tulcea] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=['Scallier'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bacău] aurora=4 comp=0 generic=2 score=0.90
+2026-05-17 17:20:55 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Roman] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Brașov] companies=[] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Cluj-Napoca] companies=[] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Suceava] companies=['Pepco'] (no Aurora evidence)
+2026-05-17 17:20:55 [INFO] analysis.diff: Signals: 3 Aurora predictions, 12 market activity signals
+2026-05-17 19:09:38 [INFO] analysis.diff: Diff complete: 62 → 62 stores. Changes: {}
+2026-05-17 19:09:38 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [București] aurora=2 comp=0 generic=10 score=0.70
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Undelucram.ro', 'Kaufland Romania & Moldova', 'NORMAL A/S'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark', 'Oasis'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro', 'Agora Mall'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Constanța] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Iași] companies=['MANGO'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Tulcea] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=['Scallier'] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Suceava] aurora=1 comp=1 generic=1 score=0.32
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Baia Mare] companies=[] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bacău] aurora=4 comp=0 generic=3 score=0.90
+2026-05-17 19:09:38 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Brașov] companies=[] (no Aurora evidence)
+2026-05-17 19:09:38 [INFO] analysis.diff: Signals: 3 Aurora predictions, 11 market activity signals
+2026-05-17 19:49:26 [INFO] analysis.diff: Diff complete: 62 → 62 stores. Changes: {}
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [București] aurora=1 comp=1 generic=9 score=0.48
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Undelucram.ro', 'Kaufland Romania & Moldova', 'NORMAL A/S'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Oasis', 'Primark'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro', 'Agora Mall'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Constanța] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Iași] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Tulcea] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=['Scallier'] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Suceava] aurora=2 comp=1 generic=0 score=0.55
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Botoșani] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Galați] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Brăila] aurora=2 comp=0 generic=0 score=0.50
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Roman] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Alba Iulia] companies=[] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Oradea] companies=[] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Pitești] companies=[] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bacău] aurora=1 comp=0 generic=2 score=0.29
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Râmnicu Vâlcea] companies=[] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Brașov] companies=[] (no Aurora evidence)
+2026-05-17 19:49:26 [INFO] analysis.diff: Signals: 8 Aurora predictions, 13 market activity signals
+2026-05-17 20:01:29 [INFO] analysis.diff: Diff complete: 62 → 62 stores. Changes: {}
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [București] aurora=1 comp=0 generic=9 score=0.43
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Timișoara] aurora=1 comp=1 generic=4 score=0.38
+2026-05-17 20:01:29 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Oasis', 'Primark'] (no Aurora evidence)
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Arad] aurora=1 comp=0 generic=2 score=0.29
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Constanța] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Iași] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 20:01:29 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:01:29 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:01:29 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Tulcea] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Ploiești] aurora=1 comp=1 generic=1 score=0.32
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bacău] aurora=5 comp=0 generic=1 score=0.90
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Suceava] aurora=1 comp=1 generic=0 score=0.30
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Brăila] aurora=2 comp=0 generic=0 score=0.50
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Cluj-Napoca] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Craiova] aurora=1 comp=1 generic=0 score=0.30
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Brașov] aurora=1 comp=0 generic=1 score=0.27
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Galați] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Oradea] aurora=1 comp=2 generic=0 score=0.35
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Alba Iulia] aurora=1 comp=1 generic=0 score=0.30
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Alexandria] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Baia Mare] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 20:01:29 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bistrița] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 20:01:29 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Pitești] companies=[] (no Aurora evidence)
+2026-05-17 20:01:29 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Turda] companies=[] (no Aurora evidence)
+2026-05-17 20:01:29 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Câmpina] companies=[] (no Aurora evidence)
+2026-05-17 20:01:29 [INFO] analysis.diff: Signals: 18 Aurora predictions, 7 market activity signals
+2026-05-17 20:26:05 [INFO] analysis.diff: Diff complete: 62 → 62 stores. Changes: {}
+2026-05-17 20:26:05 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [București] aurora=3 comp=1 generic=7 score=0.90
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['NORMAL A/S', 'Undelucram.ro', 'Kaufland Romania & Moldova'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Oasis', 'Primark'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Undelucram.ro', 'Agora Mall'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Constanța] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Iași] companies=['MANGO'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Tulcea] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=['Scallier'] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Roman] aurora=1 comp=0 generic=0 score=0.25
+2026-05-17 20:26:05 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Suceava] aurora=1 comp=1 generic=1 score=0.32
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Pitești] companies=[] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Oradea] companies=[] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bacău] aurora=3 comp=0 generic=2 score=0.79
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Bistrița] companies=[] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Brașov] companies=[] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Galați] companies=[] (no Aurora evidence)
+2026-05-17 20:26:05 [INFO] analysis.diff: Signals: 4 Aurora predictions, 14 market activity signals
+2026-05-17 20:33:50 [INFO] analysis.diff: Diff complete: 62 → 62 stores. Changes: {}
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [București] companies=['Lidl România', 'Kaufland Romania & Moldova', 'NORMAL A/S', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Timișoara] companies=['Kaufland Romania & Moldova', 'NORMAL A/S', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Sibiu] companies=['Primark', 'Oasis'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Arad] companies=['Agora Mall', 'Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Constanța] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Iași] companies=['MANGO'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Reșița] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Târgu Mureș] companies=['Undelucram.ro'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Tulcea] companies=['Lidl România'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Ploiești] companies=['Scallier'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: POSSIBLE_FUTURE_OPENING [Bacău] aurora=4 comp=0 generic=1 score=0.90
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Oradea] companies=[] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Bistrița] companies=[] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Pitești] companies=[] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Râmnicu Vâlcea] companies=[] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Turda] companies=[] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Brașov] companies=[] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: MARKET_ACTIVITY_SIGNAL [Suceava] companies=['Pepco'] (no Aurora evidence)
+2026-05-17 20:33:50 [INFO] analysis.diff: Signals: 1 Aurora predictions, 17 market activity signals

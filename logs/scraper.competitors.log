@@ -1,0 +1,164 @@
+2026-05-16 14:51:38 [INFO] scraper.competitors: Scraping Pepco store locator
+2026-05-16 14:51:42 [INFO] scraper.competitors: Playwright fallback for Pepco
+2026-05-16 14:51:50 [INFO] scraper.competitors: Pepco: 0 stores total
+2026-05-16 14:51:52 [INFO] scraper.competitors: Scraping TEDi store locator
+2026-05-16 14:51:53 [INFO] scraper.competitors: Playwright fallback for TEDi
+2026-05-16 14:51:59 [INFO] scraper.competitors: TEDi: 0 stores
+2026-05-16 14:52:01 [INFO] scraper.competitors: Scraping KiK store locator
+2026-05-16 14:52:08 [INFO] scraper.competitors: KiK: 0 stores
+2026-05-16 14:52:10 [INFO] scraper.competitors: Scraping Action store locator
+2026-05-16 14:52:47 [INFO] scraper.competitors: Action: 0 stores
+2026-05-16 14:52:49 [INFO] scraper.competitors: Competitors total: 0 stores across 4 brands
+2026-05-16 15:20:06 [INFO] scraper.competitors: Scraping Pepco store locator
+2026-05-16 15:20:08 [INFO] scraper.competitors: Playwright fallback for Pepco
+2026-05-16 15:20:19 [INFO] scraper.competitors: Pepco: 0 stores total
+2026-05-16 15:20:21 [INFO] scraper.competitors: Scraping TEDi store locator
+2026-05-16 15:20:22 [INFO] scraper.competitors: Playwright fallback for TEDi
+2026-05-16 15:20:40 [INFO] scraper.competitors: TEDi: 0 stores
+2026-05-16 15:20:42 [INFO] scraper.competitors: Scraping KiK store locator
+2026-05-16 15:20:51 [INFO] scraper.competitors: KiK: 0 stores
+2026-05-16 15:20:53 [INFO] scraper.competitors: Scraping Action store locator
+2026-05-16 15:21:32 [INFO] scraper.competitors: Action: 0 stores
+2026-05-16 15:21:34 [INFO] scraper.competitors: Competitors total: 0 stores across 4 brands
+2026-05-16 15:29:17 [INFO] scraper.competitors: Scraping Pepco store locator
+2026-05-16 15:29:20 [INFO] scraper.competitors: Playwright fallback for Pepco
+2026-05-16 15:29:36 [INFO] scraper.competitors: Pepco: 0 stores total
+2026-05-16 15:29:38 [INFO] scraper.competitors: Scraping TEDi store locator
+2026-05-16 15:29:39 [INFO] scraper.competitors: Playwright fallback for TEDi
+2026-05-16 15:29:48 [INFO] scraper.competitors: TEDi: 0 stores
+2026-05-16 15:29:50 [INFO] scraper.competitors: Scraping KiK store locator
+2026-05-16 15:29:57 [INFO] scraper.competitors: KiK: 0 stores
+2026-05-16 15:29:59 [INFO] scraper.competitors: Scraping Action store locator
+2026-05-16 15:30:48 [INFO] scraper.competitors: Action: 0 stores
+2026-05-16 15:30:50 [INFO] scraper.competitors: Competitors total: 0 stores across 4 brands
+2026-05-16 15:44:51 [INFO] scraper.competitors: Scraping Pepco store locator
+2026-05-16 15:44:53 [INFO] scraper.competitors: Playwright fallback for Pepco
+2026-05-16 15:45:03 [INFO] scraper.competitors: Pepco: 0 stores total
+2026-05-16 15:45:05 [INFO] scraper.competitors: Scraping TEDi store locator
+2026-05-16 15:45:07 [INFO] scraper.competitors: Playwright fallback for TEDi
+2026-05-16 15:45:13 [INFO] scraper.competitors: TEDi: 0 stores
+2026-05-16 15:45:15 [INFO] scraper.competitors: Scraping KiK store locator
+2026-05-16 15:45:23 [INFO] scraper.competitors: KiK: 0 stores
+2026-05-16 15:45:25 [INFO] scraper.competitors: Scraping Action store locator
+2026-05-16 15:46:03 [INFO] scraper.competitors: Action: 0 stores
+2026-05-16 15:46:05 [INFO] scraper.competitors: Competitors total: 0 stores across 4 brands
+2026-05-16 15:55:06 [INFO] scraper.competitors: Scraping Pepco store locator
+2026-05-16 15:55:08 [INFO] scraper.competitors: Playwright fallback for Pepco
+2026-05-16 15:55:25 [INFO] scraper.competitors: Pepco: 0 stores total
+2026-05-16 15:55:27 [INFO] scraper.competitors: Scraping TEDi store locator
+2026-05-16 15:55:38 [INFO] scraper.competitors: Playwright fallback for TEDi
+2026-05-16 15:55:54 [INFO] scraper.competitors: TEDi: 0 stores
+2026-05-16 15:55:56 [INFO] scraper.competitors: Scraping KiK store locator
+2026-05-16 15:56:07 [INFO] scraper.competitors: KiK: 0 stores
+2026-05-16 15:56:09 [INFO] scraper.competitors: Scraping Action store locator
+2026-05-16 15:56:48 [INFO] scraper.competitors: Action: 0 stores
+2026-05-16 15:56:50 [INFO] scraper.competitors: Competitors total: 0 stores across 4 brands
+2026-05-16 22:00:53 [INFO] scraper.competitors: Scraping Pepco store locator
+2026-05-16 22:00:57 [INFO] scraper.competitors: Playwright fallback for Pepco
+2026-05-16 22:01:06 [INFO] scraper.competitors: Pepco: 0 stores total
+2026-05-16 22:01:08 [INFO] scraper.competitors: Scraping TEDi store locator
+2026-05-16 22:01:09 [INFO] scraper.competitors: Playwright fallback for TEDi
+2026-05-16 22:01:16 [INFO] scraper.competitors: TEDi: 0 stores
+2026-05-16 22:01:18 [INFO] scraper.competitors: Scraping KiK store locator
+2026-05-16 22:01:26 [INFO] scraper.competitors: KiK: 0 stores
+2026-05-16 22:01:28 [INFO] scraper.competitors: Scraping Action store locator
+2026-05-16 22:02:06 [INFO] scraper.competitors: Action: 0 stores
+2026-05-16 22:02:08 [INFO] scraper.competitors: Competitors total: 0 stores across 4 brands
+2026-05-16 22:25:49 [INFO] scraper.competitors: Scraping Pepco store locator
+2026-05-16 22:25:50 [INFO] scraper.competitors: Pepco: 517 stores
+2026-05-16 22:25:52 [INFO] scraper.competitors: Scraping TEDi store locator (grid search)
+2026-05-16 22:26:17 [INFO] scraper.competitors: TEDi: 63 stores
+2026-05-16 22:26:19 [INFO] scraper.competitors: Scraping KiK store locator
+2026-05-16 22:26:20 [INFO] scraper.competitors: KiK: 20 stores
+2026-05-16 22:26:22 [WARNING] scraper.competitors: Action scraper: Cloudflare Turnstile protection — skipping (0 stores)
+2026-05-16 22:26:24 [INFO] scraper.competitors: Competitors total: 600 stores across 4 brands
+2026-05-16 22:47:46 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-16 22:47:49 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-16 22:47:51 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-16 22:48:48 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-16 22:48:51 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-16 22:49:27 [WARNING] scraper.competitors: KiK: 26/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-16 22:49:27 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=26)
+2026-05-16 22:49:29 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-16 22:49:31 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 16:06:58 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 16:06:59 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 16:07:01 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 16:07:53 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 16:07:55 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 16:08:29 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 16:08:29 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 16:08:31 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 16:08:33 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 16:25:36 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 16:25:36 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 16:25:38 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 16:26:30 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 16:26:32 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 16:27:04 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 16:27:04 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 16:27:06 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 16:27:08 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 16:43:50 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 16:43:50 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 16:43:52 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 16:44:33 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 16:44:35 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 16:45:09 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 16:45:09 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 16:45:11 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 16:45:13 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 17:19:20 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 17:19:21 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 17:19:23 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 17:20:15 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 17:20:17 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 17:20:51 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 17:20:51 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 17:20:53 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 17:20:55 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 19:08:03 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 19:08:03 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 19:08:05 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 19:08:58 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 19:09:00 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 19:09:34 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 19:09:34 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 19:09:36 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 19:09:38 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 19:47:48 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 19:47:48 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 19:47:50 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 19:48:45 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 19:48:47 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 19:49:22 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 19:49:22 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 19:49:24 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 19:49:26 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 19:59:55 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 19:59:55 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 19:59:57 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 20:00:49 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 20:00:51 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 20:01:25 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 20:01:25 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 20:01:27 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 20:01:29 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 20:24:42 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 20:24:42 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 20:24:44 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 20:25:25 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 20:25:27 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 20:26:00 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 20:26:00 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 20:26:03 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 20:26:05 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands
+2026-05-17 20:32:15 [INFO] scraper.competitors: Scraping Pepco (pepco.ro/api/stores?market=RO)
+2026-05-17 20:32:16 [INFO] scraper.competitors: Pepco: 517 stores (verified, single endpoint)
+2026-05-17 20:32:18 [INFO] scraper.competitors: Scraping TEDi (grid search, 60km radius, dedup by id)
+2026-05-17 20:33:09 [INFO] scraper.competitors: TEDi: 77 stores across 61 cities (grid=162 points)
+2026-05-17 20:33:11 [INFO] scraper.competitors: Scraping KiK (grid search, dedup by filiale)
+2026-05-17 20:33:46 [WARNING] scraper.competitors: KiK: 2/162 grid points hit the 20-store cap — coverage may be incomplete in dense areas. Consider reducing grid step.
+2026-05-17 20:33:46 [INFO] scraper.competitors: KiK: 161 stores across 120 cities (grid=162 points, capped=2)
+2026-05-17 20:33:48 [WARNING] scraper.competitors: Action: Cloudflare Turnstile protection — skipping (0 stores). No public API accessible without a real browser session.
+2026-05-17 20:33:50 [INFO] scraper.competitors: Competitors total: 755 stores across 4 brands

@@ -1,0 +1,221 @@
+2026-05-16 14:50:55 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-16 14:50:55 [INFO] scraper.aurora_instagram: Falling back to Playwright for Instagram
+2026-05-16 14:50:55 [INFO] scraper.aurora_instagram: Using Playwright for Instagram scrape
+2026-05-16 14:51:36 [INFO] scraper.aurora_instagram: Found 8 posts, 0 with expansion signals
+2026-05-16 15:19:10 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-16 15:19:10 [INFO] scraper.aurora_instagram: Falling back to Playwright for Instagram
+2026-05-16 15:19:10 [INFO] scraper.aurora_instagram: Using Playwright for Instagram scrape
+2026-05-16 15:20:04 [INFO] scraper.aurora_instagram: Found 8 posts, 0 with expansion signals
+2026-05-16 15:28:23 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-16 15:28:23 [INFO] scraper.aurora_instagram: Falling back to Playwright for Instagram
+2026-05-16 15:28:23 [INFO] scraper.aurora_instagram: Using Playwright for Instagram scrape
+2026-05-16 15:29:15 [INFO] scraper.aurora_instagram: Found 8 posts, 0 with expansion signals
+2026-05-16 15:44:06 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-16 15:44:06 [INFO] scraper.aurora_instagram: Falling back to Playwright for Instagram
+2026-05-16 15:44:06 [INFO] scraper.aurora_instagram: Using Playwright for Instagram scrape
+2026-05-16 15:44:49 [INFO] scraper.aurora_instagram: Found 8 posts, 0 with expansion signals
+2026-05-16 15:54:21 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-16 15:54:21 [INFO] scraper.aurora_instagram: Falling back to Playwright for Instagram
+2026-05-16 15:54:21 [INFO] scraper.aurora_instagram: Using Playwright for Instagram scrape
+2026-05-16 15:55:04 [INFO] scraper.aurora_instagram: Found 8 posts, 0 with expansion signals
+2026-05-16 22:00:17 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-16 22:00:17 [INFO] scraper.aurora_instagram: Falling back to Playwright for Instagram
+2026-05-16 22:00:17 [INFO] scraper.aurora_instagram: Using Playwright for Instagram scrape
+2026-05-16 22:00:51 [INFO] scraper.aurora_instagram: Found 8 posts, 0 with expansion signals
+2026-05-17 15:25:05 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 15:25:06 [INFO] scraper.aurora_instagram: Falling back to Playwright for @aurora.multimarket
+2026-05-17 15:25:06 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @aurora.multimarket
+2026-05-17 15:25:57 [INFO] scraper.aurora_instagram: @aurora.multimarket: 9 posts, 0 with expansion signals
+2026-05-17 15:25:59 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 15:25:59 [INFO] scraper.aurora_instagram: Falling back to Playwright for @pepco_ro
+2026-05-17 15:25:59 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @pepco_ro
+2026-05-17 15:26:38 [INFO] scraper.aurora_instagram: @pepco_ro: 6 posts, 0 with expansion signals
+2026-05-17 15:26:40 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 6 posts
+2026-05-17 15:26:40 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 15:26:40 [INFO] scraper.aurora_instagram: Falling back to Playwright for @kik.romania
+2026-05-17 15:26:40 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @kik.romania
+2026-05-17 15:27:07 [INFO] scraper.aurora_instagram: @kik.romania: 2 posts, 0 with expansion signals
+2026-05-17 15:27:09 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 2 posts
+2026-05-17 15:27:09 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 15:27:09 [INFO] scraper.aurora_instagram: Falling back to Playwright for @actionromania
+2026-05-17 15:27:09 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @actionromania
+2026-05-17 15:27:36 [INFO] scraper.aurora_instagram: @actionromania: 4 posts, 0 with expansion signals
+2026-05-17 15:27:38 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 4 posts
+2026-05-17 15:44:53 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 15:44:54 [INFO] scraper.aurora_instagram: Falling back to Playwright for @aurora.multimarket
+2026-05-17 15:44:54 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @aurora.multimarket
+2026-05-17 15:45:48 [INFO] scraper.aurora_instagram: @aurora.multimarket: 9 posts — noise: 9
+2026-05-17 15:45:50 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 15:45:51 [INFO] scraper.aurora_instagram: Falling back to Playwright for @pepco_ro
+2026-05-17 15:45:51 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @pepco_ro
+2026-05-17 15:46:37 [INFO] scraper.aurora_instagram: @pepco_ro: 6 posts — noise: 6
+2026-05-17 15:46:39 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 6 posts
+2026-05-17 15:46:39 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 15:46:39 [INFO] scraper.aurora_instagram: Falling back to Playwright for @kik.romania
+2026-05-17 15:46:39 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @kik.romania
+2026-05-17 15:47:03 [INFO] scraper.aurora_instagram: @kik.romania: 2 posts — noise: 2
+2026-05-17 15:47:05 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 2 posts
+2026-05-17 15:47:05 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 15:47:05 [INFO] scraper.aurora_instagram: Falling back to Playwright for @actionromania
+2026-05-17 15:47:05 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @actionromania
+2026-05-17 15:47:33 [INFO] scraper.aurora_instagram: @actionromania: 4 posts — noise: 4
+2026-05-17 15:47:35 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 4 posts
+2026-05-17 15:47:45 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 15:47:45 [INFO] scraper.aurora_instagram: Falling back to Playwright for @aurora.multimarket
+2026-05-17 15:47:45 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @aurora.multimarket
+2026-05-17 15:48:37 [INFO] scraper.aurora_instagram: @aurora.multimarket: 9 posts — noise: 9
+2026-05-17 15:49:53 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 15:49:54 [INFO] scraper.aurora_instagram: Falling back to Playwright for @aurora.multimarket
+2026-05-17 15:49:54 [INFO] scraper.aurora_instagram: Using Playwright for Instagram @aurora.multimarket
+2026-05-17 15:50:16 [WARNING] scraper.aurora_instagram: Response interception empty for @aurora.multimarket, trying post-page fallback
+2026-05-17 15:51:41 [INFO] scraper.aurora_instagram: @aurora.multimarket: 9 posts — noise: 9
+2026-05-17 15:59:23 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 15:59:26 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 15:59:26 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 15:59:37 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 15:59:40 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 15:59:40 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 15:59:42 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 15:59:42 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 15:59:44 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 15:59:44 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 15:59:46 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 15:59:46 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 15:59:49 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 15:59:49 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 15:59:51 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 16:06:43 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 16:06:45 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 16:06:45 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 16:06:47 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 16:06:49 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 16:06:49 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 16:06:51 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 16:06:51 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 16:06:52 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 16:06:52 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 16:06:54 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 16:06:54 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 16:06:56 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 16:06:56 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 16:06:58 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 16:25:19 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 16:25:21 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 16:25:21 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 16:25:23 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 16:25:25 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 16:25:25 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 16:25:27 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 16:25:27 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 16:25:30 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 16:25:30 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 16:25:32 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 16:25:32 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 16:25:34 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 16:25:34 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 16:25:36 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 16:43:32 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 16:43:34 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 16:43:34 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 16:43:36 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 16:43:39 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 16:43:39 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 16:43:41 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 16:43:41 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 16:43:43 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 16:43:43 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 16:43:45 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 16:43:45 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 16:43:48 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 16:43:48 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 16:43:50 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 17:19:04 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 17:19:07 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 17:19:07 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 17:19:09 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 17:19:11 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 17:19:11 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 17:19:13 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 17:19:13 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 17:19:14 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 17:19:14 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 17:19:16 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 17:19:16 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 17:19:18 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 17:19:18 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 17:19:20 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 19:07:47 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 19:07:49 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 19:07:49 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 19:07:51 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 19:07:53 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 19:07:53 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 19:07:55 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 19:07:55 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 19:07:57 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 19:07:57 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 19:07:59 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 19:07:59 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 19:08:00 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 19:08:00 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 19:08:02 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 19:47:30 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 19:47:33 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 19:47:33 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 19:47:35 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 19:47:37 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 19:47:37 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 19:47:39 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 19:47:39 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 19:47:41 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 19:47:41 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 19:47:43 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 19:47:43 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 19:47:46 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 19:47:46 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 19:47:48 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 19:59:39 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 19:59:41 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 19:59:41 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 19:59:43 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 19:59:45 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 19:59:45 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 19:59:47 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 19:59:47 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 19:59:49 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 19:59:49 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 19:59:51 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 19:59:51 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 19:59:53 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 19:59:53 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 19:59:55 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 20:24:25 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 20:24:28 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 20:24:28 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 20:24:30 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 20:24:31 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 20:24:31 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 20:24:33 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 20:24:33 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 20:24:35 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 20:24:35 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 20:24:37 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 20:24:37 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 20:24:40 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 20:24:40 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 20:24:42 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts
+2026-05-17 20:31:59 [INFO] scraper.aurora_instagram: Scraping Instagram @aurora.multimarket
+2026-05-17 20:32:01 [INFO] scraper.aurora_instagram: API: got 12 posts for @aurora.multimarket
+2026-05-17 20:32:01 [INFO] scraper.aurora_instagram: @aurora.multimarket: 12 posts — generic_promo: 10, confirmed_opening_signal: 2
+2026-05-17 20:32:03 [INFO] scraper.aurora_instagram: Scraping Instagram @pepco_ro (Pepco)
+2026-05-17 20:32:05 [INFO] scraper.aurora_instagram: API: got 12 posts for @pepco_ro
+2026-05-17 20:32:05 [INFO] scraper.aurora_instagram: @pepco_ro: 12 posts — generic_promo: 11, possible_store_location_signal: 1
+2026-05-17 20:32:07 [INFO] scraper.aurora_instagram: Competitor Instagram Pepco (@pepco_ro): 12 posts
+2026-05-17 20:32:07 [INFO] scraper.aurora_instagram: Scraping Instagram @kik.romania (KiK)
+2026-05-17 20:32:09 [INFO] scraper.aurora_instagram: API: got 12 posts for @kik.romania
+2026-05-17 20:32:09 [INFO] scraper.aurora_instagram: @kik.romania: 12 posts — generic_promo: 12
+2026-05-17 20:32:11 [INFO] scraper.aurora_instagram: Competitor Instagram KiK (@kik.romania): 12 posts
+2026-05-17 20:32:11 [INFO] scraper.aurora_instagram: Scraping Instagram @actionromania (Action)
+2026-05-17 20:32:13 [INFO] scraper.aurora_instagram: API: got 12 posts for @actionromania
+2026-05-17 20:32:13 [INFO] scraper.aurora_instagram: @actionromania: 12 posts — generic_promo: 12
+2026-05-17 20:32:15 [INFO] scraper.aurora_instagram: Competitor Instagram Action (@actionromania): 12 posts

@@ -1,0 +1,21 @@
+2026-05-17 16:19:47 [INFO] analysis.executive_summary: ANTHROPIC_API_KEY not set — using rule-based executive summary
+2026-05-17 16:28:25 [WARNING] analysis.executive_summary: Claude summary failed (Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cb8DiCtBGXe3rW8pGuWmG'}) — falling back to rule-based
+2026-05-17 16:35:35 [WARNING] analysis.executive_summary: OpenAI summary failed (Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-xxxxx*******xxxx. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'code': 'invalid_api_key', 'param': None}, 'status': 401}) — falling back to rule-based
+2026-05-17 16:38:18 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 16:45:34 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 17:00:26 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 17:01:22 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 17:01:38 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 17:21:16 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:35:47 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:37:59 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:40:26 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:41:43 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:42:42 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:43:53 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:44:35 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 18:44:59 [INFO] analysis.executive_summary: OpenAI executive summary generated
+2026-05-17 19:10:11 [INFO] analysis.executive_summary: OpenAI executive summary generated (Ukrainian)
+2026-05-17 20:02:32 [INFO] analysis.executive_summary: OpenAI executive summary generated (Ukrainian)
+2026-05-17 20:27:01 [INFO] analysis.executive_summary: OpenAI executive summary generated (Ukrainian)
+2026-05-17 20:35:11 [INFO] analysis.executive_summary: OpenAI executive summary generated (Ukrainian)

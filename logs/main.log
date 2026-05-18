@@ -1,0 +1,299 @@
+2026-05-16 14:44:19 [INFO] main: Database initialized successfully
+2026-05-16 14:48:32 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 14:48:32 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-16 14:48:35 [INFO] main: Store map: 62 stores
+2026-05-16 14:48:35 [INFO] main: [2/7] Scraping job boards
+2026-05-16 14:49:29 [INFO] main: Jobs: 0 postings
+2026-05-16 14:49:29 [INFO] main: [3/7] Scraping retail news
+2026-05-16 14:50:55 [INFO] main: News: 2 articles
+2026-05-16 14:50:55 [INFO] main: [4/7] Scraping Instagram
+2026-05-16 14:51:38 [INFO] main: Instagram: 8 posts
+2026-05-16 14:51:38 [INFO] main: [5/7] Scraping competitor stores
+2026-05-16 14:52:49 [INFO] main: Competitors: 0 stores
+2026-05-16 14:52:49 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 14:52:49 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 14:52:49 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 14:52:49 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 0, 'jobs': 0, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 15:15:44 [INFO] main: Telegram test: PASSED
+2026-05-16 15:16:29 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 15:16:29 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-16 15:16:33 [INFO] main: Store map: 62 stores
+2026-05-16 15:16:33 [INFO] main: [2/7] Scraping job boards
+2026-05-16 15:17:38 [INFO] main: Jobs: 0 postings
+2026-05-16 15:17:38 [INFO] main: [3/7] Scraping retail news
+2026-05-16 15:19:10 [INFO] main: News: 2 articles
+2026-05-16 15:19:10 [INFO] main: [4/7] Scraping Instagram
+2026-05-16 15:20:06 [INFO] main: Instagram: 8 posts
+2026-05-16 15:20:06 [INFO] main: [5/7] Scraping competitor stores
+2026-05-16 15:21:34 [INFO] main: Competitors: 0 stores
+2026-05-16 15:21:34 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 15:21:34 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 15:21:34 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 15:24:47 [INFO] main: Database initialized successfully
+2026-05-16 15:24:56 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 15:24:56 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-16 15:25:00 [INFO] main: Store map: 62 stores
+2026-05-16 15:25:00 [INFO] main: [2/7] Scraping job boards
+2026-05-16 15:27:07 [INFO] main: Jobs: 0 postings
+2026-05-16 15:27:07 [INFO] main: [3/7] Scraping retail news
+2026-05-16 15:28:23 [INFO] main: News: 2 articles
+2026-05-16 15:28:23 [INFO] main: [4/7] Scraping Instagram
+2026-05-16 15:29:17 [INFO] main: Instagram: 8 posts
+2026-05-16 15:29:17 [INFO] main: [5/7] Scraping competitor stores
+2026-05-16 15:30:50 [INFO] main: Competitors: 0 stores
+2026-05-16 15:30:50 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 15:30:50 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 15:30:50 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 15:30:50 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 15:30:50 [INFO] main: Baseline: marked 62 stores as seen (no alerts sent)
+2026-05-16 15:30:50 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 0, 'jobs': 0, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 15:40:15 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 15:40:15 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-16 15:40:18 [INFO] main: Store map: 62 stores
+2026-05-16 15:40:18 [INFO] main: [2/7] Scraping job boards
+2026-05-16 15:41:27 [INFO] main: Jobs: 0 postings
+2026-05-16 15:41:27 [INFO] main: [3/7] Scraping retail news
+2026-05-16 15:44:06 [INFO] main: News: 2 articles
+2026-05-16 15:44:06 [INFO] main: [4/7] Scraping Instagram
+2026-05-16 15:44:51 [INFO] main: Instagram: 8 posts
+2026-05-16 15:44:51 [INFO] main: [5/7] Scraping competitor stores
+2026-05-16 15:46:05 [INFO] main: Competitors: 0 stores
+2026-05-16 15:46:05 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 15:46:05 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 15:46:05 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 15:46:05 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 15:46:05 [INFO] main: Baseline: marked 62 stores as seen (no alerts sent)
+2026-05-16 15:46:06 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 0, 'jobs': 0, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 15:52:29 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 15:52:29 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-16 15:52:32 [INFO] main: Store map: 62 stores
+2026-05-16 15:52:33 [INFO] main: [2/7] Scraping job boards
+2026-05-16 15:53:01 [INFO] main: Jobs: 46 postings
+2026-05-16 15:53:01 [INFO] main: [3/7] Scraping retail news
+2026-05-16 15:54:21 [INFO] main: News: 2 articles
+2026-05-16 15:54:21 [INFO] main: [4/7] Scraping Instagram
+2026-05-16 15:55:06 [INFO] main: Instagram: 8 posts
+2026-05-16 15:55:06 [INFO] main: [5/7] Scraping competitor stores
+2026-05-16 15:56:50 [INFO] main: Competitors: 0 stores
+2026-05-16 15:56:50 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 15:56:50 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 15:56:50 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 15:56:50 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 15:56:50 [INFO] main: Baseline: marked 68 stores as seen (no alerts sent)
+2026-05-16 15:56:50 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 6, 'jobs': 46, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 16:12:05 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 16:12:05 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-16 16:12:09 [INFO] main: Store map: 62 stores
+2026-05-16 16:12:09 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 16:12:09 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 16:12:09 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 16:12:09 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 16:12:09 [INFO] main: Baseline: marked 68 stores as seen (no alerts sent)
+2026-05-16 16:12:09 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 6, 'jobs': 46, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 21:58:14 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 21:58:14 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-16 21:58:18 [INFO] main: Store map: 62 stores
+2026-05-16 21:58:18 [INFO] main: [2/7] Scraping job boards
+2026-05-16 21:58:48 [INFO] main: Jobs: 46 postings
+2026-05-16 21:58:48 [INFO] main: [3/7] Scraping retail news
+2026-05-16 22:00:17 [INFO] main: News: 2 articles
+2026-05-16 22:00:17 [INFO] main: [4/7] Scraping Instagram
+2026-05-16 22:00:53 [INFO] main: Instagram: 8 posts
+2026-05-16 22:00:53 [INFO] main: [5/7] Scraping competitor stores
+2026-05-16 22:02:08 [INFO] main: Competitors: 0 stores
+2026-05-16 22:02:08 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 22:02:08 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 22:02:08 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 22:02:08 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 22:02:08 [INFO] main: Baseline: marked 68 stores as seen (no alerts sent)
+2026-05-16 22:02:09 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 6, 'jobs': 46, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 22:57:41 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 22:57:42 [INFO] main: [3/7] Scraping retail news
+2026-05-16 23:09:01 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 23:09:01 [INFO] main: [3/7] Scraping retail news
+2026-05-16 23:09:13 [INFO] main: News: 2 articles (2 Aurora, 0 intel)
+2026-05-16 23:09:14 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 23:09:14 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 23:09:14 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 23:09:14 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 23:09:14 [INFO] main: Baseline: marked 68 stores as seen (no alerts sent)
+2026-05-16 23:09:14 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 6, 'jobs': 92, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 23:14:07 [INFO] main: News: 2 articles (2 Aurora, 0 intel)
+2026-05-16 23:14:07 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 23:14:07 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 23:14:07 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 23:14:08 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 23:14:08 [INFO] main: Baseline: marked 68 stores as seen (no alerts sent)
+2026-05-16 23:14:08 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 6, 'jobs': 92, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-16 23:33:45 [INFO] main: === Aurora Pipeline Start: 2026-05-16 ===
+2026-05-16 23:33:45 [INFO] main: [3/7] Scraping retail news
+2026-05-16 23:38:41 [INFO] main: News: 27 articles (2 Aurora, 25 intel)
+2026-05-16 23:38:41 [INFO] main: [6/7] Running diff and analysis
+2026-05-16 23:38:41 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-16 23:38:41 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-16 23:38:41 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-16 23:38:41 [INFO] main: Baseline: marked 69 stores as seen (no alerts sent)
+2026-05-16 23:38:41 [INFO] main: === Pipeline complete: {'date': '2026-05-16', 'stores_total': 62, 'map_changes': 62, 'future_openings': 7, 'jobs': 92, 'news': 27, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-16.md'} ===
+2026-05-17 00:24:38 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 00:24:38 [INFO] main: [3/7] Scraping retail news
+2026-05-17 00:26:44 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 00:26:44 [INFO] main: [3/7] Scraping retail news
+2026-05-17 00:27:20 [INFO] main: News: 27 articles (2 Aurora, 25 intel)
+2026-05-17 00:27:20 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 00:27:20 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-17 00:27:20 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-17 00:27:20 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 00:27:20 [INFO] main: Baseline: marked 69 stores as seen (no alerts sent)
+2026-05-17 00:27:20 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 62, 'future_openings': 7, 'jobs': 92, 'news': 27, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 00:29:22 [INFO] main: News: 27 articles (2 Aurora, 25 intel)
+2026-05-17 00:29:22 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 00:29:22 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-17 00:29:22 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-17 00:29:22 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 00:29:22 [INFO] main: Baseline: marked 69 stores as seen (no alerts sent)
+2026-05-17 00:29:22 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 62, 'future_openings': 7, 'jobs': 92, 'news': 27, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 14:51:38 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 14:51:38 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 14:51:38 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-17 14:51:38 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-17 14:51:39 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 14:51:39 [INFO] main: Baseline: marked 68 stores as seen (no alerts sent)
+2026-05-17 14:51:39 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 62, 'future_openings': 6, 'jobs': 92, 'news': 2, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 16:02:09 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 16:02:09 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 16:02:12 [INFO] main: Store map: 62 stores
+2026-05-17 16:02:12 [INFO] main: [2/7] Scraping job boards
+2026-05-17 16:02:42 [INFO] main: Jobs: 47 postings
+2026-05-17 16:02:42 [INFO] main: [3/7] Scraping retail news
+2026-05-17 16:06:43 [INFO] main: News: 15 articles (2 Aurora, 13 intel)
+2026-05-17 16:06:43 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 16:06:58 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 16:06:58 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 16:08:33 [INFO] main: Competitors: 755 stores
+2026-05-17 16:08:33 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 16:08:33 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-17 16:08:33 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-17 16:08:33 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 16:08:33 [INFO] main: Baseline: marked 69 stores as seen (no alerts sent)
+2026-05-17 16:08:33 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 62, 'future_openings': 7, 'jobs': 47, 'news': 15, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 16:20:37 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 16:20:37 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 16:20:40 [INFO] main: Store map: 62 stores
+2026-05-17 16:20:40 [INFO] main: [2/7] Scraping job boards
+2026-05-17 16:21:12 [INFO] main: Jobs: 27 postings
+2026-05-17 16:21:12 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 16:25:19 [INFO] main: News: 59 articles (2 Aurora, 13 retail intel, 44 web)
+2026-05-17 16:25:19 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 16:25:36 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 16:25:36 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 16:27:08 [INFO] main: Competitors: 755 stores
+2026-05-17 16:27:08 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 16:27:08 [INFO] main: First run detected — establishing baseline. No change alerts will be sent.
+2026-05-17 16:27:08 [INFO] main: Comparing: 0 previous vs 62 current
+2026-05-17 16:27:09 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 16:27:09 [INFO] main: Baseline: marked 74 stores as seen (no alerts sent)
+2026-05-17 16:27:09 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 62, 'future_openings': 12, 'jobs': 27, 'news': 59, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 16:39:02 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 16:39:02 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 16:39:05 [INFO] main: Store map: 62 stores
+2026-05-17 16:39:05 [INFO] main: [2/7] Scraping job boards
+2026-05-17 16:39:38 [INFO] main: Jobs: 47 postings
+2026-05-17 16:39:38 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 16:43:32 [INFO] main: News: 59 articles (2 Aurora, 13 retail intel, 44 web)
+2026-05-17 16:43:32 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 16:43:50 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 16:43:50 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 16:45:13 [INFO] main: Competitors: 755 stores
+2026-05-17 16:45:13 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 16:45:13 [INFO] main: Comparing: 62 previous vs 62 current
+2026-05-17 16:45:13 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 16:45:34 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 0, 'future_openings': 22, 'jobs': 47, 'news': 59, 'alerts_sent': 17, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 17:13:46 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 17:13:46 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 17:13:50 [INFO] main: Store map: 62 stores
+2026-05-17 17:13:50 [INFO] main: [2/7] Scraping job boards
+2026-05-17 17:14:18 [INFO] main: Jobs: 47 postings
+2026-05-17 17:14:18 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 17:19:04 [INFO] main: News: 58 articles (2 Aurora, 13 retail intel, 43 web)
+2026-05-17 17:19:04 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 17:19:20 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 17:19:20 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 17:20:55 [INFO] main: Competitors: 755 stores
+2026-05-17 17:20:55 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 17:20:55 [INFO] main: Comparing: 62 previous vs 62 current
+2026-05-17 17:20:55 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 17:21:16 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 0, 'future_openings': 15, 'jobs': 47, 'news': 58, 'alerts_sent': 3, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 19:02:25 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 19:02:25 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 19:02:28 [INFO] main: Store map: 62 stores
+2026-05-17 19:02:28 [INFO] main: [2/7] Scraping job boards
+2026-05-17 19:02:56 [INFO] main: Jobs: 47 postings
+2026-05-17 19:02:56 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 19:07:47 [INFO] main: News: 60 articles (2 Aurora, 11 retail intel, 47 web)
+2026-05-17 19:07:47 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 19:08:02 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 19:08:03 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 19:09:38 [INFO] main: Competitors: 755 stores
+2026-05-17 19:09:38 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 19:09:38 [INFO] main: Comparing: 62 previous vs 62 current
+2026-05-17 19:09:38 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 19:10:11 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 0, 'future_openings': 14, 'jobs': 47, 'news': 60, 'alerts_sent': 3, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 19:42:13 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 19:42:13 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 19:42:17 [INFO] main: Store map: 62 stores
+2026-05-17 19:42:17 [INFO] main: [2/7] Scraping job boards
+2026-05-17 19:42:49 [INFO] main: Jobs: 47 postings
+2026-05-17 19:42:49 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 19:47:30 [INFO] main: News: 56 articles (2 Aurora, 11 retail intel, 43 web)
+2026-05-17 19:47:30 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 19:47:48 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 19:47:48 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 19:49:26 [INFO] main: Competitors: 755 stores
+2026-05-17 19:49:26 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 19:49:26 [INFO] main: Comparing: 62 previous vs 62 current
+2026-05-17 19:49:26 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 19:52:55 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 19:52:55 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 19:52:59 [INFO] main: Store map: 62 stores
+2026-05-17 19:52:59 [INFO] main: [2/7] Scraping job boards
+2026-05-17 19:53:27 [INFO] main: Jobs: 47 postings
+2026-05-17 19:53:27 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 19:59:39 [INFO] main: News: 52 articles (2 Aurora, 11 retail intel, 39 web)
+2026-05-17 19:59:39 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 19:59:55 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 19:59:55 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 20:01:29 [INFO] main: Competitors: 755 stores
+2026-05-17 20:01:29 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 20:01:29 [INFO] main: Comparing: 62 previous vs 62 current
+2026-05-17 20:01:29 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 20:02:32 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 0, 'future_openings': 25, 'jobs': 47, 'news': 52, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 20:17:09 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 20:17:09 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 20:17:12 [INFO] main: Store map: 62 stores
+2026-05-17 20:17:12 [INFO] main: [2/7] Scraping job boards
+2026-05-17 20:17:40 [INFO] main: Jobs: 47 postings
+2026-05-17 20:17:40 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 20:24:25 [INFO] main: News: 62 articles (2 Aurora, 11 retail intel, 49 web)
+2026-05-17 20:24:25 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 20:24:42 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 20:24:42 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 20:26:05 [INFO] main: Competitors: 755 stores
+2026-05-17 20:26:05 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 20:26:05 [INFO] main: Comparing: 62 previous vs 62 current
+2026-05-17 20:26:05 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 20:27:02 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 0, 'future_openings': 18, 'jobs': 47, 'news': 62, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===
+2026-05-17 20:27:35 [INFO] main: === Aurora Pipeline Start: 2026-05-17 ===
+2026-05-17 20:27:35 [INFO] main: [1/7] Scraping Aurora store map
+2026-05-17 20:27:38 [INFO] main: Store map: 62 stores
+2026-05-17 20:27:38 [INFO] main: [2/7] Scraping job boards
+2026-05-17 20:28:06 [INFO] main: Jobs: 47 postings
+2026-05-17 20:28:06 [INFO] main: [3/7] Scraping retail news + broad web intelligence
+2026-05-17 20:31:59 [INFO] main: News: 60 articles (2 Aurora, 11 retail intel, 47 web)
+2026-05-17 20:31:59 [INFO] main: [4/7] Scraping Instagram (Aurora + Pepco, KiK, Action)
+2026-05-17 20:32:15 [INFO] main: Instagram: 12 Aurora posts, 36 competitor posts
+2026-05-17 20:32:15 [INFO] main: [5/7] Scraping competitor stores
+2026-05-17 20:33:50 [INFO] main: Competitors: 755 stores
+2026-05-17 20:33:50 [INFO] main: [6/7] Running diff and analysis
+2026-05-17 20:33:50 [INFO] main: Comparing: 62 previous vs 62 current
+2026-05-17 20:33:50 [INFO] main: [7/7] Sending alerts and generating report
+2026-05-17 20:35:11 [INFO] main: === Pipeline complete: {'date': '2026-05-17', 'stores_total': 62, 'map_changes': 0, 'future_openings': 18, 'jobs': 47, 'news': 60, 'alerts_sent': 0, 'report': '/Users/sofiyamandryk/Desktop/Aurora_Romania/reports/daily_report_2026-05-17.md'} ===

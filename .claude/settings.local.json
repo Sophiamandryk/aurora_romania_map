@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m py_compile src/config.py src/analysis/diff.py src/analysis/competitor_analysis.py src/analysis/confidence.py src/storage/sqlite_store.py src/storage/google_sheets.py src/alerts/telegram_alerts.py src/reports.py src/scrapers/aurora_map.py src/scrapers/aurora_news.py src/scrapers/aurora_instagram.py src/scrapers/linkedin_jobs.py src/scrapers/competitor_scraper.py src/scrapers/retail_news.py main.py)",
+      "Bash(pip install *)",
+      "Bash(python3 main.py init)",
+      "Bash(python3 *)",
+      "Bash(curl -s -I \"https://pepco.ro/store-locator\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s \"https://pepco.ro/store-locator\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s \"https://storefinder-microservice.kik.de/storefinder/results.json?lat=45.9&long=24.9&country=RO&distance=1000\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s \"https://storeviewer-phkw2veu6jdfq.azureedge.net/storeFinder.bundle.js?v=QYqRg22K1JPU4zPG7loWCHQkkLlLrQI1vQgSqhYQI28\")",
+      "Bash(grep -oE '\"https?://[^\"]{15,100}\\(store|api|json|data\\)[^\"]{0,60}\"')"
+    ]
+  }
+}

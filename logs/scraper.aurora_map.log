@@ -1,0 +1,95 @@
+2026-05-16 14:44:33 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 14:44:33 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 14:44:33 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 14:44:34 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 14:44:34 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 14:46:51 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 14:46:51 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 14:46:51 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 14:46:52 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 14:46:52 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 14:47:39 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 14:47:40 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 14:47:40 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 14:47:40 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 14:47:40 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 14:48:32 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 14:48:33 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 14:48:33 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 14:48:33 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 14:48:33 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 15:16:29 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 15:16:30 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 15:16:30 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 15:16:31 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 15:16:31 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 15:24:56 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 15:24:57 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 15:24:57 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 15:24:58 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 15:24:58 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 15:40:15 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 15:40:16 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 15:40:16 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 15:40:16 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 15:40:16 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 15:52:29 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 15:52:30 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 15:52:30 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 15:52:30 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 15:52:30 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 16:12:05 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 16:12:06 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 16:12:06 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 16:12:07 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 16:12:07 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-16 21:58:15 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-16 21:58:16 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-16 21:58:16 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-16 21:58:16 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-16 21:58:16 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 16:02:09 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 16:02:10 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 16:02:10 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 16:02:10 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 16:02:10 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 16:20:37 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 16:20:38 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 16:20:38 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 16:20:38 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 16:20:38 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 16:39:02 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 16:39:02 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 16:39:02 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 16:39:03 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 16:39:03 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 17:13:47 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 17:13:47 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 17:13:47 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 17:13:48 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 17:13:48 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 19:02:25 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 19:02:25 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 19:02:25 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 19:02:26 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 19:02:26 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 19:42:14 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 19:42:15 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 19:42:15 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 19:42:15 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 19:42:15 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 19:52:56 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 19:52:57 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 19:52:57 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 19:52:57 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 19:52:57 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 20:17:09 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 20:17:10 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 20:17:10 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 20:17:10 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 20:17:10 [INFO] scraper.aurora_map: Total unique stores scraped: 62
+2026-05-17 20:27:35 [INFO] scraper.aurora_map: Scraping Aurora store map: https://aurora-retail.com/en/pages/store_map/
+2026-05-17 20:27:36 [INFO] scraper.aurora_map: Found Google Maps iframe: https://www.google.com/maps/d/u/0/embed?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&ehbc=2E312F&noprof=1
+2026-05-17 20:27:36 [INFO] scraper.aurora_map: Fetching KML from Google My Maps: https://www.google.com/maps/d/kml?mid=1CRuerXF7otkjbHJX5HJFmuD8OQUTIL0&forcekml=1
+2026-05-17 20:27:36 [INFO] scraper.aurora_map: Parsed 62 stores from KML
+2026-05-17 20:27:36 [INFO] scraper.aurora_map: Total unique stores scraped: 62

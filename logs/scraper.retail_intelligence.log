@@ -1,0 +1,311 @@
+2026-05-16 22:58:05 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-16 22:58:27 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-16 22:58:41 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-16 22:58:56 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-16 22:59:15 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-16 22:59:33 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/action+discount+romania
+2026-05-16 22:59:53 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/retail+park+romania
+2026-05-16 23:00:07 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/parc+comercial+romania
+2026-05-16 23:00:19 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/centru+comercial+deschidere
+2026-05-16 23:00:36 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/chiriasi+mall+romania
+2026-05-16 23:00:51 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/spatii+comerciale+inchiriere
+2026-05-16 23:01:08 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/deschidere+magazin+romania
+2026-05-16 23:01:25 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/extindere+retea+retail
+2026-05-16 23:01:39 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/discount+retail+romania
+2026-05-16 23:01:54 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-16 23:02:12 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-16 23:02:27 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-16 23:02:47 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-16 23:03:03 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-16 23:03:17 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-16 23:03:20 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=action+discount+romania
+2026-05-16 23:03:30 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-16 23:03:31 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=retail+park+romania
+2026-05-16 23:03:44 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-16 23:03:44 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=parc+comercial+romania
+2026-05-16 23:04:01 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-16 23:04:01 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=centru+comercial+deschidere
+2026-05-16 23:04:18 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-16 23:04:18 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=chiriasi+mall+romania
+2026-05-16 23:04:45 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=spatii+comerciale+inchiriere
+2026-05-16 23:04:45 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/action+discount+romania
+2026-05-16 23:05:09 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=deschidere+magazin+romania
+2026-05-16 23:05:09 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/retail+park+romania
+2026-05-16 23:05:27 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=extindere+retea+retail
+2026-05-16 23:05:27 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/parc+comercial+romania
+2026-05-16 23:05:43 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=discount+retail+romania
+2026-05-16 23:05:44 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/centru+comercial+deschidere
+2026-05-16 23:05:55 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=aurora+multimarket
+2026-05-16 23:05:58 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/chiriasi+mall+romania
+2026-05-16 23:06:10 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=aurora+retail
+2026-05-16 23:06:12 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/spatii+comerciale+inchiriere
+2026-05-16 23:06:20 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=pepco+romania
+2026-05-16 23:06:24 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/deschidere+magazin+romania
+2026-05-16 23:06:34 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=tedi+romania
+2026-05-16 23:06:38 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/extindere+retea+retail
+2026-05-16 23:06:45 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=kik+romania
+2026-05-16 23:06:51 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/discount+retail+romania
+2026-05-16 23:06:56 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=action+discount+romania
+2026-05-16 23:07:07 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=retail+park+romania
+2026-05-16 23:07:09 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-16 23:07:18 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=parc+comercial+romania
+2026-05-16 23:07:21 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-16 23:07:30 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=centru+comercial+deschidere
+2026-05-16 23:07:33 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-16 23:07:40 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=chiriasi+mall+romania
+2026-05-16 23:07:45 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-16 23:07:55 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=spatii+comerciale+inchiriere
+2026-05-16 23:07:58 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-16 23:08:05 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=deschidere+magazin+romania
+2026-05-16 23:08:13 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=action+discount+romania
+2026-05-16 23:08:15 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=extindere+retea+retail
+2026-05-16 23:08:26 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=discount+retail+romania
+2026-05-16 23:08:26 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=retail+park+romania
+2026-05-16 23:08:42 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=parc+comercial+romania
+2026-05-16 23:09:01 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=centru+comercial+deschidere
+2026-05-16 23:09:12 [INFO] scraper.retail_intelligence: Retail intelligence: 0 signals — 
+2026-05-16 23:09:28 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-16 23:09:28 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=chiriasi+mall+romania
+2026-05-16 23:09:55 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=spatii+comerciale+inchiriere
+2026-05-16 23:09:55 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-16 23:10:16 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=deschidere+magazin+romania
+2026-05-16 23:10:17 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-16 23:10:43 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-16 23:10:43 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=extindere+retea+retail
+2026-05-16 23:11:16 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=discount+retail+romania
+2026-05-16 23:11:16 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-16 23:11:39 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=aurora+multimarket
+2026-05-16 23:11:41 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-16 23:11:56 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=aurora+retail
+2026-05-16 23:11:58 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-16 23:12:11 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=pepco+romania
+2026-05-16 23:12:14 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-16 23:12:27 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=tedi+romania
+2026-05-16 23:12:28 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-16 23:12:39 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=kik+romania
+2026-05-16 23:12:41 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-16 23:12:51 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=action+discount+romania
+2026-05-16 23:12:53 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=aurora+multimarket
+2026-05-16 23:13:04 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=aurora+retail
+2026-05-16 23:13:04 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=retail+park+romania
+2026-05-16 23:13:16 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=pepco+romania
+2026-05-16 23:13:16 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=parc+comercial+romania
+2026-05-16 23:13:30 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=tedi+romania
+2026-05-16 23:13:30 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=centru+comercial+deschidere
+2026-05-16 23:13:41 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=chiriasi+mall+romania
+2026-05-16 23:13:42 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=kik+romania
+2026-05-16 23:13:52 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=spatii+comerciale+inchiriere
+2026-05-16 23:14:07 [INFO] scraper.retail_intelligence: Retail intelligence: 0 signals — 
+2026-05-16 23:14:07 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=deschidere+magazin+romania
+2026-05-16 23:14:29 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=extindere+retea+retail
+2026-05-16 23:14:40 [INFO] scraper.retail_intelligence: Playwright for ZF.ro: https://www.zf.ro/search/?q=discount+retail+romania
+2026-05-16 23:15:27 [INFO] scraper.retail_intelligence: Retail intelligence: 0 signals — 
+2026-05-16 23:34:09 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-16 23:34:27 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-16 23:34:57 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-16 23:35:35 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-16 23:36:01 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-16 23:36:19 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-16 23:36:48 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-16 23:37:16 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-16 23:37:33 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-16 23:37:56 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-16 23:38:41 [INFO] scraper.retail_intelligence: Retail intelligence: 25 signals — generic_retail=18, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 00:24:59 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 00:25:15 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 00:25:28 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 00:25:39 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 00:25:50 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 00:26:02 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 00:26:13 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 00:26:24 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 00:26:36 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 00:26:48 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 00:27:02 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 00:27:14 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 00:27:20 [INFO] scraper.retail_intelligence: Retail intelligence: 25 signals — generic_retail=18, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 00:27:25 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 00:27:37 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 00:27:48 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 00:28:01 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 00:28:14 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 00:28:25 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 00:28:36 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 00:28:48 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 00:29:22 [INFO] scraper.retail_intelligence: Retail intelligence: 25 signals — generic_retail=18, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 16:02:45 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 16:02:55 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 16:03:03 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 16:03:12 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 16:04:13 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=tedi+romania", waiting until "networkidle"
+
+2026-05-17 16:04:15 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 16:04:29 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 16:04:40 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 16:04:51 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 16:05:03 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 16:05:14 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 16:05:25 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 16:05:36 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 16:05:47 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 16:05:59 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 16:06:11 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 16:06:43 [INFO] scraper.retail_intelligence: Retail intelligence: 13 signals — generic_retail=6, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 16:21:14 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 16:21:23 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 16:21:32 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 16:21:40 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 16:21:48 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 16:21:59 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 16:22:12 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 16:22:23 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 16:22:35 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 16:22:47 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 16:22:58 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 16:23:09 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 16:23:20 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 16:23:31 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 16:23:42 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 16:24:14 [INFO] scraper.retail_intelligence: Retail intelligence: 13 signals — generic_retail=6, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 16:39:41 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 16:39:51 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 16:39:58 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 16:40:05 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 16:40:12 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 16:40:25 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 16:40:36 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 16:40:47 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 16:40:57 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 16:41:08 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 16:41:20 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 16:41:31 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 16:41:42 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 16:41:54 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 16:42:05 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 16:42:37 [INFO] scraper.retail_intelligence: Retail intelligence: 13 signals — generic_retail=6, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 17:14:21 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 17:15:23 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=aurora+multimarket", waiting until "networkidle"
+
+2026-05-17 17:15:25 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 17:15:35 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 17:15:43 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 17:15:51 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 17:16:03 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 17:16:14 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 17:16:25 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 17:16:36 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 17:16:48 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 17:16:59 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 17:17:10 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 17:17:21 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 17:17:33 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 17:17:44 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 17:18:16 [INFO] scraper.retail_intelligence: Retail intelligence: 13 signals — generic_retail=6, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 19:02:59 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 19:04:02 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=aurora+multimarket", waiting until "networkidle"
+
+2026-05-17 19:04:04 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 19:04:13 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 19:04:21 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 19:04:29 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 19:04:41 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 19:04:52 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 19:05:04 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 19:05:15 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 19:05:26 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 19:05:37 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 19:05:48 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 19:06:00 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 19:06:11 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 19:06:23 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 19:06:54 [INFO] scraper.retail_intelligence: Retail intelligence: 11 signals — generic_retail=4, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 19:42:52 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 19:43:03 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 19:43:11 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 19:43:20 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 19:43:29 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 19:43:42 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 19:43:55 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 19:44:07 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 19:44:20 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 19:44:33 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 19:44:47 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 19:45:02 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 19:45:16 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 19:45:28 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 19:45:42 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 19:46:15 [INFO] scraper.retail_intelligence: Retail intelligence: 11 signals — generic_retail=4, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 19:53:30 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 19:54:38 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=aurora+multimarket", waiting until "networkidle"
+
+2026-05-17 19:54:41 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 19:55:43 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=aurora+retail", waiting until "networkidle"
+
+2026-05-17 19:55:45 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 19:55:53 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 19:56:02 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 19:56:14 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 19:56:26 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 19:56:39 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 19:56:51 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 19:57:03 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 19:57:14 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 19:57:25 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 19:57:37 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 19:57:48 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 19:58:00 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 19:58:32 [INFO] scraper.retail_intelligence: Retail intelligence: 11 signals — generic_retail=4, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 20:17:42 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 20:18:45 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=aurora+multimarket", waiting until "networkidle"
+
+2026-05-17 20:18:47 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 20:19:49 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=aurora+retail", waiting until "networkidle"
+
+2026-05-17 20:19:51 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 20:20:53 [WARNING] scraper.retail_intelligence: Playwright Retail.ro: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.retail.ro/?s=pepco+romania", waiting until "networkidle"
+
+2026-05-17 20:20:55 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 20:21:05 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 20:21:18 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 20:21:30 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 20:21:41 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 20:21:53 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 20:22:04 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 20:22:16 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 20:22:27 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 20:22:38 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 20:22:51 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 20:23:02 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 20:23:34 [INFO] scraper.retail_intelligence: Retail intelligence: 11 signals — generic_retail=4, shopping_center=4, retail_park=2, competitor_expansion=1
+2026-05-17 20:28:09 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+multimarket
+2026-05-17 20:28:17 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=aurora+retail
+2026-05-17 20:28:25 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=pepco+romania
+2026-05-17 20:28:34 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=tedi+romania
+2026-05-17 20:28:42 [INFO] scraper.retail_intelligence: Playwright for Retail.ro: https://www.retail.ro/?s=kik+romania
+2026-05-17 20:28:54 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+multimarket
+2026-05-17 20:29:05 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/aurora+retail
+2026-05-17 20:29:17 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/pepco+romania
+2026-05-17 20:29:28 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/tedi+romania
+2026-05-17 20:29:39 [INFO] scraper.retail_intelligence: Playwright for Economica.net: https://economica.net/search/kik+romania
+2026-05-17 20:29:51 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+multimarket
+2026-05-17 20:30:02 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=aurora+retail
+2026-05-17 20:30:13 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=pepco+romania
+2026-05-17 20:30:24 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=tedi+romania
+2026-05-17 20:30:35 [INFO] scraper.retail_intelligence: Playwright for Profit.ro: https://www.profit.ro/cautare?q=kik+romania
+2026-05-17 20:31:07 [INFO] scraper.retail_intelligence: Retail intelligence: 11 signals — generic_retail=4, shopping_center=4, retail_park=2, competitor_expansion=1

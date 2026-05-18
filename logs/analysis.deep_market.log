@@ -1,0 +1,6 @@
+2026-05-17 19:50:04 [WARNING] analysis.deep_market: DB query failed: no such table: store_changes
+2026-05-17 19:50:22 [INFO] analysis.deep_market: Deep analysis: whitespace=2, signals=1, regions=2
+2026-05-17 20:02:19 [WARNING] analysis.deep_market: DB query failed: no such column: detected_at
+2026-05-17 20:02:32 [INFO] analysis.deep_market: Deep analysis: whitespace=2, signals=2, regions=1
+2026-05-17 20:27:01 [WARNING] analysis.deep_market: Deep analysis OpenAI failed (cannot access local variable 'new_today' where it is not associated with a value) — rule-based fallback
+2026-05-17 20:35:11 [INFO] analysis.deep_market: Deep analysis: whitespace=2, signals=1, regions=2

@@ -1,0 +1,2389 @@
+[
+  {
+    "id": 3415,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "19:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "205200",
+    "city": "Calafat",
+    "region": "Dolj",
+    "countryCode": "RO",
+    "phoneNumber": "+40745535595",
+    "distanceInMeter": 31300.419670539515,
+    "longitude": 22.931006226006,
+    "latitude": 43.995610699592,
+    "addressLine1": "Calafat, Str Traian, Nr. 3BIS",
+    "addressLine2": "",
+    "seoUrl": "Dolj/Calafat/Calafat-Str-Traian-Nr-3BIS",
+    "miscellaneous": "",
+    "neDate": "2023-08-24T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3415\\ro\\Dolj/Calafat/Calafat-Str-Traian-Nr-3BIS"
+  },
+  {
+    "id": 3470,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "235200",
+    "city": "Caracal",
+    "region": "Olt",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 52511.524022956655,
+    "longitude": 24.35682886515,
+    "latitude": 44.105614967569,
+    "addressLine1": "Strada Dragos Voda",
+    "addressLine2": "",
+    "seoUrl": "Olt/Caracal/Strada-Dragos-Voda",
+    "miscellaneous": "",
+    "neDate": "2025-04-30T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3470\\ro\\Olt/Caracal/Strada-Dragos-Voda"
+  },
+  {
+    "id": 3412,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "080234",
+    "city": "Giurgiu",
+    "region": "Giurgiu",
+    "countryCode": "RO",
+    "phoneNumber": "0745318251",
+    "distanceInMeter": 44331.61654883734,
+    "longitude": 25.973692135536,
+    "latitude": 43.90580735671,
+    "addressLine1": "Bulevardul Miron Nicolescu 10",
+    "addressLine2": "",
+    "seoUrl": "Giurgiu/Giurgiu/Bulevardul-Miron-Nicolescu-10",
+    "miscellaneous": "",
+    "neDate": "2023-03-30T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3412\\ro\\Giurgiu/Giurgiu/Bulevardul-Miron-Nicolescu-10"
+  },
+  {
+    "id": 3431,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "220226",
+    "city": "Drobeta-Turnu Severin",
+    "region": "Mehedinţi",
+    "countryCode": "RO",
+    "phoneNumber": "0722351666",
+    "distanceInMeter": 45736.29012620439,
+    "longitude": 22.667695634091,
+    "latitude": 44.64075486216,
+    "addressLine1": "Calea Targu Jiu 44/A",
+    "addressLine2": "",
+    "seoUrl": "Mehedinţi/Drobeta-Turnu-Severin/Calea-Targu-Jiu-44A",
+    "miscellaneous": "",
+    "neDate": "2023-08-04T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3431\\ro\\Mehedinţi/Drobeta-Turnu-Severin/Calea-Targu-Jiu-44A"
+  },
+  {
+    "id": 3474,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "22:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "200769",
+    "city": "Craiova",
+    "region": "Dolj",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 52141.27617317112,
+    "longitude": 23.7705622,
+    "latitude": 44.3312521,
+    "addressLine1": "Calea Severinului 61",
+    "addressLine2": "",
+    "seoUrl": "Dolj/Craiova/Calea-Severinului-61",
+    "miscellaneous": "",
+    "neDate": "2025-07-24T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3474\\ro\\Dolj/Craiova/Calea-Severinului-61"
+  },
+  {
+    "id": 3467,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "22:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "200497",
+    "city": "Craiova",
+    "region": "Dolj",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 54185.05513887243,
+    "longitude": 23.828372297931,
+    "latitude": 44.312809314451,
+    "addressLine1": "Calea Bucuresti 80",
+    "addressLine2": "",
+    "seoUrl": "Dolj/Craiova/Calea-Bucuresti-80",
+    "miscellaneous": "",
+    "neDate": "2025-03-31T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3467\\ro\\Dolj/Craiova/Calea-Bucuresti-80"
+  },
+  {
+    "id": 3448,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "22:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "061129",
+    "city": "Bucuresti",
+    "region": "Bucureşti",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 40303.28288554985,
+    "longitude": 25.98285256068,
+    "latitude": 44.436654854252,
+    "addressLine1": "Bulevardul Iuliu Maniu 560B",
+    "addressLine2": "",
+    "seoUrl": "Bucureşti/Bucuresti/Bulevardul-Iuliu-Maniu-560B",
+    "miscellaneous": "",
+    "neDate": "2024-05-22T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3448\\ro\\Bucureşti/Bucuresti/Bulevardul-Iuliu-Maniu-560B"
+  },
+  {
+    "id": 3455,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "077042",
+    "city": "Chiajna",
+    "region": "Ilfov",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 40405.2465768736,
+    "longitude": 25.978013995945,
+    "latitude": 44.442025299121,
+    "addressLine1": "Str. SG. Ilie Petre Nr. 87",
+    "addressLine2": "",
+    "seoUrl": "Ilfov/Chiajna/Str-SG-Ilie-Petre-Nr-87",
+    "miscellaneous": "",
+    "neDate": "2024-09-11T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3455\\ro\\Ilfov/Chiajna/Str-SG-Ilie-Petre-Nr-87"
+  },
+  {
+    "id": 3411,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:30"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "042121",
+    "city": "Municipiul București",
+    "region": "Bucureşti",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531782",
+    "distanceInMeter": 56621.28943960798,
+    "longitude": 26.147210280291,
+    "latitude": 44.399672831963,
+    "addressLine1": "Șoseaua Vitan-Bârzești 7A",
+    "addressLine2": "",
+    "seoUrl": "Bucureşti/Municipiul-București/Șoseaua-Vitan-Bârzești-7A",
+    "miscellaneous": "",
+    "neDate": "2022-12-22T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3411\\ro\\Bucureşti/Municipiul-București/Șoseaua-Vitan-Bârzești-7A"
+  },
+  {
+    "id": 3443,
+    "rank": 6,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "137180",
+    "city": "Crevedia",
+    "region": "Dâmboviţa",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 50122.12412540565,
+    "longitude": 25.937678517653,
+    "latitude": 44.580566806011,
+    "addressLine1": "Șos. București-Târgoviște",
+    "addressLine2": "",
+    "seoUrl": "Dâmboviţa/Crevedia/Șos-București-Târgoviște",
+    "miscellaneous": "",
+    "neDate": "2024-11-25T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3443\\ro\\Dâmboviţa/Crevedia/Șos-București-Târgoviște"
+  },
+  {
+    "id": 3468,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "032135",
+    "city": "Bucuresti",
+    "region": "Bucureşti",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 55866.30708390235,
+    "longitude": 26.161436944018,
+    "latitude": 44.406129549709,
+    "addressLine1": "Str. Ilioara, Nr. 54",
+    "addressLine2": "",
+    "seoUrl": "Bucureşti/Bucuresti/Str-Ilioara-Nr-54",
+    "miscellaneous": "",
+    "neDate": "2026-02-06T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3468\\ro\\Bucureşti/Bucuresti/Str-Ilioara-Nr-54"
+  },
+  {
+    "id": 1281,
+    "rank": 8,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "077191",
+    "city": "Voluntari",
+    "region": "Ilfov",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 53020.83223398833,
+    "longitude": 26.127773523331,
+    "latitude": 44.490237346311,
+    "addressLine1": "Șoseaua București Nord 14",
+    "addressLine2": "",
+    "seoUrl": "Ilfov/Voluntari/Șoseaua-București-Nord-14",
+    "miscellaneous": "",
+    "neDate": "2026-01-27T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/1281\\ro\\Ilfov/Voluntari/Șoseaua-București-Nord-14"
+  },
+  {
+    "id": 3453,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "022448",
+    "city": "București",
+    "region": "Bucureşti",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 55597.145822610786,
+    "longitude": 26.186583638191,
+    "latitude": 44.437483838264,
+    "addressLine1": "Șoseaua Vergului 20",
+    "addressLine2": "",
+    "seoUrl": "Bucureşti/București/Șoseaua-Vergului-20",
+    "miscellaneous": "",
+    "neDate": "2026-02-16T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3453\\ro\\Bucureşti/București/Șoseaua-Vergului-20"
+  },
+  {
+    "id": 3408,
+    "rank": 10,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "077190",
+    "city": "Voluntari",
+    "region": "Ilfov",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531777",
+    "distanceInMeter": 54636.95794358886,
+    "longitude": 26.150515170081,
+    "latitude": 44.492758893172,
+    "addressLine1": "Popasului Nr.110",
+    "addressLine2": "",
+    "seoUrl": "Ilfov/Voluntari/Popasului-Nr110",
+    "miscellaneous": "",
+    "neDate": "2022-11-25T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3408\\ro\\Ilfov/Voluntari/Popasului-Nr110"
+  },
+  {
+    "id": 3416,
+    "rank": 4,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "077015",
+    "city": "Balotesti",
+    "region": "Ilfov",
+    "countryCode": "RO",
+    "phoneNumber": "0745387909",
+    "distanceInMeter": 24178.85846487659,
+    "longitude": 26.073607527947,
+    "latitude": 44.601971109262,
+    "addressLine1": "Calea Bucuresti 1M",
+    "addressLine2": "",
+    "seoUrl": "Ilfov/Balotesti/Calea-Bucuresti-1M",
+    "miscellaneous": "",
+    "neDate": "2023-04-28T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3416\\ro\\Ilfov/Balotesti/Calea-Bucuresti-1M"
+  },
+  {
+    "id": 3426,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "077175",
+    "city": "Stefanestii de Jos",
+    "region": "Ilfov",
+    "countryCode": "RO",
+    "phoneNumber": "0744431825",
+    "distanceInMeter": 58144.21641057174,
+    "longitude": 26.168794066516,
+    "latitude": 44.533785161304,
+    "addressLine1": "Str. Europa nr. 9 BIS, Corp K, Spatiul Nr. 3",
+    "addressLine2": "",
+    "seoUrl": "Ilfov/Stefanestii-de-Jos/Str-Europa-nr-9-BIS-Corp-K-Spatiul-Nr-3",
+    "miscellaneous": "",
+    "neDate": "2023-08-31T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3426\\ro\\Ilfov/Stefanestii-de-Jos/Str-Europa-nr-9-BIS-Corp-K-Spatiul-Nr-3"
+  },
+  {
+    "id": 3434,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "920051",
+    "city": "Slobozia",
+    "region": "Ialomiţa",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 58138.95988936887,
+    "longitude": 27.347579656651,
+    "latitude": 44.561139398458,
+    "addressLine1": "Sos. Bucuresti-Constanta (DN2A) 3L Unitatea Nr. G11",
+    "addressLine2": "",
+    "seoUrl": "Ialomiţa/Slobozia/Sos-Bucuresti-Constanta-DN2A-3L-Unitatea-Nr-G11",
+    "miscellaneous": "",
+    "neDate": "2023-09-14T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3434\\ro\\Ialomiţa/Slobozia/Sos-Bucuresti-Constanta-DN2A-3L-Unitatea-Nr-G11"
+  },
+  {
+    "id": 3459,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "905600",
+    "city": "Medgidia",
+    "region": "Constanţa",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 27993.25727584861,
+    "longitude": 28.261603746243,
+    "latitude": 44.265346006409,
+    "addressLine1": "Strada Independenței 12, Medgidia",
+    "addressLine2": "",
+    "seoUrl": "Constanţa/Medgidia/Strada-Independenței-12-Medgidia",
+    "miscellaneous": "",
+    "neDate": "2025-05-29T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3459\\ro\\Constanţa/Medgidia/Strada-Independenței-12-Medgidia"
+  },
+  {
+    "id": 3454,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "900147",
+    "city": "Constanta",
+    "region": "Constanţa",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 47233.284205683514,
+    "longitude": 28.610760147096,
+    "latitude": 44.169756010459,
+    "addressLine1": "Str. Cumpenei 2",
+    "addressLine2": "",
+    "seoUrl": "Constanţa/Constanta/Str-Cumpenei-2",
+    "miscellaneous": "",
+    "neDate": "2024-09-06T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3454\\ro\\Constanţa/Constanta/Str-Cumpenei-2"
+  },
+  {
+    "id": 3456,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "240074",
+    "city": "Ramnicu Valcea",
+    "region": "Vâlcea",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 34524.53665258638,
+    "longitude": 24.370162963303,
+    "latitude": 45.090066223325,
+    "addressLine1": "Blvd. Dem Radulescu, Nr. 2-14",
+    "addressLine2": "",
+    "seoUrl": "Vâlcea/Ramnicu-Valcea/Blvd-Dem-Radulescu-Nr-2-14",
+    "miscellaneous": "",
+    "neDate": "2024-08-22T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3456\\ro\\Vâlcea/Ramnicu-Valcea/Blvd-Dem-Radulescu-Nr-2-14"
+  },
+  {
+    "id": 3461,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "240165",
+    "city": "Ramnicu Valcea",
+    "region": "Vâlcea",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 33290.41686381215,
+    "longitude": 24.362779,
+    "latitude": 45.1016112,
+    "addressLine1": "Calea lui Traian 121",
+    "addressLine2": "",
+    "seoUrl": "Vâlcea/Ramnicu-Valcea/Calea-lui-Traian-121",
+    "miscellaneous": "",
+    "neDate": "2024-12-19T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3461\\ro\\Vâlcea/Ramnicu-Valcea/Calea-lui-Traian-121"
+  },
+  {
+    "id": 3424,
+    "rank": 4,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "110101",
+    "city": "Pitești",
+    "region": "Argeş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 15779.99743326032,
+    "longitude": 24.837007775781,
+    "latitude": 44.881949216279,
+    "addressLine1": "Bulevardul Nicolae Bălcescu 180 B",
+    "addressLine2": "",
+    "seoUrl": "Argeş/Pitești/Bulevardul-Nicolae-Bălcescu-180-B",
+    "miscellaneous": "",
+    "neDate": "2024-10-09T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3424\\ro\\Argeş/Pitești/Bulevardul-Nicolae-Bălcescu-180-B"
+  },
+  {
+    "id": 3446,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "22:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "110186",
+    "city": "Pitesti",
+    "region": "Argeş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 9457.557683908792,
+    "longitude": 24.897182465096,
+    "latitude": 44.843452208376,
+    "addressLine1": "Str Tudor Vladimirescu 37",
+    "addressLine2": "",
+    "seoUrl": "Argeş/Pitesti/Str-Tudor-Vladimirescu-37",
+    "miscellaneous": "",
+    "neDate": "2024-04-25T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3446\\ro\\Argeş/Pitesti/Str-Tudor-Vladimirescu-37"
+  },
+  {
+    "id": 3471,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "00:00",
+          "end": "00:00"
+        }
+      ],
+      "isClosed": true,
+      "date": null
+    },
+    "postalCode": "117141",
+    "city": "Geamana",
+    "region": "Argeş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 7571.618875629163,
+    "longitude": 24.909782409668,
+    "latitude": 44.822760189927,
+    "addressLine1": "DN 65 B , Nr. F4",
+    "addressLine2": "",
+    "seoUrl": "Argeş/Geamana/DN-65-BNr-F4",
+    "miscellaneous": "",
+    "neDate": "2025-06-03T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3471\\ro\\Argeş/Geamana/DN-65-BNr-F4"
+  },
+  {
+    "id": 3441,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "115300",
+    "city": "Curtea de Arges",
+    "region": "Argeş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 37018.17422552488,
+    "longitude": 24.675581925598,
+    "latitude": 45.12967910584,
+    "addressLine1": "Strada Victoriei Nr. 5a ",
+    "addressLine2": "",
+    "seoUrl": "Argeş/Curtea-de-Arges/Strada-Victoriei-Nr-5a-",
+    "miscellaneous": "",
+    "neDate": "2025-04-17T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3441\\ro\\Argeş/Curtea-de-Arges/Strada-Victoriei-Nr-5a-"
+  },
+  {
+    "id": 3452,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:30",
+          "end": "21:30"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "117140",
+    "city": "Bradu",
+    "region": "Argeş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 5179.4728077296595,
+    "longitude": 24.940626051713,
+    "latitude": 44.819645031632,
+    "addressLine1": "DN 65 B Nr. 3",
+    "addressLine2": "",
+    "seoUrl": "Argeş/Bradu/DN-65-B-Nr-3",
+    "miscellaneous": "",
+    "neDate": "2024-06-22T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3452\\ro\\Argeş/Bradu/DN-65-B-Nr-3"
+  },
+  {
+    "id": 3438,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "130048",
+    "city": "Targoviste",
+    "region": "Dâmboviţa",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 17330.202159444954,
+    "longitude": 25.460249831348,
+    "latitude": 44.920166797278,
+    "addressLine1": "Bvd . Ion Constantin Bratianu 13C,",
+    "addressLine2": "",
+    "seoUrl": "Dâmboviţa/Targoviste/BvdIon-Constantin-Bratianu-13C",
+    "miscellaneous": "",
+    "neDate": "2023-11-09T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3438\\ro\\Dâmboviţa/Targoviste/BvdIon-Constantin-Bratianu-13C"
+  },
+  {
+    "id": 3410,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "135300",
+    "city": "Moreni",
+    "region": "Dâmboviţa",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531779",
+    "distanceInMeter": 19829.319914360516,
+    "longitude": 25.646916621631,
+    "latitude": 44.975289428809,
+    "addressLine1": "Strada Crinului 2",
+    "addressLine2": "",
+    "seoUrl": "Dâmboviţa/Moreni/Strada-Crinului-2",
+    "miscellaneous": "",
+    "neDate": "2022-12-15T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3410\\ro\\Dâmboviţa/Moreni/Strada-Crinului-2"
+  },
+  {
+    "id": 3451,
+    "rank": 4,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "100543",
+    "city": "Ploiesti",
+    "region": "Argeş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 53995.422423127115,
+    "longitude": 26.035014439661,
+    "latitude": 44.928373163475,
+    "addressLine1": "Str. Piata 1 Decembrie 1918, nr. 1",
+    "addressLine2": "",
+    "seoUrl": "Argeş/Ploiesti/Str-Piata-1-Decembrie-1918-nr-1",
+    "miscellaneous": "",
+    "neDate": "2024-05-29T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3451\\ro\\Argeş/Ploiesti/Str-Piata-1-Decembrie-1918-nr-1"
+  },
+  {
+    "id": 1389,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "100009",
+    "city": "Ploiesti",
+    "region": "Prahova",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 52927.72669261882,
+    "longitude": 26.0212737,
+    "latitude": 44.9408397,
+    "addressLine1": "Republicii 17-25",
+    "addressLine2": "",
+    "seoUrl": "Prahova/Ploiesti/Republicii-17-25",
+    "miscellaneous": "",
+    "neDate": "2026-03-29T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/1389\\ro\\Prahova/Ploiesti/Republicii-17-25"
+  },
+  {
+    "id": 3422,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "107072",
+    "city": "Ploiești",
+    "region": "Prahova",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 51031.87391396887,
+    "longitude": 26.01058901199,
+    "latitude": 44.960786977252,
+    "addressLine1": "Strada Gageni 92",
+    "addressLine2": "",
+    "seoUrl": "Prahova/Ploiești/Strada-Gageni-92",
+    "miscellaneous": "",
+    "neDate": "2025-04-11T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3422\\ro\\Prahova/Ploiești/Strada-Gageni-92"
+  },
+  {
+    "id": 3432,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "810253",
+    "city": "Braila",
+    "region": "Brăila",
+    "countryCode": "RO",
+    "phoneNumber": "+40745548492",
+    "distanceInMeter": 52670.914218207094,
+    "longitude": 27.960127600034,
+    "latitude": 45.255509572487,
+    "addressLine1": "Str. General Gheorghe Avramescu 10K",
+    "addressLine2": "",
+    "seoUrl": "Brăila/Braila/Str-General-Gheorghe-Avramescu-10K",
+    "miscellaneous": "",
+    "neDate": "2023-08-10T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3432\\ro\\Brăila/Braila/Str-General-Gheorghe-Avramescu-10K"
+  },
+  {
+    "id": 3406,
+    "rank": 5,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "300440",
+    "city": "Timisoara",
+    "region": "Timiş",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531778",
+    "distanceInMeter": 45237.73569397075,
+    "longitude": 21.211791694385,
+    "latitude": 45.712145078068,
+    "addressLine1": "Bujorilor 160",
+    "addressLine2": "",
+    "seoUrl": "Timiş/Timisoara/Bujorilor-160",
+    "miscellaneous": "",
+    "neDate": "2022-12-01T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3406\\ro\\Timiş/Timisoara/Bujorilor-160"
+  },
+  {
+    "id": 3402,
+    "rank": 6,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "300571",
+    "city": "Timisoara",
+    "region": "Timiş",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531772",
+    "distanceInMeter": 45771.275080371095,
+    "longitude": 21.257530090624,
+    "latitude": 45.740328449528,
+    "addressLine1": "Calea Stan Vidrighin 7",
+    "addressLine2": "",
+    "seoUrl": "Timiş/Timisoara/Kreis-Timis/Calea-Stan-Vidrighin-7",
+    "miscellaneous": "",
+    "neDate": "2022-05-12T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3402\\ro\\Timiş/Timisoara/Kreis-Timis/Calea-Stan-Vidrighin-7"
+  },
+  {
+    "id": 3477,
+    "rank": 5,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "300682",
+    "city": "Timișoara",
+    "region": "Timiş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 29718.4703401332,
+    "longitude": 21.221846894052,
+    "latitude": 45.763340053992,
+    "addressLine1": "Calea Circumvalațiunii, Nr. 8-10",
+    "addressLine2": "",
+    "seoUrl": "Timiş/Timișoara/Calea-Circumvalațiunii-Nr-8-10",
+    "miscellaneous": "",
+    "neDate": "2025-08-28T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3477\\ro\\Timiş/Timișoara/Calea-Circumvalațiunii-Nr-8-10"
+  },
+  {
+    "id": 3403,
+    "rank": 8,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "307285",
+    "city": "Mosnita",
+    "region": "Timiş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 49691.16566449711,
+    "longitude": 21.299458954051,
+    "latitude": 45.720543610654,
+    "addressLine1": "Str. Magdalena 9",
+    "addressLine2": "Funshop Park",
+    "seoUrl": "Timiş/Mosnita/Str-Magdalena-9",
+    "miscellaneous": "",
+    "neDate": "2023-11-16T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3403\\ro\\Timiş/Mosnita/Str-Magdalena-9"
+  },
+  {
+    "id": 3460,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "19:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "331101",
+    "city": "Hunedoara",
+    "region": "Hunedoara",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 46817.40340826189,
+    "longitude": 22.905961924323,
+    "latitude": 45.767166065176,
+    "addressLine1": "Bulevardul Traian ",
+    "addressLine2": "",
+    "seoUrl": "Hunedoara/Hunedoara/Bulevardul-Traian-",
+    "miscellaneous": "",
+    "neDate": "2025-11-06T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3460\\ro\\Hunedoara/Hunedoara/Bulevardul-Traian-"
+  },
+  {
+    "id": 3465,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "330021",
+    "city": "Deva",
+    "region": "Hunedoara",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 26341.827960052393,
+    "longitude": 22.905206680298,
+    "latitude": 45.882241230761,
+    "addressLine1": "Bulevardul Decebal",
+    "addressLine2": "",
+    "seoUrl": "Hunedoara/Deva/Bulevardul-Decebal",
+    "miscellaneous": "",
+    "neDate": "2025-03-04T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3465\\ro\\Hunedoara/Deva/Bulevardul-Decebal"
+  },
+  {
+    "id": 3463,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "00:00",
+          "end": "00:00"
+        }
+      ],
+      "isClosed": true,
+      "date": null
+    },
+    "postalCode": "335700",
+    "city": "Orastie",
+    "region": "Hunedoara",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 18139.03995733791,
+    "longitude": 23.1941752,
+    "latitude": 45.836856,
+    "addressLine1": "Boulevardul Armatei",
+    "addressLine2": "34",
+    "seoUrl": "Hunedoara/Orastie/Boulevardul-Armatei",
+    "miscellaneous": "",
+    "neDate": "2025-11-27T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3463\\ro\\Hunedoara/Orastie/Boulevardul-Armatei"
+  },
+  {
+    "id": 3430,
+    "rank": 4,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "555300",
+    "city": "Cisnădie",
+    "region": "Sibiu",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 40145.367076763956,
+    "longitude": 24.151821272947,
+    "latitude": 45.716344199812,
+    "addressLine1": "Strada Cindrelul 43",
+    "addressLine2": "",
+    "seoUrl": "Sibiu/Cisnădie/Strada-Cindrelul-43",
+    "miscellaneous": "",
+    "neDate": "2025-08-28T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3430\\ro\\Sibiu/Cisnădie/Strada-Cindrelul-43"
+  },
+  {
+    "id": 3417,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "550097",
+    "city": "Sibiu",
+    "region": "Sibiu",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 27756.73507590263,
+    "longitude": 24.146897720517,
+    "latitude": 45.82351078701,
+    "addressLine1": "Sibiu, Surii Mari 39 G",
+    "addressLine2": "",
+    "seoUrl": "Sibiu/Sibiu/Sibiu-Surii-Mari-39-G",
+    "miscellaneous": "",
+    "neDate": "2025-06-05T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3417\\ro\\Sibiu/Sibiu/Sibiu-Surii-Mari-39-G"
+  },
+  {
+    "id": 3409,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "115100",
+    "city": "Campulung",
+    "region": "Argeş",
+    "countryCode": "RO",
+    "phoneNumber": "0745528572",
+    "distanceInMeter": 14011.152257052527,
+    "longitude": 25.05757560933,
+    "latitude": 45.280648505272,
+    "addressLine1": "Ion C. Bratianu 6",
+    "addressLine2": "",
+    "seoUrl": "Argeş/Campulung/Ion-C-Bratianu-6",
+    "miscellaneous": "",
+    "neDate": "2023-03-30T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3409\\ro\\Argeş/Campulung/Ion-C-Bratianu-6"
+  },
+  {
+    "id": 3433,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "500169",
+    "city": "Brașov",
+    "region": "Braşov",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 37160.86223244188,
+    "longitude": 25.589652594023,
+    "latitude": 45.665741650738,
+    "addressLine1": "Strada Stadionului 15, Unitatea Nr. 5",
+    "addressLine2": "",
+    "seoUrl": "Braşov/Brașov/Strada-Stadionului-15-Unitatea-Nr-5",
+    "miscellaneous": "",
+    "neDate": "2023-09-07T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3433\\ro\\Braşov/Brașov/Strada-Stadionului-15-Unitatea-Nr-5"
+  },
+  {
+    "id": 3407,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "105600",
+    "city": "Campina",
+    "region": "Prahova",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531773",
+    "distanceInMeter": 47654.98976794229,
+    "longitude": 25.745514329676,
+    "latitude": 45.115688365503,
+    "addressLine1": "Nicolaie Balcescu 46",
+    "addressLine2": "",
+    "seoUrl": "Prahova/Campina/Nicolaie-Balcescu-46",
+    "miscellaneous": "",
+    "neDate": "2022-11-18T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3407\\ro\\Prahova/Campina/Nicolaie-Balcescu-46"
+  },
+  {
+    "id": 3442,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "620128",
+    "city": "Focsani",
+    "region": "Vrancea",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 39195.76340939293,
+    "longitude": 27.189533719576,
+    "latitude": 45.679502878444,
+    "addressLine1": "Aleea Parc 2",
+    "addressLine2": "",
+    "seoUrl": "Vrancea/Focsani/Aleea-Parc-2",
+    "miscellaneous": "",
+    "neDate": "2024-01-17T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3442\\ro\\Vrancea/Focsani/Aleea-Parc-2"
+  },
+  {
+    "id": 3450,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "620080",
+    "city": "Focsani",
+    "region": "Bacău",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 37359.46458697677,
+    "longitude": 27.170543169538,
+    "latitude": 45.704586716576,
+    "addressLine1": "Str. Barsei 15A",
+    "addressLine2": "",
+    "seoUrl": "Bacău/Focsani/Str-Barsei-15A",
+    "miscellaneous": "",
+    "neDate": "2024-05-30T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3450\\ro\\Bacău/Focsani/Str-Barsei-15A"
+  },
+  {
+    "id": 3469,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "800179",
+    "city": "Galați",
+    "region": "Galaţi",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 59129.939501635425,
+    "longitude": 28.033418655396,
+    "latitude": 45.468513158433,
+    "addressLine1": "Strada Traian 397",
+    "addressLine2": "",
+    "seoUrl": "Galaţi/Galați/Strada-Traian-397",
+    "miscellaneous": "",
+    "neDate": "2025-04-16T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3469\\ro\\Galaţi/Galați/Strada-Traian-397"
+  },
+  {
+    "id": 3457,
+    "rank": 4,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "310350",
+    "city": "Arad",
+    "region": "Arad",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 59925.19450407878,
+    "longitude": 21.280760690768,
+    "latitude": 46.2008012,
+    "addressLine1": "Calea Aurel Vlaicu 267",
+    "addressLine2": "",
+    "seoUrl": "Arad/Arad/Calea-Aurel-Vlaicu-267",
+    "miscellaneous": "",
+    "neDate": "2025-08-28T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3457\\ro\\Arad/Arad/Calea-Aurel-Vlaicu-267"
+  },
+  {
+    "id": 3480,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "310150",
+    "city": "Arad",
+    "region": "Arad",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 56882.801305814384,
+    "longitude": 21.314237274895,
+    "latitude": 46.185076719663,
+    "addressLine1": "Strada Banu Mărăcine Nr.6 Dm",
+    "addressLine2": "",
+    "seoUrl": "Arad/Arad/Strada-Banu-Mărăcine-Nr6-Dm",
+    "miscellaneous": "",
+    "neDate": "2025-10-09T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3480\\ro\\Arad/Arad/Strada-Banu-Mărăcine-Nr6-Dm"
+  },
+  {
+    "id": 3445,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "22:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "310159",
+    "city": "Arad",
+    "region": "Arad",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 57009.01171760485,
+    "longitude": 21.31592365,
+    "latitude": 46.19120705,
+    "addressLine1": "Calea Aurel Vlaicu 14",
+    "addressLine2": "",
+    "seoUrl": "Arad/Arad/Calea-Aurel-Vlaicu-14",
+    "miscellaneous": "",
+    "neDate": "2023-12-20T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3445\\ro\\Arad/Arad/Calea-Aurel-Vlaicu-14"
+  },
+  {
+    "id": 3444,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "310318",
+    "city": "Vladimirescu",
+    "region": "Arad",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 50867.78062066705,
+    "longitude": 21.387939021624,
+    "latitude": 46.16744501352,
+    "addressLine1": "Str. Cetatii Orod 4",
+    "addressLine2": "",
+    "seoUrl": "Arad/Vladimirescu/Str-Cetatii-Orod-4",
+    "miscellaneous": "",
+    "neDate": "2025-03-06T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3444\\ro\\Arad/Vladimirescu/Str-Cetatii-Orod-4"
+  },
+  {
+    "id": 3466,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "510167",
+    "city": "Alba Iulia",
+    "region": "Alba",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 18851.93929101924,
+    "longitude": 23.585709425181,
+    "latitude": 46.080593128905,
+    "addressLine1": "Str. Tudor Vladimirescu 50A",
+    "addressLine2": "",
+    "seoUrl": "Alba/Alba-Iulia/Str-Tudor-Vladimirescu-50A",
+    "miscellaneous": "",
+    "neDate": "2025-03-21T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3466\\ro\\Alba/Alba-Iulia/Str-Tudor-Vladimirescu-50A"
+  },
+  {
+    "id": 3486,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "535600",
+    "city": "Odorheiu Secuiesc",
+    "region": "Harghita",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 39231.49003697669,
+    "longitude": 25.303139090538,
+    "latitude": 46.312830827998,
+    "addressLine1": "Str. Sportului, Nr 4",
+    "addressLine2": "",
+    "seoUrl": "Harghita/Odorheiu-Secuiesc/Str-Sportului-Nr-4",
+    "miscellaneous": "",
+    "neDate": "2025-11-27T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3486\\ro\\Harghita/Odorheiu-Secuiesc/Str-Sportului-Nr-4"
+  },
+  {
+    "id": 3425,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "530003",
+    "city": "Miercurea Ciuc",
+    "region": "Harghita",
+    "countryCode": "RO",
+    "phoneNumber": "+40745612179",
+    "distanceInMeter": 31030.307414968644,
+    "longitude": 25.813218110317,
+    "latitude": 46.362871776913,
+    "addressLine1": "Str . Iancu de Hunedoara 26",
+    "addressLine2": "",
+    "seoUrl": "Harghita/Miercurea-Ciuc/StrIancu-de-Hunedoara-26",
+    "miscellaneous": "",
+    "neDate": "2023-06-02T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3425\\ro\\Harghita/Miercurea-Ciuc/StrIancu-de-Hunedoara-26"
+  },
+  {
+    "id": 3421,
+    "rank": 4,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "605401",
+    "city": "Moinești",
+    "region": "Bacău",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 26235.659916341392,
+    "longitude": 26.502972713944,
+    "latitude": 46.48297204509,
+    "addressLine1": "Moinesti, Atelierelor 144",
+    "addressLine2": "",
+    "seoUrl": "Bacău/Moinești/Moinesti-Atelierelor-144",
+    "miscellaneous": "",
+    "neDate": "2024-12-12T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3421\\ro\\Bacău/Moinești/Moinesti-Atelierelor-144"
+  },
+  {
+    "id": 3414,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "410240",
+    "city": "Oradea",
+    "region": "Bihor",
+    "countryCode": "RO",
+    "phoneNumber": "0745 269 179",
+    "distanceInMeter": 55945.514384250426,
+    "longitude": 21.899599378605,
+    "latitude": 47.042876824051,
+    "addressLine1": "Calea Aradului 87",
+    "addressLine2": "",
+    "seoUrl": "Bihor/Oradea/Calea-Aradului-87",
+    "miscellaneous": "",
+    "neDate": "2023-03-09T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3414\\ro\\Bihor/Oradea/Calea-Aradului-87"
+  },
+  {
+    "id": 3458,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "410214",
+    "city": "Oradea",
+    "region": "Bihor",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 54292.38953056093,
+    "longitude": 21.9150166,
+    "latitude": 47.0587249,
+    "addressLine1": "Bulevardul Decebal 61A",
+    "addressLine2": "",
+    "seoUrl": "Bihor/Oradea/Bulevardul-Decebal-61A",
+    "miscellaneous": "",
+    "neDate": "2024-11-29T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3458\\ro\\Bihor/Oradea/Bulevardul-Decebal-61A"
+  },
+  {
+    "id": 3413,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "410605",
+    "city": "Oradea",
+    "region": "Bihor",
+    "countryCode": "RO",
+    "phoneNumber": "0040745508954",
+    "distanceInMeter": 54610.47537704166,
+    "longitude": 21.90393,
+    "latitude": 47.07471,
+    "addressLine1": "Borsului 2C",
+    "addressLine2": "",
+    "seoUrl": "Bihor/Oradea/Borsului-2C",
+    "miscellaneous": "",
+    "neDate": "2023-01-26T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3413\\ro\\Bihor/Oradea/Borsului-2C"
+  },
+  {
+    "id": 3404,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "401030",
+    "city": "Turda",
+    "region": "Cluj",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531775",
+    "distanceInMeter": 4372.8490866438,
+    "longitude": 23.817180181371,
+    "latitude": 46.562488628309,
+    "addressLine1": "Str. Univers 21",
+    "addressLine2": "Funshop Park",
+    "seoUrl": "Cluj/Turda/Str-Univers-21",
+    "miscellaneous": "",
+    "neDate": "2022-09-22T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3404\\ro\\Cluj/Turda/Str-Univers-21"
+  },
+  {
+    "id": 3462,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "00:00",
+          "end": "00:00"
+        }
+      ],
+      "isClosed": true,
+      "date": null
+    },
+    "postalCode": "515200",
+    "city": "Aiud",
+    "region": "Alba",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 51303.121798070846,
+    "longitude": 23.7217346,
+    "latitude": 46.3119218,
+    "addressLine1": "Str. Transilvaniei",
+    "addressLine2": "",
+    "seoUrl": "Alba/Aiud/Str-Transilvaniei",
+    "miscellaneous": "",
+    "neDate": "2026-04-02T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3462\\ro\\Alba/Aiud/Str-Transilvaniei"
+  },
+  {
+    "id": 3449,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "21:30"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "540228",
+    "city": "Targu Mures",
+    "region": "Mureş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 13169.676777533668,
+    "longitude": 24.51087887298,
+    "latitude": 46.509528739069,
+    "addressLine1": "Str. Gheorghe Doja 243",
+    "addressLine2": "",
+    "seoUrl": "Mureş/Targu-Mures/Str-Gheorghe-Doja-243",
+    "miscellaneous": "",
+    "neDate": "2024-04-11T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3449\\ro\\Mureş/Targu-Mures/Str-Gheorghe-Doja-243"
+  },
+  {
+    "id": 3419,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "545500",
+    "city": "Sovata",
+    "region": "Mureş",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 41854.77108839032,
+    "longitude": 25.054499117045,
+    "latitude": 46.581506745654,
+    "addressLine1": "Strada Primaverii 58",
+    "addressLine2": "",
+    "seoUrl": "Mureş/Sovata/Strada-Primaverii-58",
+    "miscellaneous": "",
+    "neDate": "2025-06-19T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3419\\ro\\Mureş/Sovata/Strada-Primaverii-58"
+  },
+  {
+    "id": 3418,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "600064",
+    "city": "Bacău",
+    "region": "Bacău",
+    "countryCode": "RO",
+    "phoneNumber": "0745529316",
+    "distanceInMeter": 10263.5659200702,
+    "longitude": 26.922285095782,
+    "latitude": 46.562379777021,
+    "addressLine1": "Strada Milcov 2-4,  Nr.2A",
+    "addressLine2": "",
+    "seoUrl": "Bacău/Bacău/Strada-Milcov-2-4Nr2A",
+    "miscellaneous": "",
+    "neDate": "2023-04-20T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3418\\ro\\Bacău/Bacău/Strada-Milcov-2-4Nr2A"
+  },
+  {
+    "id": 3428,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "18:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "600384",
+    "city": "Bacau",
+    "region": "Bacău",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 10340.656835806574,
+    "longitude": 26.92992771389,
+    "latitude": 46.574915195273,
+    "addressLine1": "Calea Romanului 5",
+    "addressLine2": "",
+    "seoUrl": "Bacău/Bacau/Calea-Romanului-5",
+    "miscellaneous": "",
+    "neDate": "2023-11-16T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3428\\ro\\Bacău/Bacau/Calea-Romanului-5"
+  },
+  {
+    "id": 1393,
+    "rank": 3,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "600310",
+    "city": "Bacau",
+    "region": "Bacău",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 10828.591577780206,
+    "longitude": 26.9095203,
+    "latitude": 46.5384858,
+    "addressLine1": "Strada Narciselor",
+    "addressLine2": "5",
+    "seoUrl": "Bacău/Bacau/Strada-Narciselor",
+    "miscellaneous": "",
+    "neDate": "2026-05-14T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/1393\\ro\\Bacău/Bacau/Strada-Narciselor"
+  },
+  {
+    "id": 3405,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "730085",
+    "city": "Vaslui",
+    "region": "Vaslui",
+    "countryCode": "RO",
+    "phoneNumber": "+40745502853",
+    "distanceInMeter": 20705.089439703814,
+    "longitude": 27.733092144233,
+    "latitude": 46.629407070855,
+    "addressLine1": "Str Decebal 46",
+    "addressLine2": "Funshop Park",
+    "seoUrl": "Vaslui/Vaslui/Str-Decebal-46",
+    "miscellaneous": "",
+    "neDate": "2023-05-31T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3405\\ro\\Vaslui/Vaslui/Str-Decebal-46"
+  },
+  {
+    "id": 3427,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "430011",
+    "city": "Baia Mare",
+    "region": "Maramureş",
+    "countryCode": "RO",
+    "phoneNumber": "+40745255544",
+    "distanceInMeter": 26021.178430775897,
+    "longitude": 23.538149905286,
+    "latitude": 47.646526036675,
+    "addressLine1": "Bulevardul Bucuresti nr. 53, Unitatea GF 10a ",
+    "addressLine2": "",
+    "seoUrl": "Maramureş/Baia-Mare/Bulevardul-Bucuresti-nr-53-Unitatea-GF-10a-",
+    "miscellaneous": "",
+    "neDate": "2023-08-17T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3427\\ro\\Maramureş/Baia-Mare/Bulevardul-Bucuresti-nr-53-Unitatea-GF-10a-"
+  },
+  {
+    "id": 3400,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "430232",
+    "city": "Baia Mare",
+    "region": "Maramureş",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531718",
+    "distanceInMeter": 24641.512966033762,
+    "longitude": 23.570158192372,
+    "latitude": 47.6416853,
+    "addressLine1": "Bulevardul Unirii 21",
+    "addressLine2": "",
+    "seoUrl": "Maramureş/Baia-Mare/Bulevardul-Unirii-21",
+    "miscellaneous": "",
+    "neDate": "2022-03-17T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3400\\ro\\Maramureş/Baia-Mare/Bulevardul-Unirii-21"
+  },
+  {
+    "id": 3429,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "420132",
+    "city": "Bistrița",
+    "region": "Bistriţa-Năsăud",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 38457.37926535679,
+    "longitude": 24.498194331618,
+    "latitude": 47.14921929423,
+    "addressLine1": "Drumul Cetății 85",
+    "addressLine2": "",
+    "seoUrl": "Bistriţa-Năsăud/Bistrița/Drumul-Cetății-85",
+    "miscellaneous": "",
+    "neDate": "2024-03-28T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3429\\ro\\Bistriţa-Năsăud/Bistrița/Drumul-Cetății-85"
+  },
+  {
+    "id": 3437,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "420096",
+    "city": "Bistrița",
+    "region": "Bistriţa-Năsăud",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 37284.480230036264,
+    "longitude": 24.514308209882,
+    "latitude": 47.147221587125,
+    "addressLine1": "Calea Moldovei 13A",
+    "addressLine2": "",
+    "seoUrl": "Bistriţa-Năsăud/Bistrița/Calea-Moldovei-13A",
+    "miscellaneous": "",
+    "neDate": "2023-11-29T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3437\\ro\\Bistriţa-Năsăud/Bistrița/Calea-Moldovei-13A"
+  },
+  {
+    "id": 3440,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "610071",
+    "city": "Piatra Neamt",
+    "region": "Neamţ",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 32503.3332840717,
+    "longitude": 26.361994451289,
+    "latitude": 46.929394193219,
+    "addressLine1": "Str Bistritei 2, Str Aurel Vlaciu Nr34, Piata Petrodava Nr.3-5",
+    "addressLine2": "",
+    "seoUrl": "Neamţ/Piatra-Neamt/Str-Bistritei-2-Str-Aurel-Vlaciu-Nr34-Piata-Petrodava-Nr3-5",
+    "miscellaneous": "",
+    "neDate": "2023-12-20T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3440\\ro\\Neamţ/Piatra-Neamt/Str-Bistritei-2-Str-Aurel-Vlaciu-Nr34-Piata-Petrodava-Nr3-5"
+  },
+  {
+    "id": 3439,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "610190",
+    "city": "Piatra Neamt",
+    "region": "Neamţ",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 34459.55370749233,
+    "longitude": 26.390678791628,
+    "latitude": 46.918752879867,
+    "addressLine1": "Strada Plăieșului Nr. 2",
+    "addressLine2": "",
+    "seoUrl": "Neamţ/Piatra-Neamt/Strada-Plăieșului-Nr-2",
+    "miscellaneous": "",
+    "neDate": "2023-12-09T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3439\\ro\\Neamţ/Piatra-Neamt/Strada-Plăieșului-Nr-2"
+  },
+  {
+    "id": 3401,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "20:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "705203",
+    "city": "Pașcani",
+    "region": "Iaşi",
+    "countryCode": "RO",
+    "phoneNumber": "0040372531730",
+    "distanceInMeter": 8505.783270254688,
+    "longitude": 26.711677985749,
+    "latitude": 47.247255817083,
+    "addressLine1": "Str. Moldovei 17 bis",
+    "addressLine2": "",
+    "seoUrl": "Iaşi/Pașcani/Str-Moldovei-17-bis",
+    "miscellaneous": "",
+    "neDate": "2022-04-15T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3401\\ro\\Iaşi/Pașcani/Str-Moldovei-17-bis"
+  },
+  {
+    "id": 3479,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "22:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "720018",
+    "city": "Suceava",
+    "region": "Suceava",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 42533.30185677674,
+    "longitude": 26.2728334,
+    "latitude": 47.6591431,
+    "addressLine1": "Calea Unirii 22",
+    "addressLine2": "",
+    "seoUrl": "Suceava/Suceava/Calea-Unirii-22",
+    "miscellaneous": "",
+    "neDate": "2025-09-25T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3479\\ro\\Suceava/Suceava/Calea-Unirii-22"
+  },
+  {
+    "id": 3420,
+    "rank": 2,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "720019",
+    "city": "Suceava",
+    "region": "Suceava",
+    "countryCode": "RO",
+    "phoneNumber": "0745269648",
+    "distanceInMeter": 42839.642901175466,
+    "longitude": 26.266015915068,
+    "latitude": 47.663348412471,
+    "addressLine1": "Calea Unirii 27",
+    "addressLine2": "",
+    "seoUrl": "Suceava/Suceava/Calea-Unirii-27",
+    "miscellaneous": "",
+    "neDate": "2023-04-14T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3420\\ro\\Suceava/Suceava/Calea-Unirii-27"
+  },
+  {
+    "id": 3447,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "10:00",
+          "end": "22:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "700522",
+    "city": "Iasi",
+    "region": "Iaşi",
+    "countryCode": "RO",
+    "phoneNumber": "",
+    "distanceInMeter": 37219.557079983366,
+    "longitude": 27.511310265172,
+    "latitude": 47.1671746682,
+    "addressLine1": "Sos. Pacurari Nr. 121",
+    "addressLine2": "",
+    "seoUrl": "Iaşi/Iasi/Sos-Pacurari-Nr-121",
+    "miscellaneous": "",
+    "neDate": "2024-06-27T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3447\\ro\\Iaşi/Iasi/Sos-Pacurari-Nr-121"
+  },
+  {
+    "id": 3423,
+    "rank": 1,
+    "name": "TEDI RETAIL SHOP S.R.L.",
+    "openingHour": {
+      "intervals": [
+        {
+          "start": "09:00",
+          "end": "21:00"
+        }
+      ],
+      "isClosed": false,
+      "date": null
+    },
+    "postalCode": "440152",
+    "city": "Satu Mare",
+    "region": "Satu Mare",
+    "countryCode": "RO",
+    "phoneNumber": "0745519721",
+    "distanceInMeter": 26692.81484225061,
+    "longitude": 22.844388370021,
+    "latitude": 47.785450012605,
+    "addressLine1": "Strada Careiului 77-79",
+    "addressLine2": "",
+    "seoUrl": "Satu-Mare/Satu-Mare/Strada-Careiului-77-79",
+    "miscellaneous": "",
+    "neDate": "2023-04-27T00:00:00",
+    "isBearClub": false,
+    "concept": "TEDi black",
+    "url": "https://www.tedi.com/stores/3423\\ro\\Satu-Mare/Satu-Mare/Strada-Careiului-77-79"
+  }
+]

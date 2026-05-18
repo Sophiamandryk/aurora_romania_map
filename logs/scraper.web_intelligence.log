@@ -1,0 +1,10 @@
+2026-05-17 16:19:05 [INFO] scraper.web_intelligence: Web intelligence: 3 signals from 3 unique URLs — aurora_mentioned=2, aurora_confirmed=1
+2026-05-17 16:20:32 [INFO] scraper.web_intelligence: Web intelligence: 3 signals from 3 unique URLs — aurora_mentioned=1, aurora_confirmed=1, generic_market=1
+2026-05-17 16:25:19 [INFO] scraper.web_intelligence: Web intelligence: 44 signals from 44 unique URLs — competitor_expansion=13, generic_market=12, aurora_mentioned=7, retail_park=7, local_news=3, aurora_confirmed=1, mall_leasing=1
+2026-05-17 16:43:32 [INFO] scraper.web_intelligence: Web intelligence: 44 signals from 44 unique URLs — competitor_expansion=13, generic_market=10, aurora_mentioned=9, local_news=7, retail_park=4, aurora_confirmed=1
+2026-05-17 17:19:04 [INFO] scraper.web_intelligence: Web intelligence: 43 signals from 43 unique URLs — competitor_expansion=12, generic_market=12, aurora_mentioned=11, local_news=5, retail_park=2, aurora_confirmed=1
+2026-05-17 19:07:47 [INFO] scraper.web_intelligence: Web intelligence: 47 signals from 47 unique URLs — competitor_expansion=13, generic_market=13, aurora_mentioned=12, local_news=3, retail_park=3, aurora_confirmed=2, influencer_signal=1
+2026-05-17 19:47:30 [INFO] scraper.web_intelligence: Web intelligence: 43 signals from 43 unique URLs — generic_market=14, competitor_expansion=12, aurora_mentioned=8, retail_park=5, aurora_confirmed=2, local_news=2
+2026-05-17 19:59:39 [INFO] scraper.web_intelligence: Web intelligence: 39 signals from 39 unique URLs — competitor_expansion=14, generic_market=9, aurora_mentioned=7, local_news=6, retail_park=2, aurora_confirmed=1
+2026-05-17 20:24:25 [INFO] scraper.web_intelligence: Web intelligence: 49 signals from 49 unique URLs — competitor_expansion=15, aurora_mentioned=13, generic_market=11, retail_park=5, local_news=3, aurora_confirmed=1, mall_leasing=1
+2026-05-17 20:31:59 [INFO] scraper.web_intelligence: Web intelligence: 47 signals from 47 unique URLs — competitor_expansion=16, generic_market=13, aurora_mentioned=9, local_news=3, aurora_confirmed=2, retail_park=2, mall_leasing=1, influencer_signal=1

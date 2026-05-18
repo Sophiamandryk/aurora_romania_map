@@ -1,0 +1,58 @@
+2026-05-16 14:49:33 [INFO] scraper.retail_news: Retail.ro: 0 relevant articles
+2026-05-16 14:49:33 [INFO] scraper.retail_news: Playwright for Retail.ro: https://www.retail.ro/?s=aurora
+2026-05-16 14:50:00 [INFO] scraper.retail_news: Economica.net: 0 relevant articles
+2026-05-16 14:50:00 [INFO] scraper.retail_news: Playwright for Economica.net: https://economica.net/?s=aurora+retail
+2026-05-16 14:50:14 [INFO] scraper.retail_news: ZF.ro: 0 relevant articles
+2026-05-16 14:50:14 [INFO] scraper.retail_news: Playwright for ZF.ro: https://www.zf.ro/?s=aurora+multimarket
+2026-05-16 14:50:48 [INFO] scraper.retail_news: Profit.ro: 0 relevant articles
+2026-05-16 14:50:48 [INFO] scraper.retail_news: Playwright for Profit.ro: https://www.profit.ro/?s=aurora
+2026-05-16 14:50:55 [INFO] scraper.retail_news: Retail news: 0 unique articles
+2026-05-16 15:17:41 [INFO] scraper.retail_news: Retail.ro: 0 relevant articles
+2026-05-16 15:17:41 [INFO] scraper.retail_news: Playwright for Retail.ro: https://www.retail.ro/?s=aurora
+2026-05-16 15:18:06 [INFO] scraper.retail_news: Economica.net: 0 relevant articles
+2026-05-16 15:18:06 [INFO] scraper.retail_news: Playwright for Economica.net: https://economica.net/?s=aurora+retail
+2026-05-16 15:18:19 [INFO] scraper.retail_news: ZF.ro: 0 relevant articles
+2026-05-16 15:18:19 [INFO] scraper.retail_news: Playwright for ZF.ro: https://www.zf.ro/?s=aurora+multimarket
+2026-05-16 15:18:57 [INFO] scraper.retail_news: Profit.ro: 0 relevant articles
+2026-05-16 15:18:57 [INFO] scraper.retail_news: Playwright for Profit.ro: https://www.profit.ro/?s=aurora
+2026-05-16 15:19:10 [INFO] scraper.retail_news: Retail news: 0 unique articles
+2026-05-16 15:27:10 [INFO] scraper.retail_news: Retail.ro: 0 relevant articles
+2026-05-16 15:27:10 [INFO] scraper.retail_news: Playwright for Retail.ro: https://www.retail.ro/?s=aurora
+2026-05-16 15:27:34 [INFO] scraper.retail_news: Economica.net: 0 relevant articles
+2026-05-16 15:27:34 [INFO] scraper.retail_news: Playwright for Economica.net: https://economica.net/?s=aurora+retail
+2026-05-16 15:27:46 [INFO] scraper.retail_news: ZF.ro: 0 relevant articles
+2026-05-16 15:27:46 [INFO] scraper.retail_news: Playwright for ZF.ro: https://www.zf.ro/?s=aurora+multimarket
+2026-05-16 15:28:15 [INFO] scraper.retail_news: Profit.ro: 0 relevant articles
+2026-05-16 15:28:15 [INFO] scraper.retail_news: Playwright for Profit.ro: https://www.profit.ro/?s=aurora
+2026-05-16 15:28:23 [INFO] scraper.retail_news: Retail news: 0 unique articles
+2026-05-16 15:41:35 [INFO] scraper.retail_news: Retail.ro: 0 relevant articles
+2026-05-16 15:41:35 [INFO] scraper.retail_news: Playwright for Retail.ro: https://www.retail.ro/?s=aurora
+2026-05-16 15:42:14 [INFO] scraper.retail_news: Economica.net: 0 relevant articles
+2026-05-16 15:42:14 [INFO] scraper.retail_news: Playwright for Economica.net: https://economica.net/?s=aurora+retail
+2026-05-16 15:42:33 [INFO] scraper.retail_news: ZF.ro: 0 relevant articles
+2026-05-16 15:42:33 [INFO] scraper.retail_news: Playwright for ZF.ro: https://www.zf.ro/?s=aurora+multimarket
+2026-05-16 15:43:34 [ERROR] scraper.retail_news: Playwright ZF.ro error: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.zf.ro/?s=aurora+multimarket", waiting until "networkidle"
+
+2026-05-16 15:43:49 [INFO] scraper.retail_news: Profit.ro: 0 relevant articles
+2026-05-16 15:43:49 [INFO] scraper.retail_news: Playwright for Profit.ro: https://www.profit.ro/?s=aurora
+2026-05-16 15:44:06 [INFO] scraper.retail_news: Retail news: 0 unique articles
+2026-05-16 15:53:04 [INFO] scraper.retail_news: Retail.ro: 0 relevant articles
+2026-05-16 15:53:04 [INFO] scraper.retail_news: Playwright for Retail.ro: https://www.retail.ro/?s=aurora
+2026-05-16 15:53:26 [INFO] scraper.retail_news: Economica.net: 0 relevant articles
+2026-05-16 15:53:26 [INFO] scraper.retail_news: Playwright for Economica.net: https://economica.net/?s=aurora+retail
+2026-05-16 15:53:39 [INFO] scraper.retail_news: ZF.ro: 0 relevant articles
+2026-05-16 15:53:39 [INFO] scraper.retail_news: Playwright for ZF.ro: https://www.zf.ro/?s=aurora+multimarket
+2026-05-16 15:54:14 [INFO] scraper.retail_news: Profit.ro: 0 relevant articles
+2026-05-16 15:54:14 [INFO] scraper.retail_news: Playwright for Profit.ro: https://www.profit.ro/?s=aurora
+2026-05-16 15:54:21 [INFO] scraper.retail_news: Retail news: 0 unique articles
+2026-05-16 21:58:51 [INFO] scraper.retail_news: Retail.ro: 0 relevant articles
+2026-05-16 21:58:51 [INFO] scraper.retail_news: Playwright for Retail.ro: https://www.retail.ro/?s=aurora
+2026-05-16 21:59:13 [INFO] scraper.retail_news: Economica.net: 0 relevant articles
+2026-05-16 21:59:13 [INFO] scraper.retail_news: Playwright for Economica.net: https://economica.net/?s=aurora+retail
+2026-05-16 21:59:25 [INFO] scraper.retail_news: ZF.ro: 0 relevant articles
+2026-05-16 21:59:25 [INFO] scraper.retail_news: Playwright for ZF.ro: https://www.zf.ro/?s=aurora+multimarket
+2026-05-16 22:00:09 [INFO] scraper.retail_news: Profit.ro: 0 relevant articles
+2026-05-16 22:00:09 [INFO] scraper.retail_news: Playwright for Profit.ro: https://www.profit.ro/?s=aurora
+2026-05-16 22:00:17 [INFO] scraper.retail_news: Retail news: 0 unique articles
