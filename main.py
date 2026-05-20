@@ -371,7 +371,8 @@ Examples:
     )
     parser.add_argument(
         "command",
-        choices=["run", "schedule", "test-telegram", "report", "weekly", "init", "debug-competitors"],
+        choices=["run", "schedule", "test-telegram", "report", "weekly", "init",
+                 "debug-competitors", "brief"],
         help="Command to execute",
     )
     parser.add_argument("--skip-map", action="store_true", help="Skip store map scraping")
@@ -383,6 +384,7 @@ Examples:
     parser.add_argument("--skip-sheets", action="store_true", help="Skip Google Sheets export")
     parser.add_argument("--dry-run", action="store_true", help="No DB writes, no alerts")
     parser.add_argument("--baseline", action="store_true", help="Save snapshot without sending any alerts (use on first real run)")
+    parser.add_argument("--daily", action="store_true", help="Run the daily brief (used with 'brief' command)")
 
     args = parser.parse_args()
 
@@ -446,6 +448,19 @@ Examples:
             city_market_scores=[],
         )
         print(f"Report generated: {path}")
+
+    elif args.command == "brief":
+        from src.storage.sqlite_store import init_db
+        init_db()
+        from src.analysis.daily_brief import run_daily_brief
+        msg = run_daily_brief(
+            dry_run=args.dry_run,
+            skip_alerts=args.skip_alerts,
+        )
+        if msg:
+            print(msg)
+        else:
+            print("Brief skipped — check TAVILY_API_KEY in .env")
 
 
 

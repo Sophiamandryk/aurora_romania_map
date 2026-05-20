@@ -193,6 +193,16 @@ CREATE INDEX IF NOT EXISTS idx_competitors_brand ON competitor_stores(brand);
 CREATE INDEX IF NOT EXISTS idx_social_posts_scraped ON social_posts(scraped_at);
 CREATE INDEX IF NOT EXISTS idx_social_posts_competitor ON social_posts(competitor);
 CREATE INDEX IF NOT EXISTS idx_batch_analyses_date ON batch_analyses(run_date);
+
+CREATE TABLE IF NOT EXISTS web_search_results (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    url TEXT UNIQUE NOT NULL,
+    title TEXT DEFAULT '',
+    snippet TEXT DEFAULT '',
+    query_topic TEXT DEFAULT '',
+    searched_at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_web_search_date ON web_search_results(searched_at);
 """
 
 
@@ -723,3 +733,41 @@ def save_weekly_digest(digest: str, week_start: str, post_count: int = 0) -> Non
             (week_start, digest, post_count),
         )
     logger.info(f"Saved weekly social digest for week starting {week_start}")
+
+
+# ── Web search results (daily brief) ─────────────────────────────────────────
+
+def get_known_search_urls(days: int = 7) -> set:
+    """Return all URLs already stored in web_search_results within the last `days` days."""
+    cutoff = (datetime.now() - timedelta(days=days)).isoformat()
+    with _connect() as conn:
+        rows = conn.execute(
+            "SELECT url FROM web_search_results WHERE searched_at >= ?", (cutoff,)
+        ).fetchall()
+    return {r[0] for r in rows}
+
+
+def save_web_search_results(results: list[dict]) -> int:
+    """Insert Tavily search results. Deduplicates by URL. Returns count inserted."""
+    inserted = 0
+    with _connect() as conn:
+        for r in results:
+            try:
+                cur = conn.execute(
+                    """INSERT OR IGNORE INTO web_search_results
+                       (url, title, snippet, query_topic, searched_at)
+                       VALUES (?,?,?,?,?)""",
+                    (
+                        r["url"],
+                        r.get("title", ""),
+                        r.get("snippet", ""),
+                        r.get("query_topic", ""),
+                        r.get("searched_at", datetime.utcnow().isoformat()),
+                    ),
+                )
+                if cur.rowcount:
+                    inserted += 1
+            except Exception as e:
+                logger.debug(f"web_search_results insert skipped ({r.get('url','')}): {e}")
+    logger.info(f"Saved {inserted} new web search results (of {len(results)} provided)")
+    return inserted

@@ -26,6 +26,7 @@ INSTAGRAM_SESSION = os.getenv("INSTAGRAM_SESSION", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 APIFY_TOKEN = os.getenv("APIFY_TOKEN", "")
+TAVILY_API_KEY = os.getenv("TAVILY_API_KEY", "")
 
 HEADLESS = os.getenv("HEADLESS", "true").lower() == "true"
 REQUEST_DELAY = float(os.getenv("REQUEST_DELAY", "2"))
