@@ -24,6 +24,7 @@ def run_pipeline(
     skip_alerts: bool = False,
     skip_sheets: bool = False,
     skip_brief: bool = False,
+    skip_presentation: bool = False,
     dry_run: bool = False,
     baseline: bool = False,
 ) -> dict:
@@ -314,6 +315,16 @@ def run_pipeline(
             except Exception as e:
                 logger.error(f"Daily brief failed: {e}")
 
+    # ── Daily presentation (.pptx) ────────────────────────────────────────────
+    _pptx_path = None
+    if not skip_presentation:
+        logger.info("[7c] Generating daily presentation")
+        try:
+            from src.presentation_export import generate_presentation
+            _pptx_path = generate_presentation(today_str=today, dry_run=dry_run)
+        except Exception as e:
+            logger.error(f"Presentation generation failed: {e}")
+
     # Google Sheets export
     if not skip_sheets and not dry_run:
         try:
@@ -336,6 +347,8 @@ def run_pipeline(
         "alerts_sent": len(alerted_ids),
         "report": str(report_path),
     }
+    if _pptx_path:
+        summary["presentation"] = str(_pptx_path)
     logger.info(f"=== Pipeline complete: {summary} ===")
     return summary
 
@@ -397,6 +410,9 @@ Examples:
     parser.add_argument("--skip-alerts", action="store_true", help="Skip Telegram alerts")
     parser.add_argument("--skip-sheets", action="store_true", help="Skip Google Sheets export")
     parser.add_argument("--skip-brief", action="store_true", help="Skip Tavily daily brief")
+    parser.add_argument("--skip-presentation", action="store_true", help="Skip .pptx generation")
+    parser.add_argument("--presentation-only", action="store_true",
+                        help="Skip all scraping; generate presentation from existing DB data")
     parser.add_argument("--dry-run", action="store_true", help="No DB writes, no alerts")
     parser.add_argument("--baseline", action="store_true", help="Save snapshot without sending any alerts (use on first real run)")
     parser.add_argument("--daily", action="store_true", help="Run the daily brief (used with 'brief' command)")
@@ -420,15 +436,17 @@ Examples:
             sys.exit(1)
 
     elif args.command == "run":
+        pres_only = getattr(args, "presentation_only", False)
         summary = run_pipeline(
-            skip_map=args.skip_map,
-            skip_jobs=args.skip_jobs,
-            skip_news=args.skip_news,
-            skip_instagram=args.skip_instagram,
-            skip_competitors=args.skip_competitors,
-            skip_alerts=args.skip_alerts,
-            skip_sheets=args.skip_sheets,
-            skip_brief=args.skip_brief,
+            skip_map=args.skip_map        or pres_only,
+            skip_jobs=args.skip_jobs      or pres_only,
+            skip_news=args.skip_news      or pres_only,
+            skip_instagram=args.skip_instagram or pres_only,
+            skip_competitors=args.skip_competitors or pres_only,
+            skip_alerts=args.skip_alerts  or pres_only,
+            skip_sheets=args.skip_sheets  or pres_only,
+            skip_brief=args.skip_brief    or pres_only,
+            skip_presentation=args.skip_presentation,
             dry_run=args.dry_run,
             baseline=args.baseline,
         )

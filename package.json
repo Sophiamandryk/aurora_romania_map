@@ -1,0 +1,27 @@
+{
+  "name": "aurora_romania",
+  "version": "1.0.0",
+  "description": "A production-ready Python monitoring bot that tracks Aurora Romania's retail network expansion and generates operational intelligence.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sophiamandryk/aurora_romania_map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sophiamandryk/aurora_romania_map/issues"
+  },
+  "homepage": "https://github.com/Sophiamandryk/aurora_romania_map#readme",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}
