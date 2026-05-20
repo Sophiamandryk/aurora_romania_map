@@ -16,4 +16,5 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: false,
   },
+  base: '/aurora_romania_map/',
 })

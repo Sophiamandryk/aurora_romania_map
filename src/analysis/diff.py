@@ -25,6 +25,13 @@ CHANGE_TYPES = [
     "NEW_STORE_FORMAT",
 ]
 
+# Signal classes used in city index (not stored as change_types)
+# aurora_confirmed  — direct Aurora Multimarket source
+# aurora_context    — Aurora is mentioned but signal is not city-specific or is a venue name
+# competitor        — competitor brand signal
+# generic_market    — general retail market signal
+# weak              — noise / unclassifiable
+
 
 def haversine(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """Return distance in meters between two lat/lon points."""
@@ -211,6 +218,81 @@ GENERIC_RETAIL_KEYWORDS = {
 
 AURORA_SOURCE_DOMAINS = {"aurora-retail.com", "instagram.com/aurora", "aurora.multimarket"}
 
+# Venue names that happen to contain "Aurora" but are NOT the Aurora Multimarket brand
+_AURORA_VENUE_KEYWORDS = {"aurora retail park", "aurora mall"}
+# Keywords unambiguously referring to the Aurora Multimarket brand
+_AURORA_BRAND_KEYWORDS = {"aurora multimarket", "avrora multimarket"}
+# Companies that are never Aurora Multimarket signals
+_NON_AURORA_BRAND_COMPANIES = {"altex", "cometex"}
+
+# Job board domains/sources where multi-city listings are common
+_JOB_BOARD_DOMAINS = ("ejobs.ro", "bestjobs", "hipo.ro", "linkedin.com")
+_JOB_BOARD_SOURCES = {"linkedin"}
+# Max cities on a single signal before it's treated as context, not city-specific evidence
+_MULTI_CITY_THRESHOLD = 2
+
+
+def _is_aurora_venue_false_positive(signal: dict) -> bool:
+    """
+    True when the signal is about a venue *named* Aurora (retail park, mall, Altex location)
+    rather than the Aurora Multimarket brand itself.
+    Returns False immediately if 'Aurora Multimarket' is explicitly present.
+    """
+    text = (
+        f"{signal.get('title', '')} {signal.get('url', '')} {signal.get('excerpt', '')}"
+    ).lower()
+    company = signal.get("company", "").lower()
+
+    # Explicit brand mention overrides venue heuristics
+    if any(kw in text for kw in _AURORA_BRAND_KEYWORDS):
+        return False
+    # Company is a non-Aurora retailer (Altex store inside Aurora Retail Park, etc.)
+    if any(kw in company for kw in _NON_AURORA_BRAND_COMPANIES):
+        return True
+    # URL or title refers to a venue named Aurora
+    if any(kw in text for kw in _AURORA_VENUE_KEYWORDS):
+        return True
+    return False
+
+
+def _is_multi_city_job(signal: dict, n_cities: int) -> bool:
+    """True when a job board signal lists more than _MULTI_CITY_THRESHOLD cities."""
+    if n_cities <= _MULTI_CITY_THRESHOLD:
+        return False
+    source = signal.get("source", "").lower()
+    url = signal.get("url", "").lower()
+    return source in _JOB_BOARD_SOURCES or any(d in url for d in _JOB_BOARD_DOMAINS)
+
+
+def _is_qualifying_aurora_signal(sig: dict) -> bool:
+    """
+    True when an aurora_confirmed signal is city-specific enough to drive a prediction.
+
+    Qualifying signals:
+      - Official Aurora sources (aurora_news, instagram, aurora_map, aurora-retail.com)
+      - Web articles that explicitly name Aurora Multimarket in title/excerpt
+      - Job postings from job boards with <= MULTI_CITY_THRESHOLD cities mentioned
+    Disqualified:
+      - Job board search/result pages listing many Romanian cities at once
+      - Venue false positives (handled upstream in classify_signal)
+    """
+    source = sig.get("source", "")
+    url = sig.get("url", "").lower()
+    n_cities = len(sig.get("cities_mentioned", []))
+
+    if source in ("aurora_news", "instagram", "aurora_map"):
+        return True
+    if "aurora-retail.com" in url:
+        return True
+
+    is_job = source in _JOB_BOARD_SOURCES or any(d in url for d in _JOB_BOARD_DOMAINS)
+    if is_job:
+        return n_cities <= _MULTI_CITY_THRESHOLD
+
+    # Other web signals: require explicit Aurora Multimarket brand mention
+    text = f"{sig.get('title', '')} {sig.get('excerpt', '')}".lower()
+    return any(kw in text for kw in _AURORA_BRAND_KEYWORDS)
+
 
 def classify_signal(signal: dict) -> str:
     """
@@ -227,19 +309,25 @@ def classify_signal(signal: dict) -> str:
     source = signal.get("source", "").lower()
     url = signal.get("url", "").lower()
 
+    # Priority 0: venue false positives — "Aurora Retail Park", Altex, etc.
+    if _is_aurora_venue_false_positive(signal):
+        logger.debug(f"generic_market (Aurora venue false positive): {signal.get('title','')[:60]}")
+        return "generic_market"
+
     # Use pre-computed 9-class label when available (from web/retail intel)
     nine_class = signal.get("signal_class") or signal.get("signal_category") or \
                  (signal.get("signals") or {}).get("signal_category")
 
     if nine_class:
-        if nine_class in ("aurora_confirmed",):
+        if nine_class == "aurora_confirmed":
             logger.debug(f"aurora_confirmed via 9-class: {signal.get('title','')[:60]}")
             return "aurora_confirmed"
         if nine_class == "aurora_mentioned":
-            # aurora_mentioned — treat as aurora_confirmed for prediction purposes
-            logger.debug(f"aurora_confirmed via aurora_mentioned: {signal.get('title','')[:60]}")
-            return "aurora_confirmed"
-        if nine_class in ("competitor_expansion",):
+            # aurora_mentioned: Aurora referenced but not city-specific expansion evidence.
+            # Treated as context only — does NOT drive predictions on its own.
+            logger.debug(f"aurora_context via aurora_mentioned: {signal.get('title','')[:60]}")
+            return "aurora_context"
+        if nine_class == "competitor_expansion":
             return "competitor"
         if nine_class == "noise":
             return "weak"
@@ -325,9 +413,15 @@ def merge_intelligence_signals(
     CitySignals = dict[str, dict[str, list[dict]]]
 
     def _add_to_index(index: CitySignals, cities: list[str], entry: dict, sig_class: str):
+        n_cities = len(cities)
         for city in cities:
             ck = city.lower().strip()
-            index.setdefault(ck, {}).setdefault(sig_class, []).append(entry)
+            # Downgrade multi-city job listings: they show national market context,
+            # not city-specific Aurora expansion intent.
+            effective = sig_class
+            if sig_class == "aurora_confirmed" and _is_multi_city_job(entry, n_cities):
+                effective = "aurora_context"
+            index.setdefault(ck, {}).setdefault(effective, []).append(entry)
 
     city_index: CitySignals = {}
 
@@ -359,22 +453,27 @@ def merge_intelligence_signals(
         if city_key in confirmed_cities:
             continue
 
-        aurora_signals = signals_by_class.get("aurora_confirmed", [])
+        aurora_signals   = signals_by_class.get("aurora_confirmed", [])
+        context_signals  = signals_by_class.get("aurora_context", [])
         competitor_signals = signals_by_class.get("competitor", [])
-        generic_signals = signals_by_class.get("generic_market", [])
-        weak_signals = signals_by_class.get("weak", [])
+        generic_signals  = signals_by_class.get("generic_market", [])
 
-        has_aurora = len(aurora_signals) > 0
         has_support = len(competitor_signals) + len(generic_signals) > 0
 
-        if not aurora_signals and not competitor_signals and not generic_signals:
+        if not aurora_signals and not context_signals and not competitor_signals and not generic_signals:
             continue  # only weak signals — skip entirely
 
-        # ── POSSIBLE_FUTURE_OPENING: must have Aurora-specific evidence ───────
-        if has_aurora:
-            # Confidence: Aurora map > Aurora news > Instagram > weak
+        # A prediction requires at least one qualifying aurora_confirmed signal:
+        # - official source / direct article, OR
+        # - city-specific job posting (<=2 cities mentioned)
+        qualifying_aurora = [s for s in aurora_signals if _is_qualifying_aurora_signal(s)]
+        has_qualifying_aurora = len(qualifying_aurora) > 0
+
+        # ── POSSIBLE_FUTURE_OPENING: city needs manual verification ──────────
+        if has_qualifying_aurora:
             score = 0.0
-            score += len(aurora_signals) * 0.25
+            score += len(qualifying_aurora) * 0.25
+            score += len(aurora_signals) * 0.05       # non-qualifying Aurora context
             score += len(competitor_signals) * 0.05   # supporting context
             score += len(generic_signals) * 0.02
             score = min(score, 0.90)
@@ -382,8 +481,8 @@ def merge_intelligence_signals(
             aurora_predictions += 1
             logger.info(
                 f"POSSIBLE_FUTURE_OPENING [{city_key.title()}] "
-                f"aurora={len(aurora_signals)} comp={len(competitor_signals)} "
-                f"generic={len(generic_signals)} score={score:.2f}"
+                f"qualifying={len(qualifying_aurora)} aurora={len(aurora_signals)} "
+                f"comp={len(competitor_signals)} generic={len(generic_signals)} score={score:.2f}"
             )
             results.append({
                 "change_type": "POSSIBLE_FUTURE_OPENING",
@@ -395,10 +494,10 @@ def merge_intelligence_signals(
                     "aurora_signals": aurora_signals,
                     "competitor_signals": competitor_signals,
                     "generic_signals": generic_signals,
-                    "job_count": len(aurora_signals),
-                    "job_titles": list({e["title"] for e in aurora_signals}),
+                    "job_count": len(qualifying_aurora),
+                    "job_titles": list({e["title"] for e in qualifying_aurora}),
                     "news_count": sum(
-                        1 for e in aurora_signals if e["source"] in ("aurora_news",)
+                        1 for e in qualifying_aurora if e["source"] in ("aurora_news",)
                     ),
                 },
                 "store": None,

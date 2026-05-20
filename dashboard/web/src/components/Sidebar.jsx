@@ -79,7 +79,10 @@ export default function Sidebar({ layers, overlays, filters, onLayer, onOverlay,
 }
 
 function capBrand(key) {
-  return { aurora: 'Aurora', pepco: 'Pepco', tedi: 'TEDi', kik: 'KiK', action: 'Action' }[key] ?? key
+  return {
+    aurora: 'Aurora', pepco: 'Pepco', tedi: 'TEDi', kik: 'KiK', action: 'Action',
+    profi: 'Profi', penny: 'Penny', mrdiy: 'MrDIY',
+  }[key] ?? key
 }
 
 function Section({ title, children }) {
@@ -136,6 +139,9 @@ function Legend() {
     { color: '#FF9800', label: 'TEDi' },
     { color: '#42A5F5', label: 'KiK' },
     { color: '#AB47BC', label: 'Action' },
+    { color: '#66BB6A', label: 'Profi' },
+    { color: '#EF9A9A', label: 'Penny' },
+    { color: '#FFD54F', label: 'Mr.DIY' },
     { color: '#FFC107', label: 'White-space (немає Aurora)', shape: 'diamond' },
     { color: '#E91E63', label: 'Можливе відкриття Aurora', shape: 'star' },
   ]

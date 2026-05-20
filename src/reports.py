@@ -127,15 +127,47 @@ def _fmt_evidence_row(sig: dict) -> str:
     return f"  - **{title}** | джерело: `{source}` | клас: `{sig_class}`{co_tag}{city_tag}{link}"
 
 
+def _has_qualifying_evidence(pred: dict) -> bool:
+    """True if prediction has at least one direct/city-specific Aurora signal."""
+    for sig in pred.get("evidence", {}).get("aurora_signals", []):
+        source = sig.get("source", "")
+        url = sig.get("url", "").lower()
+        n_cities = len(sig.get("cities_mentioned", []))
+        if source in ("aurora_news", "instagram", "aurora_map"):
+            return True
+        if "aurora-retail.com" in url:
+            return True
+        is_job = source in ("linkedin",) or any(
+            d in url for d in ("ejobs.ro", "bestjobs", "hipo.ro")
+        )
+        if is_job and n_cities <= 2:
+            return True
+        text = f"{sig.get('title', '')} {sig.get('excerpt', '')}".lower()
+        if any(kw in text for kw in ("aurora multimarket", "avrora multimarket")):
+            return True
+    return False
+
+
 def _section_aurora_predictions(predictions: list[dict]) -> str:
     aurora_preds = [
         p for p in predictions
         if p.get("change_type") == "POSSIBLE_FUTURE_OPENING" and p.get("aurora_specific")
     ]
     if not aurora_preds:
-        return "Сигналів майбутніх відкриттів Aurora сьогодні не виявлено.\n"
+        return "Сигналів для перевірки Aurora сьогодні не виявлено.\n"
 
-    sorted_preds = sorted(aurora_preds, key=lambda x: x.get("confidence", {}).get("score", 0), reverse=True)
+    # Only show predictions that have qualifying (city-specific / direct) evidence
+    qualifying_preds = [p for p in aurora_preds if _has_qualifying_evidence(p)]
+    weak_count = len(aurora_preds) - len(qualifying_preds)
+
+    if not qualifying_preds:
+        return (
+            f"_{len(aurora_preds)} міст мають Aurora-контекст, але всі сигнали базуються "
+            f"на загальних або багатомістових джерелах (вакансії, ЗМІ). "
+            f"Перегляньте розділ «Ринкова активність» для деталей._\n"
+        )
+
+    sorted_preds = sorted(qualifying_preds, key=lambda x: x.get("confidence", {}).get("score", 0), reverse=True)
     lines = []
     for p in sorted_preds:
         city = p.get("city", "Невідомо")
@@ -165,6 +197,13 @@ def _section_aurora_predictions(predictions: list[dict]) -> str:
             for sig in generic_signals[:3]:
                 lines.append(_fmt_evidence_row(sig))
 
+        lines.append("")
+
+    if weak_count > 0:
+        lines.append(
+            f"_+ {weak_count} міст із загальними/багатомістовими сигналами — "
+            f"не включені (недостатньо специфічних доказів Aurora)._"
+        )
         lines.append("")
 
     return "\n".join(lines)
@@ -899,7 +938,7 @@ def generate_daily_report(
         f"| Активних магазинів Aurora | {total_stores} |",
         f"| Нових магазинів виявлено | {new_count} |",
         f"| Можливих закриттів | {removed_count} |",
-        f"| Прогнозів відкриттів Aurora | {aurora_pred_count} |",
+        f"| Міст для ручної перевірки | {aurora_pred_count} |",
         f"| Сигналів ринкової активності | {market_signal_count} |",
         f"| Змін на мапі | {len(map_changes)} |",
         f"| Проаналізовано вакансій | {len(jobs)} |",
@@ -927,7 +966,7 @@ def generate_daily_report(
         "",
         "---",
         "",
-        "## Прогнози Відкриттів Aurora",
+        "## Міста для Перевірки (Aurora-сигнали)",
         "",
         _section_aurora_predictions(future_openings),
         "",

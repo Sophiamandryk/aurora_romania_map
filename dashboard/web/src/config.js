@@ -41,6 +41,30 @@ export const BRANDS = {
     size:    10,
     zIndex:  870,
   },
+  profi: {
+    key:     'profi',
+    name:    'Profi',
+    color:   '#1B5E20',
+    fill:    '#66BB6A',
+    size:    10,
+    zIndex:  860,
+  },
+  penny: {
+    key:     'penny',
+    name:    'Penny',
+    color:   '#B71C1C',
+    fill:    '#EF9A9A',
+    size:    10,
+    zIndex:  850,
+  },
+  mrdiy: {
+    key:     'mrdiy',
+    name:    'Mr.DIY',
+    color:   '#F57F17',
+    fill:    '#FFD54F',
+    size:    10,
+    zIndex:  840,
+  },
 }
 
 export const ROMANIA_CENTER = [45.9432, 24.9668]

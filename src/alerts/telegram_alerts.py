@@ -3,6 +3,7 @@ Telegram alert system.
 Sends formatted alerts for store changes and daily summaries.
 """
 import json
+import re
 import time
 from datetime import date
 from typing import Optional
@@ -345,7 +346,7 @@ class TelegramBot:
             logger.warning("Telegram not configured — alerts will be logged only")
 
     @retry(stop=stop_after_attempt(MAX_RETRIES), wait=wait_exponential(multiplier=1, min=2, max=10))
-    def _send(self, text: str, parse_mode: str = "Markdown") -> bool:
+    def _send(self, text: str, parse_mode: str = "Markdown", disable_preview: bool = False) -> bool:
         if not self.enabled:
             logger.info(f"[Telegram MOCK] {text[:100]}...")
             return True
@@ -355,7 +356,7 @@ class TelegramBot:
                 "chat_id": self.chat_id,
                 "text": text,
                 "parse_mode": parse_mode,
-                "disable_web_page_preview": False,
+                "disable_web_page_preview": disable_preview,
             },
             timeout=REQUEST_TIMEOUT,
         )
@@ -522,11 +523,86 @@ def send_alerts(changes: list[dict], jobs: list[dict] = None,
                 news: list[dict] = None, instagram_posts: list[dict] = None) -> list[int]:
     bot = TelegramBot()
     alerted_ids = bot.send_alerts_batch(changes, jobs=jobs, news=news)
-    if instagram_posts:
-        send_instagram_alerts(instagram_posts)
+    # Per-post Instagram signal alerts disabled — only the daily digest is sent
     return alerted_ids
 
 
 def send_daily_summary(executive_summary: str) -> bool:
     bot = TelegramBot()
     return bot.send_daily_summary(executive_summary)
+
+
+def _format_narrative(narrative: str) -> str:
+    # Strip AI-generated header prefixes like "[20.05.2026 15:50] АВРОРА РУМУНІЯ: "
+    narrative = re.sub(r'^\s*\[[\d./:,\s]+\][^\n]*\n*', '', narrative).strip()
+
+    # Ensure double newlines between paragraphs
+    narrative = re.sub(r'\n+', '\n\n', narrative)
+
+    # Convert (url) → ([пост](url))
+    narrative = re.sub(r'\((https?://[^\s)]+)\)', r'([пост](\1))', narrative)
+    # Convert any remaining bare url (not already inside a markdown link) → [пост](url)
+    narrative = re.sub(r'(?<!\]\()(https?://[^\s)]+)', r'[пост](\1)', narrative)
+
+    return narrative
+
+
+def send_social_batch_alert(analysis: dict) -> bool:
+    """
+    Send one daily Telegram message with the Ukrainian narrative Instagram briefing.
+    Skips if no narrative was generated (all posts were noise).
+    """
+    if not analysis:
+        return False
+
+    narrative = _format_narrative((analysis.get("daily_narrative") or "").strip())
+    if not narrative:
+        logger.info("Social batch alert skipped: no narrative generated (all posts noise)")
+        return False
+
+    msg = f"📸 *Instagram-дайджест — {date.today().isoformat()}*\n\n{narrative}"
+
+    bot = TelegramBot()
+    try:
+        # disable_preview=True because the narrative contains multiple post URLs
+        result = bot._send(msg, disable_preview=True)
+        relevant_count = sum(1 for p in analysis.get("posts", []) if p.get("is_relevant"))
+        total = analysis.get("post_count", len(analysis.get("posts", [])))
+        logger.info(f"Daily Instagram narrative sent ({relevant_count} relevant of {total} posts)")
+        return result
+    except Exception as e:
+        logger.error(f"Failed to send daily Instagram narrative: {e}")
+        return False
+
+
+def send_social_signal_alerts(posts: list[dict]) -> int:
+    """
+    Send a Telegram alert for each social post that matched signal keywords.
+    Returns the number of alerts sent.
+    """
+    bot = TelegramBot()
+    sent = 0
+    for post in posts:
+        keywords = post.get("keywords_matched", [])
+        if not keywords:
+            continue
+        competitor = post.get("competitor", "?")
+        caption    = (post.get("caption") or "")[:200]
+        post_url   = post.get("post_url", "")
+        kw_str     = ", ".join(keywords[:5])
+
+        msg = (
+            f"📸 *Instagram signal — {competitor}*\n"
+            f"🔍 {caption}\n"
+            f"🔗 {post_url}\n"
+            f"❗ *Keywords matched:* {kw_str}"
+        )
+        try:
+            bot._send(msg)
+            sent += 1
+            time.sleep(0.5)
+        except Exception as e:
+            logger.error(f"Failed to send social signal alert for {competitor}: {e}")
+
+    logger.info(f"Social signal alerts sent: {sent}")
+    return sent

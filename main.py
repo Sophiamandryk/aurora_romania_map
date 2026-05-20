@@ -131,6 +131,58 @@ def run_pipeline(
             logger.error(f"Competitor scraping failed: {e}")
     competitor_stores = competitor_stores or load_competitor_stores()
 
+    # ── Step 5b: Apify Instagram scrape + AI batch analysis ──────────────────
+    social_posts: list[dict] = []
+    if not skip_instagram:
+        from src.config import APIFY_TOKEN
+        if not APIFY_TOKEN:
+            logger.warning("APIFY_TOKEN not set — skipping Apify Instagram scrape")
+        else:
+            logger.info("[5b] Scraping Instagram via Apify + AI analysis")
+            try:
+                from datetime import date as _date
+                from src.scrapers.instagram_scraper import scrape_instagram_apify
+                from src.storage.sqlite_store import get_known_post_urls, save_social_posts
+                social_posts = scrape_instagram_apify()
+                if social_posts:
+                    # Deduplication: snapshot known URLs before saving (bypass on 2026-05-20)
+                    _DEDUP_START = "2026-05-21"
+                    if _date.today().isoformat() >= _DEDUP_START:
+                        known_urls = get_known_post_urls()
+                        new_social_posts = [p for p in social_posts if p["post_url"] not in known_urls]
+                    else:
+                        new_social_posts = social_posts  # testing day — no dedup
+
+                    if not dry_run:
+                        new_count = save_social_posts(social_posts)
+                        logger.info(f"Apify Instagram: {len(social_posts)} fetched, {new_count} new, {len(new_social_posts)} for analysis")
+                    else:
+                        logger.info(f"Apify Instagram: {len(social_posts)} fetched (dry-run), {len(new_social_posts)} for analysis")
+
+                    if not new_social_posts:
+                        logger.info("Instagram: no new posts since last run — skipping analysis")
+                        if not skip_alerts:
+                            from src.alerts.telegram_alerts import TelegramBot
+                            TelegramBot()._send(
+                                f"📸 Instagram-дайджест — {_date.today().isoformat()}\n"
+                                "Нових постів за сьогодні не знайдено.",
+                                disable_preview=True,
+                            )
+                    else:
+                        # AI batch analysis on new posts only
+                        from src.analysis.social_analyzer import analyze_social_batch
+                        analysis = analyze_social_batch(new_social_posts)
+                        if analysis:
+                            if not dry_run:
+                                from src.storage.sqlite_store import save_batch_analysis, update_social_posts_ai
+                                save_batch_analysis(analysis)
+                                update_social_posts_ai(analysis.get("posts", []))
+                            if not skip_alerts:
+                                from src.alerts.telegram_alerts import send_social_batch_alert
+                                send_social_batch_alert(analysis)
+            except Exception as e:
+                logger.error(f"Apify Instagram + AI analysis failed: {e}")
+
     # ── Step 6: Diff & Analysis ───────────────────────────────────────────────
     logger.info("[6/7] Running diff and analysis")
     previous_stores = load_previous_snapshot()
@@ -230,9 +282,8 @@ def run_pipeline(
     )
 
     if not skip_alerts:
-        from src.alerts.telegram_alerts import send_daily_summary
         from src.analysis.executive_summary import generate_executive_summary
-        exec_summary = generate_executive_summary(
+        generate_executive_summary(
             data={
                 "changes": enriched,
                 "future_openings": future_openings,
@@ -247,7 +298,7 @@ def run_pipeline(
             },
             report_path=str(report_path),
         )
-        send_daily_summary(exec_summary)
+        # daily executive summary Telegram send disabled — Instagram digest is the only daily message
 
     # Google Sheets export
     if not skip_sheets and not dry_run:
@@ -395,6 +446,7 @@ Examples:
             city_market_scores=[],
         )
         print(f"Report generated: {path}")
+
 
 
 if __name__ == "__main__":

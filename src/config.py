@@ -25,6 +25,7 @@ LINKEDIN_COOKIE = os.getenv("LINKEDIN_COOKIE", "")
 INSTAGRAM_SESSION = os.getenv("INSTAGRAM_SESSION", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+APIFY_TOKEN = os.getenv("APIFY_TOKEN", "")
 
 HEADLESS = os.getenv("HEADLESS", "true").lower() == "true"
 REQUEST_DELAY = float(os.getenv("REQUEST_DELAY", "2"))
@@ -43,16 +44,23 @@ AURORA_INSTAGRAM_URL = "https://www.instagram.com/aurora.multimarket/"
 AURORA_LINKEDIN_URL = "https://www.linkedin.com/company/aurora-multimarket-romania/"
 
 COMPETITOR_INSTAGRAM_PROFILES: dict[str, str] = {
-    "Pepco": "pepco_ro",
-    "KiK": "kik.romania",
+    "Pepco":  "pepco_ro",
+    "KiK":    "kik.romania",
     "Action": "actionromania",
+    "Penny":  "pennyromania",
+    "Profi":  "profi.ro",
+    "TEDi":   "tedi_romania_",
+    "MrDIY":  "mrdiyRO",
 }
 
 COMPETITOR_URLS = {
-    "Pepco": "https://pepco.ro/store-locator",
-    "TEDi": "https://www.tedi.com/ro/cautare-filiala",
-    "KiK": "https://companie.kik.ro/localizare-magazin",
+    "Pepco":  "https://pepco.ro/store-locator",
+    "TEDi":   "https://www.tedi.com/ro/cautare-filiala",
+    "KiK":    "https://companie.kik.ro/localizare-magazin",
     "Action": "https://www.action.com/nl-nl/winkels/",
+    "Profi":  "https://www.profi.ro/magazine",        # Cloudflare-blocked; scraped via OpenStreetMap Overpass
+    "Penny":  "https://www.penny.ro/magazinul-meu",   # JSON API: penny.ro/api/stores
+    "MrDIY":  "https://www.mrdiy.com/ro/storelocator",  # Stores embedded in HTML page
 }
 
 ROMANIAN_JOB_BOARDS = [

@@ -203,7 +203,10 @@ export default function MapView({ layers, overlays, filters, data }) {
     brandLayers.current.aurora = auroraCluster
 
     // ── Competitors ──────────────────────────────────────────────────────────
-    const brandKeyMap = { Pepco: 'pepco', TEDi: 'tedi', KiK: 'kik', Action: 'action' }
+    const brandKeyMap = {
+      Pepco: 'pepco', TEDi: 'tedi', KiK: 'kik', Action: 'action',
+      Profi: 'profi', Penny: 'penny', MrDIY: 'mrdiy',
+    }
     for (const [brand, stores] of Object.entries(data.competitors ?? {})) {
       const key = brandKeyMap[brand] ?? brand.toLowerCase()
       const cfg = BRANDS[key]

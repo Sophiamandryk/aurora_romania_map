@@ -26,20 +26,34 @@ def _connect():
 def monthly_opening_counts(months_back: int = 6) -> list[dict]:
     """
     Returns [{month: "2026-04", openings: 5, closures: 1}, ...] sorted ascending.
-    """
-    cutoff = (datetime.now() - timedelta(days=months_back * 30)).date().isoformat()
-    sql = """
-        SELECT
-            substr(detected_date, 1, 7) AS month,
-            SUM(CASE WHEN change_type = 'NEW_STORE'     THEN 1 ELSE 0 END) AS openings,
-            SUM(CASE WHEN change_type = 'REMOVED_STORE' THEN 1 ELSE 0 END) AS closures
-        FROM changes
-        WHERE detected_date >= ?
-        GROUP BY month
-        ORDER BY month ASC
+    Returns [] if fewer than 2 distinct run-dates have NEW_STORE changes
+    (prevents counting all current stores as openings on a first/re-baseline run).
+    Uses DISTINCT store_id per month to avoid counting the same store multiple times.
     """
     conn = _connect()
     try:
+        # Guard: require 2+ distinct dates with actual new-store events
+        run_count = conn.execute(
+            "SELECT COUNT(DISTINCT substr(detected_date, 1, 10)) FROM changes "
+            "WHERE change_type = 'NEW_STORE' AND store_id IS NOT NULL AND store_id != ''"
+        ).fetchone()[0] or 0
+        if run_count < 2:
+            return []
+
+        cutoff = (datetime.now() - timedelta(days=months_back * 30)).date().isoformat()
+        sql = """
+            SELECT
+                substr(detected_date, 1, 7) AS month,
+                COUNT(DISTINCT CASE WHEN change_type = 'NEW_STORE'
+                      THEN coalesce(store_id, detected_date || city) END) AS openings,
+                COUNT(DISTINCT CASE WHEN change_type = 'REMOVED_STORE'
+                      THEN coalesce(store_id, detected_date || city) END) AS closures
+            FROM changes
+            WHERE detected_date >= ?
+              AND change_type IN ('NEW_STORE', 'REMOVED_STORE')
+            GROUP BY month
+            ORDER BY month ASC
+        """
         rows = conn.execute(sql, (cutoff,)).fetchall()
         return [dict(r) for r in rows]
     finally:

@@ -10,6 +10,9 @@ const initialLayers = {
   tedi:   true,
   kik:    true,
   action: true,
+  profi:  true,
+  penny:  true,
+  mrdiy:  true,
 }
 
 const initialOverlays = {
@@ -58,8 +61,7 @@ export default function App() {
 
       {error && (
         <div style={styles.error}>
-          ⚠️ API error: {error} — is the backend running?{' '}
-          <code>uvicorn dashboard.api:app --reload --port 8000</code>
+          ⚠️ Failed to load data: {error}
         </div>
       )}
 

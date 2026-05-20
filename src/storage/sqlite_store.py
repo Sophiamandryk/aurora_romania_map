@@ -146,10 +146,53 @@ CREATE TABLE IF NOT EXISTS competitor_stores (
     UNIQUE(brand, latitude, longitude)
 );
 
+CREATE TABLE IF NOT EXISTS social_posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    competitor TEXT NOT NULL,
+    platform TEXT NOT NULL DEFAULT 'instagram',
+    post_url TEXT UNIQUE NOT NULL,
+    caption TEXT DEFAULT '',
+    likes INTEGER DEFAULT 0,
+    comments INTEGER DEFAULT 0,
+    posted_at TEXT DEFAULT '',
+    scraped_at TEXT NOT NULL,
+    is_own INTEGER DEFAULT 0,
+    keywords_matched TEXT DEFAULT '[]',
+    is_relevant INTEGER DEFAULT 0,
+    relevance_score INTEGER DEFAULT 0,
+    aurora_relevance_reason TEXT DEFAULT '',
+    ai_analyzed_at TEXT DEFAULT '',
+    created_at TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS batch_analyses (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_date TEXT NOT NULL,
+    post_count INTEGER DEFAULT 0,
+    relevant_count INTEGER DEFAULT 0,
+    patterns_json TEXT DEFAULT '[]',
+    top_signals_json TEXT DEFAULT '[]',
+    competitor_activity_json TEXT DEFAULT '{}',
+    aurora_recommendations TEXT DEFAULT '',
+    analyzed_at TEXT DEFAULT '',
+    created_at TEXT DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS weekly_digests (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    week_start TEXT NOT NULL UNIQUE,
+    digest_text TEXT NOT NULL,
+    post_count INTEGER DEFAULT 0,
+    created_at TEXT DEFAULT (datetime('now'))
+);
+
 CREATE INDEX IF NOT EXISTS idx_stores_date ON stores(snapshot_date);
 CREATE INDEX IF NOT EXISTS idx_changes_date ON changes(detected_date);
 CREATE INDEX IF NOT EXISTS idx_changes_alerted ON changes(alerted);
 CREATE INDEX IF NOT EXISTS idx_competitors_brand ON competitor_stores(brand);
+CREATE INDEX IF NOT EXISTS idx_social_posts_scraped ON social_posts(scraped_at);
+CREATE INDEX IF NOT EXISTS idx_social_posts_competitor ON social_posts(competitor);
+CREATE INDEX IF NOT EXISTS idx_batch_analyses_date ON batch_analyses(run_date);
 """
 
 
@@ -196,6 +239,16 @@ def init_db(db_path: Path = DB_PATH) -> None:
             if col not in existing_ig:
                 conn.execute(f"ALTER TABLE instagram_posts ADD COLUMN {col} {typedef}")
                 logger.info(f"Migration: added column instagram_posts.{col}")
+        existing_sp = {row[1] for row in conn.execute("PRAGMA table_info(social_posts)").fetchall()}
+        for col, typedef in [
+            ("is_relevant", "INTEGER DEFAULT 0"),
+            ("relevance_score", "INTEGER DEFAULT 0"),
+            ("aurora_relevance_reason", "TEXT DEFAULT ''"),
+            ("ai_analyzed_at", "TEXT DEFAULT ''"),
+        ]:
+            if col not in existing_sp:
+                conn.execute(f"ALTER TABLE social_posts ADD COLUMN {col} {typedef}")
+                logger.info(f"Migration: added column social_posts.{col}")
     logger.info(f"Database initialized: {db_path}")
 
 
@@ -529,3 +582,144 @@ def load_competitor_stores() -> dict[str, list[dict]]:
         brand = d["brand"]
         result.setdefault(brand, []).append(d)
     return result
+
+
+# ── Social posts (Apify Instagram) ───────────────────────────────────────────
+
+def get_known_post_urls() -> set:
+    """Return all post_url values already stored in social_posts."""
+    with _connect() as conn:
+        rows = conn.execute("SELECT post_url FROM social_posts").fetchall()
+    return {r[0] for r in rows}
+
+
+def save_social_posts(posts: list[dict]) -> int:
+    """
+    Insert social posts fetched from Apify. Deduplicates by post_url.
+    Returns the number of newly inserted rows.
+    """
+    inserted = 0
+    with _connect() as conn:
+        for p in posts:
+            try:
+                cur = conn.execute(
+                    """INSERT OR IGNORE INTO social_posts
+                       (competitor, platform, post_url, caption, likes, comments,
+                        posted_at, scraped_at, is_own, keywords_matched)
+                       VALUES (?,?,?,?,?,?,?,?,?,?)""",
+                    (
+                        p.get("competitor", ""),
+                        p.get("platform", "instagram"),
+                        p["post_url"],
+                        p.get("caption", ""),
+                        p.get("likes", 0),
+                        p.get("comments", 0),
+                        p.get("posted_at", ""),
+                        p.get("scraped_at", datetime.utcnow().isoformat()),
+                        1 if p.get("is_own") else 0,
+                        json.dumps(p.get("keywords_matched", [])),
+                    ),
+                )
+                if cur.lastrowid and cur.rowcount:
+                    inserted += 1
+            except Exception as e:
+                logger.debug(f"social_posts insert skipped ({p.get('post_url','')}): {e}")
+    logger.info(f"Saved {inserted} new social posts (of {len(posts)} provided)")
+    return inserted
+
+
+def load_recent_social_posts(days: int = 7) -> list[dict]:
+    cutoff = (datetime.now() - timedelta(days=days)).isoformat()
+    with _connect() as conn:
+        rows = conn.execute(
+            "SELECT * FROM social_posts WHERE scraped_at >= ? ORDER BY scraped_at DESC",
+            (cutoff,),
+        ).fetchall()
+    result = []
+    for r in rows:
+        d = dict(r)
+        d["keywords_matched"] = json.loads(d.get("keywords_matched") or "[]")
+        d["is_own"] = bool(d.get("is_own"))
+        d["is_relevant"] = bool(d.get("is_relevant"))
+        result.append(d)
+    return result
+
+
+# ── Batch analyses (AI social post analysis) ──────────────────────────────────
+
+def save_batch_analysis(analysis: dict, run_date: str = None) -> int:
+    """Save an AI batch analysis result. Returns the new row id."""
+    run_date = run_date or date.today().isoformat()
+    relevant_count = sum(1 for p in analysis.get("posts", []) if p.get("is_relevant"))
+    with _connect() as conn:
+        cur = conn.execute(
+            """INSERT INTO batch_analyses
+               (run_date, post_count, relevant_count, patterns_json, top_signals_json,
+                competitor_activity_json, aurora_recommendations, analyzed_at)
+               VALUES (?,?,?,?,?,?,?,?)""",
+            (
+                run_date,
+                analysis.get("post_count", len(analysis.get("posts", []))),
+                relevant_count,
+                json.dumps(analysis.get("patterns", [])),
+                json.dumps(analysis.get("top_signals", [])),
+                json.dumps(analysis.get("competitor_activity", {})),
+                analysis.get("aurora_recommendations", ""),
+                analysis.get("analyzed_at", ""),
+            ),
+        )
+        row_id = cur.lastrowid
+    logger.info(f"Saved batch analysis: {relevant_count} relevant of {analysis.get('post_count', 0)} posts")
+    return row_id
+
+
+def update_social_posts_ai(post_analyses: list[dict]) -> None:
+    """Update social_posts rows with AI relevance scores and reasons."""
+    updated = 0
+    with _connect() as conn:
+        for p in post_analyses:
+            cur = conn.execute(
+                """UPDATE social_posts
+                   SET is_relevant = ?, relevance_score = ?,
+                       aurora_relevance_reason = ?, ai_analyzed_at = ?
+                   WHERE post_url = ?""",
+                (
+                    1 if p.get("is_relevant") else 0,
+                    p.get("relevance_score", 0),
+                    p.get("aurora_relevance_reason", ""),
+                    datetime.utcnow().isoformat(),
+                    p.get("post_url", ""),
+                ),
+            )
+            updated += cur.rowcount
+    logger.info(f"Updated {updated} social posts with AI analysis")
+
+
+def load_recent_batch_analyses(days: int = 7) -> list[dict]:
+    cutoff = (datetime.now() - timedelta(days=days)).date().isoformat()
+    with _connect() as conn:
+        rows = conn.execute(
+            "SELECT * FROM batch_analyses WHERE run_date >= ? ORDER BY run_date DESC",
+            (cutoff,),
+        ).fetchall()
+    result = []
+    for r in rows:
+        d = dict(r)
+        d["patterns"] = json.loads(d.get("patterns_json") or "[]")
+        d["top_signals"] = json.loads(d.get("top_signals_json") or "[]")
+        d["competitor_activity"] = json.loads(d.get("competitor_activity_json") or "{}")
+        result.append(d)
+    return result
+
+
+# ── Weekly digests ─────────────────────────────────────────────────────────────
+
+def save_weekly_digest(digest: str, week_start: str, post_count: int = 0) -> None:
+    with _connect() as conn:
+        conn.execute(
+            """INSERT OR REPLACE INTO weekly_digests
+               (week_start, digest_text, post_count)
+               VALUES (?,?,?)""",
+            (week_start, digest, post_count),
+        )
+    logger.info(f"Saved weekly social digest for week starting {week_start}")
