@@ -23,6 +23,7 @@ def run_pipeline(
     skip_competitors: bool = False,
     skip_alerts: bool = False,
     skip_sheets: bool = False,
+    skip_brief: bool = False,
     dry_run: bool = False,
     baseline: bool = False,
 ) -> dict:
@@ -300,6 +301,19 @@ def run_pipeline(
         )
         # daily executive summary Telegram send disabled — Instagram digest is the only daily message
 
+    # ── Tavily daily brief ────────────────────────────────────────────────────
+    if not skip_brief:
+        from src.config import TAVILY_API_KEY
+        if not TAVILY_API_KEY:
+            logger.info("TAVILY_API_KEY not set — skipping daily brief")
+        else:
+            logger.info("[7b] Running Tavily daily brief")
+            try:
+                from src.analysis.daily_brief import run_daily_brief
+                run_daily_brief(dry_run=dry_run, skip_alerts=skip_alerts)
+            except Exception as e:
+                logger.error(f"Daily brief failed: {e}")
+
     # Google Sheets export
     if not skip_sheets and not dry_run:
         try:
@@ -382,6 +396,7 @@ Examples:
     parser.add_argument("--skip-competitors", action="store_true", help="Skip competitor scraping")
     parser.add_argument("--skip-alerts", action="store_true", help="Skip Telegram alerts")
     parser.add_argument("--skip-sheets", action="store_true", help="Skip Google Sheets export")
+    parser.add_argument("--skip-brief", action="store_true", help="Skip Tavily daily brief")
     parser.add_argument("--dry-run", action="store_true", help="No DB writes, no alerts")
     parser.add_argument("--baseline", action="store_true", help="Save snapshot without sending any alerts (use on first real run)")
     parser.add_argument("--daily", action="store_true", help="Run the daily brief (used with 'brief' command)")
@@ -413,6 +428,7 @@ Examples:
             skip_competitors=args.skip_competitors,
             skip_alerts=args.skip_alerts,
             skip_sheets=args.skip_sheets,
+            skip_brief=args.skip_brief,
             dry_run=args.dry_run,
             baseline=args.baseline,
         )
