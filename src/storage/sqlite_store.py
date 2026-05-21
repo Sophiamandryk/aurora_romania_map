@@ -174,9 +174,22 @@ CREATE TABLE IF NOT EXISTS batch_analyses (
     top_signals_json TEXT DEFAULT '[]',
     competitor_activity_json TEXT DEFAULT '{}',
     aurora_recommendations TEXT DEFAULT '',
+    daily_narrative TEXT DEFAULT '',
     analyzed_at TEXT DEFAULT '',
     created_at TEXT DEFAULT (datetime('now'))
 );
+
+CREATE TABLE IF NOT EXISTS daily_briefs (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    run_date TEXT NOT NULL,
+    headline TEXT DEFAULT '',
+    sections_json TEXT DEFAULT '[]',
+    top_actions_json TEXT DEFAULT '[]',
+    expansion_signal TEXT DEFAULT '',
+    analyzed_at TEXT DEFAULT '',
+    created_at TEXT DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_daily_briefs_date ON daily_briefs(run_date);
 
 CREATE TABLE IF NOT EXISTS weekly_digests (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -259,6 +272,10 @@ def init_db(db_path: Path = DB_PATH) -> None:
             if col not in existing_sp:
                 conn.execute(f"ALTER TABLE social_posts ADD COLUMN {col} {typedef}")
                 logger.info(f"Migration: added column social_posts.{col}")
+        existing_ba = {row[1] for row in conn.execute("PRAGMA table_info(batch_analyses)").fetchall()}
+        if "daily_narrative" not in existing_ba:
+            conn.execute("ALTER TABLE batch_analyses ADD COLUMN daily_narrative TEXT DEFAULT ''")
+            logger.info("Migration: added column batch_analyses.daily_narrative")
     logger.info(f"Database initialized: {db_path}")
 
 
@@ -665,8 +682,8 @@ def save_batch_analysis(analysis: dict, run_date: str = None) -> int:
         cur = conn.execute(
             """INSERT INTO batch_analyses
                (run_date, post_count, relevant_count, patterns_json, top_signals_json,
-                competitor_activity_json, aurora_recommendations, analyzed_at)
-               VALUES (?,?,?,?,?,?,?,?)""",
+                competitor_activity_json, aurora_recommendations, daily_narrative, analyzed_at)
+               VALUES (?,?,?,?,?,?,?,?,?)""",
             (
                 run_date,
                 analysis.get("post_count", len(analysis.get("posts", []))),
@@ -675,6 +692,7 @@ def save_batch_analysis(analysis: dict, run_date: str = None) -> int:
                 json.dumps(analysis.get("top_signals", [])),
                 json.dumps(analysis.get("competitor_activity", {})),
                 analysis.get("aurora_recommendations", ""),
+                analysis.get("daily_narrative", ""),
                 analysis.get("analyzed_at", ""),
             ),
         )
@@ -724,6 +742,42 @@ def load_recent_batch_analyses(days: int = 7) -> list[dict]:
 
 # ── Weekly digests ─────────────────────────────────────────────────────────────
 
+def save_daily_brief(analysis: dict, run_date: str = None) -> None:
+    """Persist the аналітичний бриф AI output so the presentation can reference it."""
+    run_date = run_date or date.today().isoformat()
+    with _connect() as conn:
+        conn.execute(
+            """INSERT INTO daily_briefs
+               (run_date, headline, sections_json, top_actions_json, expansion_signal, analyzed_at)
+               VALUES (?,?,?,?,?,?)""",
+            (
+                run_date,
+                analysis.get("headline", ""),
+                json.dumps(analysis.get("sections", []), ensure_ascii=False),
+                json.dumps(analysis.get("top_actions", []), ensure_ascii=False),
+                analysis.get("expansion_signal") or "",
+                datetime.utcnow().isoformat(),
+            ),
+        )
+    logger.info(f"Saved daily brief for {run_date}")
+
+
+def load_daily_brief(run_date: str = None) -> dict:
+    """Load the most recent аналітичний бриф for the given date."""
+    run_date = run_date or date.today().isoformat()
+    with _connect() as conn:
+        row = conn.execute(
+            "SELECT * FROM daily_briefs WHERE run_date = ? ORDER BY id DESC LIMIT 1",
+            (run_date,),
+        ).fetchone()
+    if not row:
+        return {}
+    d = dict(row)
+    d["sections"]    = json.loads(d.get("sections_json")    or "[]")
+    d["top_actions"] = json.loads(d.get("top_actions_json") or "[]")
+    return d
+
+
 def save_weekly_digest(digest: str, week_start: str, post_count: int = 0) -> None:
     with _connect() as conn:
         conn.execute(
@@ -771,3 +825,24 @@ def save_web_search_results(results: list[dict]) -> int:
                 logger.debug(f"web_search_results insert skipped ({r.get('url','')}): {e}")
     logger.info(f"Saved {inserted} new web search results (of {len(results)} provided)")
     return inserted
+
+
+def load_recent_web_search(days: int = 1, topics: list = None) -> list[dict]:
+    """Load recent Tavily web search results from DB. Optionally filter by query_topic list."""
+    cutoff = (datetime.now() - timedelta(days=days)).isoformat()
+    with _connect() as conn:
+        if topics:
+            placeholders = ",".join("?" * len(topics))
+            rows = conn.execute(
+                f"SELECT url, title, snippet, query_topic FROM web_search_results "
+                f"WHERE searched_at >= ? AND query_topic IN ({placeholders}) "
+                f"ORDER BY searched_at DESC",
+                [cutoff] + list(topics),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT url, title, snippet, query_topic FROM web_search_results "
+                "WHERE searched_at >= ? ORDER BY searched_at DESC",
+                (cutoff,),
+            ).fetchall()
+    return [{"url": r[0], "title": r[1], "snippet": r[2], "query_topic": r[3]} for r in rows]

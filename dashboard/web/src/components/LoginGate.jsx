@@ -7,6 +7,7 @@ const ALLOWED = new Set([
   'o.sabaniuk@avrora.ua',
   'o.sabaniuk.avrora@gmail.com',
   'mandryksofiya@gmail.com',
+  'mytrofanova.alona@gmail.com',
 ])
 
 function decodeJwt(token) {

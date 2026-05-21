@@ -133,7 +133,19 @@ def run_pipeline(
             logger.error(f"Competitor scraping failed: {e}")
     competitor_stores = competitor_stores or load_competitor_stores()
 
+    # ── Step 5c: Competitor catalogue / promo pages ───────────────────────────
+    catalogue_data: list[dict] = []
+    if not skip_competitors:
+        logger.info("[5c] Scraping competitor catalogue/promo pages")
+        try:
+            from src.scrapers.competitor_catalogue import scrape_competitor_catalogues
+            catalogue_data = scrape_competitor_catalogues()
+            logger.info(f"Catalogue: {len(catalogue_data)} brands scraped")
+        except Exception as e:
+            logger.error(f"Catalogue scraping failed: {e}")
+
     # ── Step 5b: Apify Instagram scrape + AI batch analysis ──────────────────
+    social_analysis: dict = {}
     social_posts: list[dict] = []
     if not skip_instagram:
         from src.config import APIFY_TOKEN
@@ -173,15 +185,15 @@ def run_pipeline(
                     else:
                         # AI batch analysis on new posts only
                         from src.analysis.social_analyzer import analyze_social_batch
-                        analysis = analyze_social_batch(new_social_posts)
-                        if analysis:
+                        social_analysis = analyze_social_batch(new_social_posts)
+                        if social_analysis:
                             if not dry_run:
                                 from src.storage.sqlite_store import save_batch_analysis, update_social_posts_ai
-                                save_batch_analysis(analysis)
-                                update_social_posts_ai(analysis.get("posts", []))
+                                save_batch_analysis(social_analysis)
+                                update_social_posts_ai(social_analysis.get("posts", []))
                             if not skip_alerts:
                                 from src.alerts.telegram_alerts import send_social_batch_alert
-                                send_social_batch_alert(analysis)
+                                send_social_batch_alert(social_analysis)
             except Exception as e:
                 logger.error(f"Apify Instagram + AI analysis failed: {e}")
 
@@ -281,6 +293,8 @@ def run_pipeline(
         report_date=today,
         is_baseline=is_first_run or baseline,
         instagram_posts=instagram_posts,
+        catalogue_data=catalogue_data,
+        social_analysis=social_analysis,
     )
 
     if not skip_alerts:

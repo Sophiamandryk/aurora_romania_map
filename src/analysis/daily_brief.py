@@ -40,21 +40,25 @@ def _build_queries(d: date) -> list[tuple[str, str]]:
     m = _month_ro(d)
     y = d.year
     return [
-        ("competitor",    f"Pepco Romania {m} {y}"),
-        ("competitor",    f"Action Romania deschidere magazin {m} {y}"),
-        ("competitor",    f"Profi Penny TEDi KiK Romania stiri {m} {y}"),
-        ("aurora",        f"Aurora Multimarket Romania {m} {y}"),
-        ("aurora",        f"Aurora Multimarket deschidere {m} {y}"),
-        ("retail_trends", f"retail Romania tendinte {m} {y}"),
-        ("retail_trends", f"supermarket discount Romania {y}"),
-        ("consumer",      f"comportament cumparator Romania {y}"),
-        ("expansion",     f"retail park Romania {y} deschidere"),
-        ("expansion",     f"parc comercial Romania {y}"),
-        ("expansion",     f"best cities retail expansion Romania"),
-        ("products",      f"produse populare discount Romania {y}"),
-        ("products",      f"one euro store trends Europe {y}"),
-        ("products",      f"dollar store equivalent popular products {y}"),
-        ("consumer",      f"Romanian consumer spending trends {y}"),
+        ("competitor",       f"Pepco Romania {m} {y}"),
+        ("competitor",       f"Action Romania deschidere magazin {m} {y}"),
+        ("competitor",       f"Profi Penny TEDi KiK Romania stiri {m} {y}"),
+        ("competitor_promo", f"Pepco promotii oferte Romania {m} {y}"),
+        ("competitor_promo", f"TEDi KiK oferte saptamana Romania {m} {y}"),
+        ("competitor_promo", f"Penny Profi reduceri promotii Romania {m} {y}"),
+        ("competitor_promo", f"Mr.DIY Action promotii Romania {y}"),
+        ("aurora",           f"Aurora Multimarket Romania {m} {y}"),
+        ("aurora",           f"Aurora Multimarket deschidere {m} {y}"),
+        ("retail_trends",    f"retail Romania tendinte {m} {y}"),
+        ("retail_trends",    f"supermarket discount Romania {y}"),
+        ("consumer",         f"comportament cumparator Romania {y}"),
+        ("expansion",        f"retail park Romania {y} deschidere"),
+        ("expansion",        f"parc comercial Romania {y}"),
+        ("expansion",        f"best cities retail expansion Romania"),
+        ("products",         f"produse populare discount Romania {y}"),
+        ("products",         f"one euro store trends Europe {y}"),
+        ("products",         f"dollar store equivalent popular products {y}"),
+        ("consumer",         f"Romanian consumer spending trends {y}"),
     ]
 
 
@@ -203,17 +207,20 @@ _USER_TEMPLATE = """\
 - Якщо немає жодних значущих результатів — поверни порожній масив sections.
 - Кожне конкретне твердження підкріплюй джерелом зі списку (url + анкорний текст).
 - Обов'язкові секції (якщо є дані): "Конкурентна активність", \
-"Ринкові тренди Румунії", "Можливості для розширення", \
-"Популярні категорії товарів", "Поведінка покупців".
+"Акції та каталоги конкурентів", "Ринкові тренди Румунії", \
+"Можливості для розширення", "Популярні категорії товарів", "Поведінка покупців".
+- Секція "Акції та каталоги конкурентів" — це комерційна розвідка: \
+знижки, сезонні кампанії, нові категорії. Не прогнози розширення.
 """
 
 _TOPIC_LABELS = {
-    "competitor":    "АКТИВНІСТЬ КОНКУРЕНТІВ",
-    "aurora":        "AURORA MULTIMARKET",
-    "retail_trends": "РИНКОВІ ТРЕНДИ",
-    "consumer":      "ПОВЕДІНКА СПОЖИВАЧІВ",
-    "expansion":     "РОЗШИРЕННЯ / РИТЕЙЛ-ПАРКИ",
-    "products":      "ПОПУЛЯРНІ ПРОДУКТИ",
+    "competitor":       "АКТИВНІСТЬ КОНКУРЕНТІВ",
+    "competitor_promo": "АКЦІЇ ТА КАТАЛОГИ КОНКУРЕНТІВ",
+    "aurora":           "AURORA MULTIMARKET",
+    "retail_trends":    "РИНКОВІ ТРЕНДИ",
+    "consumer":         "ПОВЕДІНКА СПОЖИВАЧІВ",
+    "expansion":        "РОЗШИРЕННЯ / РИТЕЙЛ-ПАРКИ",
+    "products":         "ПОПУЛЯРНІ ПРОДУКТИ",
 }
 
 
@@ -387,6 +394,8 @@ def run_daily_brief(dry_run: bool = False, skip_alerts: bool = False) -> Optiona
         saved = save_web_search_results(new_results)
         logger.info(f"Daily brief: saved {saved} results to web_search_results")
     elif dry_run:
+        pass  # already logged above
+    elif dry_run:
         logger.info(f"[DRY RUN] Would save {len(new_results)} new search results")
 
     # 3. No fresh data → minimal message
@@ -412,6 +421,11 @@ def run_daily_brief(dry_run: bool = False, skip_alerts: bool = False) -> Optiona
         return msg
 
     analysis = _analyze_with_ai(new_results, stats, today_str)
+
+    # 5b. Persist brief output so presentation can reference the exact text
+    if analysis and not dry_run:
+        from src.storage.sqlite_store import save_daily_brief
+        save_daily_brief(analysis, run_date=today_str)
 
     # 6. Format message
     sections = analysis.get("sections") or []

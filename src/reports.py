@@ -2,6 +2,7 @@
 Daily markdown report generator — Ukrainian localization.
 """
 import json
+import re
 from datetime import date
 from pathlib import Path
 from collections import defaultdict
@@ -834,6 +835,235 @@ def _generate_baseline_report(
     return "\n".join(lines)
 
 
+_COMPETITOR_BRANDS = ["Pepco", "TEDi", "KiK", "Action", "Penny", "Profi", "Mr.DIY"]
+
+_RO_FIELDS_UA = {
+    "inflation":          "Інфляція",
+    "bnr_rate":           "Ставка BNR",
+    "unemployment":       "Безробіття",
+    "consumer_sentiment": "Споживчі настрої",
+    "energy":             "Енергія",
+    "fiscal":             "Регуляторика",
+}
+
+_UA_FIELDS_UA = {
+    "inflation":    "Інфляція",
+    "nbu_rate":     "Ставка НБУ",
+    "unemployment": "Безробіття",
+    "wages":        "Зарплати",
+    "energy":       "Енергетика",
+    "fiscal":       "Регуляторика",
+}
+
+
+def _section_21_macro_environment(macro_intel: dict) -> str:
+    """2.1 Макроекономічне середовище — ultra-short numeric snapshot."""
+    if not macro_intel:
+        return "_Макроекономічні дані сьогодні не зібрано._\n"
+
+    lines: list[str] = []
+
+    for country_key, country_label, fields_map in [
+        ("romania", "Румунія", _RO_FIELDS_UA),
+        ("ukraine", "Україна", _UA_FIELDS_UA),
+    ]:
+        country_data = macro_intel.get(country_key) or {}
+        bullets = [(label, (country_data.get(key) or "").strip())
+                   for key, label in fields_map.items()
+                   if (country_data.get(key) or "").strip()]
+        if not bullets:
+            continue
+        lines.append(f"**{country_label}**")
+        for label, value in bullets:
+            lines.append(f"- {label}: {value}")
+        lines.append("")
+
+    aurora_bullets = macro_intel.get("aurora_bullets") or []
+    if aurora_bullets:
+        lines.append("**Aurora:**")
+        for b in aurora_bullets[:2]:
+            lines.append(f"- {b.strip()}")
+
+    return "\n".join(lines) if lines else "_Макроекономічних сигналів сьогодні не виявлено._\n"
+
+
+def _section_12_competitor_intelligence(
+    news_articles: list[dict],
+    catalogue_data: list[dict],
+    social_analysis: dict,
+    competitor_intel: dict = None,
+) -> str:
+    """
+    1.2 Публічні інфоприводи конкурентів
+    Uses AI synthesis (competitor_intel) when available; falls back to raw data otherwise.
+    """
+    lines: list[str] = []
+
+    if competitor_intel and competitor_intel.get("brands"):
+        # ── AI-synthesized output ──────────────────────────────────────────────
+        market_pattern = (competitor_intel.get("market_pattern") or "").strip()
+        aurora_impl    = (competitor_intel.get("aurora_implication") or "").strip()
+        brands         = competitor_intel.get("brands", {})
+
+        if market_pattern:
+            lines.append(f"> {market_pattern}")
+            lines.append("")
+        if aurora_impl:
+            lines.append(f"_{aurora_impl}_")
+            lines.append("")
+
+        rendered_any = False
+        for brand in _COMPETITOR_BRANDS:
+            bdata = brands.get(brand)
+            if not bdata:
+                continue
+            rendered_any = True
+            key_insight = (bdata.get("key_insight") or "").strip()
+            bullets     = bdata.get("bullets") or []
+            expansion   = (bdata.get("expansion") or "").strip()
+
+            lines.append(f"### {brand}")
+            if key_insight:
+                lines.append(f"**{key_insight}**")
+            for b in bullets:
+                lines.append(f"- {b}")
+            if expansion:
+                lines.append(f"- 📍 _Розширення: {expansion}_")
+            lines.append("")
+
+        if not rendered_any:
+            lines.append("_Інформацію про конкурентів сьогодні не зібрано._")
+
+        return "\n".join(lines)
+
+    # ── Fallback: raw data rendering ─────────────────────────────────────────
+    cat_by_brand = {c["brand"]: c for c in (catalogue_data or [])}
+
+    comp_articles: dict[str, list[dict]] = {b: [] for b in _COMPETITOR_BRANDS}
+    for a in (news_articles or []):
+        full = (a.get("title", "") + " " + (a.get("excerpt", "") or "")).lower()
+        for brand in _COMPETITOR_BRANDS:
+            if brand.lower() in full:
+                comp_articles[brand].append(a)
+
+    brand_summaries: dict[str, str] = (social_analysis or {}).get("brand_summary", {})
+
+    comp_ig: dict[str, list[dict]] = {b: [] for b in _COMPETITOR_BRANDS}
+    for p in (social_analysis or {}).get("posts", []):
+        b = p.get("brand", "")
+        if b in comp_ig and p.get("is_relevant"):
+            comp_ig[b].append(p)
+
+    rendered_any = False
+    for brand in _COMPETITOR_BRANDS:
+        cat  = cat_by_brand.get(brand)
+        arts = comp_articles.get(brand, [])
+        ig   = comp_ig.get(brand, [])
+        summ = brand_summaries.get(brand, "").strip()
+
+        if not cat and not arts and not ig and not summ:
+            continue
+
+        rendered_any = True
+        lines.append(f"### {brand}")
+
+        if cat and not cat.get("error"):
+            promos = cat.get("promos", [])
+            parts: list[str] = []
+            disc = ", ".join(cat.get("page_discounts", [])[:4])
+            cats = ", ".join(cat.get("page_categories", [])[:5])
+            if disc:
+                parts.append(f"Знижки: {disc}")
+            if cats:
+                parts.append(f"Категорії: {cats}")
+            summary_line = " | ".join(parts) if parts else "Каталог доступний"
+            lines.append(f"- {summary_line}")
+            for p in promos[:2]:
+                title = p.get("title", "")
+                if title:
+                    lines.append(f"- {title}")
+
+        seen: set[str] = set()
+        for a in arts[:3]:
+            url = a.get("url", "")
+            if url in seen:
+                continue
+            seen.add(url)
+            title = a.get("title", "")
+            src   = a.get("source", "")
+            pub   = (a.get("published_date", "") or "")[:10]
+            link  = f" [[→]({url})]" if url else ""
+            lines.append(f"- {title} — _{src}_ ({pub}){link}")
+
+        if summ:
+            lines.append(f"- Instagram: {summ}")
+
+        lines.append("")
+
+    if not rendered_any:
+        lines.append("_Інформацію про конкурентів сьогодні не зібрано._")
+
+    return "\n".join(lines)
+
+
+def _section_13_commercial_activity(social_analysis: dict) -> str:
+    """
+    1.3 Комерційна активність: акції, нові продукти, відкриття
+    Structured from Instagram commercial_digest. No expansion speculation.
+    """
+    if not social_analysis:
+        return "_Instagram-аналіз сьогодні недоступний._\n"
+
+    digest   = social_analysis.get("commercial_digest", {})
+    narrative = (social_analysis.get("daily_narrative") or "").strip()
+
+    promos   = digest.get("promos",   [])
+    products = digest.get("products", [])
+    openings = digest.get("openings", [])
+
+    def _linkify(item: str) -> str:
+        return re.sub(r"\((https?://[^\s)]+)\)", r"([\1](\1))", item)
+
+    lines: list[str] = []
+
+    if promos:
+        lines.append("#### Акції")
+        for item in promos:
+            lines.append(f"- {_linkify(item)}")
+        lines.append("")
+
+    if products:
+        lines.append("#### Нові продукти / Категорії")
+        for item in products:
+            lines.append(f"- {_linkify(item)}")
+        lines.append("")
+
+    if openings:
+        lines.append("#### Відкриття (підтверджено в Instagram)")
+        for item in openings:
+            lines.append(f"- {_linkify(item)}")
+        lines.append("")
+
+    if not promos and not products and not openings:
+        lines.append("_Значущої комерційної активності в Instagram сьогодні не виявлено._")
+        lines.append("")
+
+    if narrative:
+        lines.append("---")
+        lines.append("")
+        lines.append("**Аналітичний огляд:**")
+        lines.append("")
+        # Convert bare URLs in narrative to markdown links
+        narrative = re.sub(
+            r"\((https?://[^\s)]+)\)",
+            r"([пост](\1))",
+            narrative,
+        )
+        lines.append(narrative)
+
+    return "\n".join(lines)
+
+
 def generate_daily_report(
     changes: list[dict],
     future_openings: list[dict],
@@ -848,6 +1078,8 @@ def generate_daily_report(
     report_date: str = None,
     is_baseline: bool = False,
     instagram_posts: list[dict] = None,
+    catalogue_data: list[dict] = None,
+    social_analysis: dict = None,
 ) -> tuple[str, Path]:
     from collections import Counter
     from src.data.ro_counties import display_city
@@ -1024,9 +1256,22 @@ def generate_daily_report(
         "",
         "---",
         "",
-        "## Instagram-Сигнали",
+        "## 1.2. Публічні інфоприводи конкурентів",
+        "_Каталоги/акції конкурентів, новини ЗМІ, Instagram-активність брендів._",
         "",
-        _section_instagram_summary(instagram_posts or []),
+        _section_12_competitor_intelligence(
+            news_articles,
+            catalogue_data or [],
+            social_analysis or {},
+            competitor_intel=None,
+        ),
+        "",
+        "---",
+        "",
+        "## 1.3. Комерційна активність: акції, нові продукти, відкриття",
+        "_Instagram Aurora та конкурентів — комерційна розвідка без прогнозів розширення._",
+        "",
+        _section_13_commercial_activity(social_analysis or {}),
         "",
         "---",
         "",
