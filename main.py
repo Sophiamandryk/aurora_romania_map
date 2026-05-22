@@ -329,10 +329,31 @@ def run_pipeline(
             except Exception as e:
                 logger.error(f"Daily brief failed: {e}")
 
+    # ── Section 3.1: Corporate news ───────────────────────────────────────────
+    if not skip_brief:
+        from src.config import TAVILY_API_KEY as _TV_KEY
+        if not _TV_KEY:
+            logger.info("TAVILY_API_KEY not set — skipping corporate news")
+        else:
+            logger.info("[7c] Running corporate news (section 3.1)")
+            try:
+                from modules.corporate_news import run as run_corporate_news
+                run_corporate_news(today=today)
+            except Exception as e:
+                logger.error(f"Corporate news failed: {e}")
+
+    # ── Section 3.2: Romania network expansion diff ───────────────────────────
+    logger.info("[7d] Running network expansion diff (section 3.2)")
+    try:
+        from modules.network_expansion_ro import run as run_network_expansion
+        run_network_expansion(today=today)
+    except Exception as e:
+        logger.error(f"Network expansion diff failed: {e}")
+
     # ── Daily presentation (.pptx) ────────────────────────────────────────────
     _pptx_path = None
     if not skip_presentation:
-        logger.info("[7c] Generating daily presentation")
+        logger.info("[7e] Generating daily presentation")
         try:
             from src.presentation_export import generate_presentation
             _pptx_path = generate_presentation(today_str=today, dry_run=dry_run)
