@@ -10,9 +10,174 @@ import time
 from datetime import date
 from pathlib import Path
 
-from src.config import setup_logging, SNAPSHOTS_DIR
+from src.config import setup_logging, SNAPSHOTS_DIR, DATA_DIR
 
 logger = setup_logging("main")
+
+
+# ── Telegram section formatters ───────────────────────────────────────────────
+
+def _fmt_retail_news(data: list, today: str) -> str:
+    lines = [f"📰 *Retail News — {today}*\n"]
+    for s in data:
+        n    = s.get("results_count", 0)
+        days = s.get("days_used", 1)
+        lines.append(f"*{s.get('label', '')}* ({n} джерел, {days}д)")
+        summary = (s.get("summary") or "").strip()
+        if summary:
+            lines.append(summary[:350])
+        lines.append("")
+    return "\n".join(lines)[:4090]
+
+
+def _fmt_industry_research(data: list, today: str) -> str:
+    lines = [f"🔬 *Industry Research — {today}*\n"]
+    for s in data:
+        n = s.get("results_count", 0)
+        lines.append(f"*{s.get('label', '')}* ({n} джерел)")
+        summary = (s.get("summary") or "").strip()
+        if summary:
+            lines.append(summary[:350])
+        lines.append("")
+    return "\n".join(lines)[:4090]
+
+
+def _fmt_corporate_news(section: dict, today: str) -> str:
+    items = section.get("items", [])
+    if not items:
+        return f"📊 *Корпоративні новини — {today}*\n\nНовин за день не знайдено."
+    lines = [f"📊 *Корпоративні новини — {today}*\n"]
+    for i, item in enumerate(items, 1):
+        link   = item.get("telegram_link") or item.get("url", "")
+        source = item.get("source_name", "")
+        lines.append(f"{i}. {link}" + (f" — _{source}_" if source else ""))
+        summary = (item.get("summary_uk") or "").strip()[:250]
+        if summary:
+            lines.append(summary)
+        lines.append("")
+    return "\n".join(lines)[:4090]
+
+
+def _fmt_network_expansion(section: dict, today: str) -> str:
+    if not section.get("changes_detected"):
+        return (
+            f"🗺 *Мережа Румунії — {today}*\n\n"
+            + section.get("message", "Змін не виявлено.")
+        )
+    _UA = {"opened": "відкрито", "closed": "закрито",
+           "relocated": "переміщено", "rebranded": "ребрендинг"}
+    lines = [f"🗺 *Мережа Румунії — {today}*\n"]
+    for brand, counts in section.get("by_brand", {}).items():
+        parts = []
+        if counts.get("opened"):    parts.append(f"+{counts['opened']} відкрито")
+        if counts.get("closed"):    parts.append(f"{counts['closed']} закрито")
+        if counts.get("relocated"): parts.append(f"{counts['relocated']} переміщено")
+        if counts.get("rebranded"): parts.append(f"{counts['rebranded']} ребрендинг")
+        if parts:
+            lines.append(f"*{brand}:* " + " • ".join(parts))
+    details = section.get("details", [])[:8]
+    if details:
+        lines.append("\n📍 *Деталі:*")
+        for d in details:
+            dtype = _UA.get(d.get("type", ""), d.get("type", ""))
+            loc   = d.get("location") or d.get("to") or d.get("from", "")
+            lines.append(f"• {d.get('brand', '')} {dtype} — {loc}")
+    return "\n".join(lines)[:4090]
+
+
+def _fmt_competitor_intel(result: dict, today: str) -> str:
+    if not result or not result.get("brands"):
+        return f"🏪 *Конкурентна розвідка — {today}*\n\n_Даних сьогодні не зібрано._"
+    lines = [f"🏪 *Конкурентна розвідка — {today}*\n"]
+    pattern     = (result.get("market_pattern") or "").strip()
+    aurora_impl = (result.get("aurora_implication") or "").strip()
+    if pattern:
+        lines.append(f"_{pattern}_\n")
+    if aurora_impl:
+        lines.append(f"*Aurora:* {aurora_impl}\n")
+    for brand, bdata in result.get("brands", {}).items():
+        key_insight = (bdata.get("key_insight") or "").strip()
+        bullets     = bdata.get("bullets") or []
+        expansion   = (bdata.get("expansion") or "").strip()
+        if not key_insight and not bullets:
+            continue
+        lines.append(f"*{brand}*")
+        if key_insight:
+            lines.append(key_insight)
+        for b in bullets[:3]:
+            lines.append(f"• {b}")
+        if expansion:
+            lines.append(f"📍 {expansion}")
+        lines.append("")
+    return "\n".join(lines)[:4090]
+
+
+def _fmt_commercial_activity(social_analysis: dict, today: str) -> str:
+    if not social_analysis:
+        return (
+            f"📸 *Комерційна активність — {today}*\n\n"
+            "_Instagram-аналіз сьогодні недоступний._"
+        )
+    digest   = social_analysis.get("commercial_digest") or {}
+    promos   = digest.get("promos",   [])
+    products = digest.get("products", [])
+    openings = digest.get("openings", [])
+    if not promos and not products and not openings:
+        return (
+            f"📸 *Комерційна активність — {today}*\n\n"
+            "_Значущої комерційної активності сьогодні не виявлено._"
+        )
+    lines = [f"📸 *Комерційна активність — {today}*\n"]
+    if promos:
+        lines.append("*Акції:*")
+        for item in promos[:6]:
+            lines.append(f"• {str(item)[:150]}")
+        lines.append("")
+    if products:
+        lines.append("*Нові продукти / Категорії:*")
+        for item in products[:4]:
+            lines.append(f"• {str(item)[:150]}")
+        lines.append("")
+    if openings:
+        lines.append("*Відкриття (підтверджено):*")
+        for item in openings[:4]:
+            lines.append(f"• {str(item)[:150]}")
+        lines.append("")
+    return "\n".join(lines)[:4090]
+
+
+def _fmt_macro_environment(result: dict, today: str) -> str:
+    if not result:
+        return f"📊 *Макросередовище — {today}*\n\n_Даних сьогодні не зібрано._"
+    _RO = {"inflation": "Інфляція", "bnr_rate": "Ставка BNR",
+           "unemployment": "Безробіття", "consumer_sentiment": "Споживач",
+           "energy": "Енергетика", "fiscal": "Фіскальна"}
+    _UA = {"inflation": "Інфляція", "nbu_rate": "Ставка НБУ",
+           "unemployment": "Безробіття", "wages": "Зарплати",
+           "energy": "Енергетика", "fiscal": "Фіскальна"}
+    lines = [f"📊 *Макросередовище — {today}*\n"]
+    ro = result.get("romania") or {}
+    if ro:
+        lines.append("🇷🇴 *Румунія:*")
+        for key, label in _RO.items():
+            val = (ro.get(key) or "").strip()
+            if val:
+                lines.append(f"• {label}: {val}")
+        lines.append("")
+    ua = result.get("ukraine") or {}
+    if ua:
+        lines.append("🇺🇦 *Україна:*")
+        for key, label in _UA.items():
+            val = (ua.get(key) or "").strip()
+            if val:
+                lines.append(f"• {label}: {val}")
+        lines.append("")
+    bullets = result.get("aurora_bullets") or []
+    if bullets:
+        lines.append("*Aurora:*")
+        for b in bullets[:2]:
+            lines.append(f"• {b.strip()}")
+    return "\n".join(lines)[:4090]
 
 
 def run_pipeline(
@@ -329,31 +494,121 @@ def run_pipeline(
             except Exception as e:
                 logger.error(f"Daily brief failed: {e}")
 
-    # ── Section 3.1: Corporate news ───────────────────────────────────────────
-    if not skip_brief:
-        from src.config import TAVILY_API_KEY as _TV_KEY
-        if not _TV_KEY:
-            logger.info("TAVILY_API_KEY not set — skipping corporate news")
-        else:
-            logger.info("[7c] Running corporate news (section 3.1)")
-            try:
-                from modules.corporate_news import run as run_corporate_news
-                run_corporate_news(today=today)
-            except Exception as e:
-                logger.error(f"Corporate news failed: {e}")
+    # ── Sections 1.2 / 1.3 / 2.1 / 2.2 / 2.3 / 3.1 / 3.2 — each → Telegram ──
+    from src.config import TAVILY_API_KEY as _TV_KEY
+    from src.alerts.telegram_alerts import TelegramBot as _TGBot
+    _bot    = _TGBot()
+    _output: dict = {}
 
-    # ── Section 3.2: Romania network expansion diff ───────────────────────────
-    logger.info("[7d] Running network expansion diff (section 3.2)")
+    # [7c] 1.2 Competitor Intelligence
+    logger.info("[7c] Section 1.2: Competitor Intelligence")
     try:
-        from modules.network_expansion_ro import run as run_network_expansion
-        run_network_expansion(today=today)
+        from src.storage.sqlite_store import load_recent_web_search
+        from src.analysis.competitor_intelligence import synthesize_competitor_intel
+        _ci = synthesize_competitor_intel(
+            load_recent_web_search(days=7), catalogue_data,
+            news_articles, social_analysis, today,
+        )
+        _output["1.2_competitor_intelligence"] = _ci
+        if not skip_alerts:
+            _bot._send(_fmt_competitor_intel(_ci, today), disable_preview=True)
+    except Exception as e:
+        logger.error(f"Competitor intelligence failed: {e}")
+
+    # [7d] 1.3 Commercial Activity (Instagram digest)
+    logger.info("[7d] Section 1.3: Commercial Activity")
+    try:
+        _digest = (social_analysis or {}).get("commercial_digest") or {}
+        _ca = {
+            "promos":   _digest.get("promos",   []),
+            "products": _digest.get("products", []),
+            "openings": _digest.get("openings", []),
+        }
+        _output["1.3_commercial_activity"] = _ca
+        if not skip_alerts:
+            _bot._send(_fmt_commercial_activity(social_analysis or {}, today), disable_preview=True)
+    except Exception as e:
+        logger.error(f"Commercial activity failed: {e}")
+
+    # [7e] 2.1 Macro Environment
+    if not skip_brief and _TV_KEY:
+        logger.info("[7e] Section 2.1: Macro Environment")
+        try:
+            from src.analysis.macro_intelligence import run_macro_intelligence
+            _me = run_macro_intelligence(today)
+            _output["2.1_macro_environment"] = _me
+            if not skip_alerts:
+                _bot._send(_fmt_macro_environment(_me, today), disable_preview=True)
+        except Exception as e:
+            logger.error(f"Macro environment failed: {e}")
+
+    # [7f] 2.2 Retail News
+    if not skip_brief and _TV_KEY:
+        logger.info("[7f] Section 2.2: Retail News")
+        try:
+            from modules.retail_news import run as _run_retail_news
+            _rn = _run_retail_news()
+            _output["2.2_retail_news"] = _rn
+            if not skip_alerts:
+                _bot._send(_fmt_retail_news(_rn, today), disable_preview=True)
+        except Exception as e:
+            logger.error(f"Retail news failed: {e}")
+
+    # [7g] 2.3 Industry Research
+    if not skip_brief and _TV_KEY:
+        logger.info("[7g] Section 2.3: Industry Research")
+        try:
+            from modules.industry_research import run as _run_industry_research
+            _ir = _run_industry_research()
+            _output["2.3_industry_research"] = _ir
+            if not skip_alerts:
+                _bot._send(_fmt_industry_research(_ir, today), disable_preview=True)
+        except Exception as e:
+            logger.error(f"Industry research failed: {e}")
+
+    # [7h] 3.1 Corporate News
+    if not skip_brief and _TV_KEY:
+        logger.info("[7h] Section 3.1: Corporate News")
+        try:
+            from modules.corporate_news import run as _run_corporate_news
+            _cn = _run_corporate_news(today=today)
+            _output["3.1_corporate_news"] = _cn
+            if not skip_alerts:
+                _bot._send(_fmt_corporate_news(_cn, today), disable_preview=True)
+        except Exception as e:
+            logger.error(f"Corporate news failed: {e}")
+
+    # [7i] 3.2 Network Expansion (no Tavily — always runs)
+    logger.info("[7i] Section 3.2: Network Expansion")
+    try:
+        from modules.network_expansion_ro import run as _run_network_expansion
+        _ne = _run_network_expansion(today=today)
+        _output["3.2_network_expansion_ro"] = _ne
+        if not skip_alerts:
+            _bot._send(_fmt_network_expansion(_ne, today), disable_preview=True)
     except Exception as e:
         logger.error(f"Network expansion diff failed: {e}")
+
+    # [7j] Write final aurora_output JSON (consolidates all sections)
+    if _output and not dry_run:
+        _ao_path = DATA_DIR / f"aurora_output_{today}.json"
+        _ao_existing: dict = {}
+        if _ao_path.exists():
+            try:
+                _ao_existing = json.loads(_ao_path.read_text(encoding="utf-8"))
+            except Exception:
+                pass
+        _ao_existing.update(_output)
+        _ao_path.write_text(
+            json.dumps(_ao_existing, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
+        logger.info(f"aurora_output saved: {_ao_path}")
 
     # ── Daily presentation (.pptx) ────────────────────────────────────────────
     _pptx_path = None
     if not skip_presentation:
-        logger.info("[7e] Generating daily presentation")
+        logger.info("[7k] Generating daily presentation")
         try:
             from src.presentation_export import generate_presentation
             _pptx_path = generate_presentation(today_str=today, dry_run=dry_run)
