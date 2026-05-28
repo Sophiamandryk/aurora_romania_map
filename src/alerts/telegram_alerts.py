@@ -12,7 +12,7 @@ import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 from src.config import (
-    TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID,
+    TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, TELEGRAM_EXTRA_IDS,
     REQUEST_TIMEOUT, MAX_RETRIES, setup_logging,
 )
 
@@ -339,7 +339,8 @@ def detect_and_send_clusters(
 class TelegramBot:
     def __init__(self, token: str = TELEGRAM_BOT_TOKEN, chat_id: str = TELEGRAM_CHAT_ID):
         self.token = token
-        self.chat_id = chat_id
+        self.chat_id = chat_id.strip()
+        self.extra_ids = [i for i in TELEGRAM_EXTRA_IDS if i != self.chat_id]
         self.base_url = f"https://api.telegram.org/bot{token}"
         self.enabled = bool(token and chat_id)
         if not self.enabled:
@@ -350,17 +351,18 @@ class TelegramBot:
         if not self.enabled:
             logger.info(f"[Telegram MOCK] {text[:100]}...")
             return True
-        resp = requests.post(
-            f"{self.base_url}/sendMessage",
-            json={
-                "chat_id": self.chat_id,
-                "text": text,
-                "parse_mode": parse_mode,
-                "disable_web_page_preview": disable_preview,
-            },
-            timeout=REQUEST_TIMEOUT,
-        )
-        resp.raise_for_status()
+        for chat_id in [self.chat_id] + self.extra_ids:
+            resp = requests.post(
+                f"{self.base_url}/sendMessage",
+                json={
+                    "chat_id": chat_id,
+                    "text": text,
+                    "parse_mode": parse_mode,
+                    "disable_web_page_preview": disable_preview,
+                },
+                timeout=REQUEST_TIMEOUT,
+            )
+            resp.raise_for_status()
         return True
 
     def send_change_alert(self, change: dict) -> bool:

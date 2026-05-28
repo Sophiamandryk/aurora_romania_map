@@ -17,6 +17,9 @@ for d in [DATA_DIR, SNAPSHOTS_DIR, REPORTS_DIR, LOGS_DIR]:
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+TELEGRAM_EXTRA_IDS = [
+    i.strip() for i in os.getenv("TELEGRAM_EXTRA_IDS", "").split(",") if i.strip()
+]
 
 GOOGLE_SHEETS_ID = os.getenv("GOOGLE_SHEETS_ID", "")
 GOOGLE_SHEETS_CREDENTIALS_JSON = os.getenv("GOOGLE_SHEETS_CREDENTIALS_JSON", "credentials.json")
