@@ -132,17 +132,17 @@ def run() -> list[dict]:
         # Stage 1: target domains + require published_date
         results, days = collect(
             st["queries"], _FALLBACK, min_n=2,
-            domains=st["domains"], require_date=True,
+            domains=st["domains"], require_date=True, max_age_days=90,
         )
         # Stage 2: drop domain restriction, keep require_date
         if len(results) < 2:
             results, days = collect(
-                st["queries"], _FALLBACK, min_n=2, require_date=True,
+                st["queries"], _FALLBACK, min_n=2, require_date=True, max_age_days=90,
             )
         # Stage 3: drop require_date (Tavily often omits published_date for research PDFs)
         if len(results) < 2:
             results, days = collect(
-                st["queries"], _FALLBACK, min_n=2,
+                st["queries"], _FALLBACK, min_n=2, max_age_days=90,
             )
 
         logger.info(f"  {len(results)} results (days={days})")
@@ -153,5 +153,9 @@ def run() -> list[dict]:
             "summary":       summary,
             "results_count": len(results),
             "days_used":     days,
+            "sources": [
+                {"title": r["title"], "url": r["url"]}
+                for r in results[:3] if r.get("url")
+            ],
         })
     return output

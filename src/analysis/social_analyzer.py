@@ -19,7 +19,8 @@ def _slim(posts: list[dict]) -> list[dict]:
     return [
         {
             "post_url": p.get("post_url", ""),
-            "brand": p.get("brand", "") or ("Aurora" if not p.get("brand") else ""),
+            # scraper stores brand in "competitor"; "brand" is only set by AI result dicts
+            "brand": p.get("competitor") or p.get("brand") or "Aurora",
             "caption": (p.get("caption") or "")[:_MAX_CAPTION_LEN],
             "likes":    p.get("likes", 0),
             "comments": p.get("comments", 0),
@@ -136,7 +137,7 @@ def analyze_social_batch(posts: list[dict]) -> dict:
             ],
             response_format={"type": "json_object"},
             temperature=0.3,
-            max_tokens=2500,
+            max_tokens=4096,
         )
         raw = response.choices[0].message.content
         analysis = json.loads(raw)

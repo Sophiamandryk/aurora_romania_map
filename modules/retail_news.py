@@ -113,14 +113,18 @@ def run() -> list[dict]:
     output = []
     for st in _SUBTOPICS:
         logger.info(f"Retail news: {st['label']}")
-        results, days = collect(st["queries"], _FALLBACK)
+        results, days = collect(st["queries"], _FALLBACK, max_age_days=14)
         logger.info(f"  {len(results)} results (days={days})")
         summary = _summarize(st["label"], results, days)
         output.append({
-            "id":     st["id"],
-            "label":  st["label"],
+            "id":            st["id"],
+            "label":         st["label"],
             "summary":       summary,
             "results_count": len(results),
             "days_used":     days,
+            "sources": [
+                {"title": r["title"], "url": r["url"]}
+                for r in results[:3] if r.get("url")
+            ],
         })
     return output

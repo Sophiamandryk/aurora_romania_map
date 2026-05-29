@@ -18,7 +18,7 @@ logger = setup_logging("main")
 # ── Telegram section formatters ───────────────────────────────────────────────
 
 def _fmt_retail_news(data: list, today: str) -> str:
-    lines = [f"📰 *Retail News — {today}*\n"]
+    lines = [f"📰 *2.2 Retail News — {today}*\n"]
     for s in data:
         n    = s.get("results_count", 0)
         days = s.get("days_used", 1)
@@ -26,18 +26,28 @@ def _fmt_retail_news(data: list, today: str) -> str:
         summary = (s.get("summary") or "").strip()
         if summary:
             lines.append(summary[:350])
+        for src in s.get("sources", [])[:3]:
+            title = (src.get("title") or "")[:60]
+            url   = src.get("url", "")
+            if url:
+                lines.append(f"📎 [{title}]({url})")
         lines.append("")
     return "\n".join(lines)[:4090]
 
 
 def _fmt_industry_research(data: list, today: str) -> str:
-    lines = [f"🔬 *Industry Research — {today}*\n"]
+    lines = [f"🔬 *2.3 Industry Research — {today}*\n"]
     for s in data:
         n = s.get("results_count", 0)
         lines.append(f"*{s.get('label', '')}* ({n} джерел)")
         summary = (s.get("summary") or "").strip()
         if summary:
             lines.append(summary[:350])
+        for src in s.get("sources", [])[:3]:
+            title = (src.get("title") or "")[:60]
+            url   = src.get("url", "")
+            if url:
+                lines.append(f"📎 [{title}]({url})")
         lines.append("")
     return "\n".join(lines)[:4090]
 
@@ -45,8 +55,8 @@ def _fmt_industry_research(data: list, today: str) -> str:
 def _fmt_corporate_news(section: dict, today: str) -> str:
     items = section.get("items", [])
     if not items:
-        return f"📊 *Корпоративні новини — {today}*\n\nНовин за день не знайдено."
-    lines = [f"📊 *Корпоративні новини — {today}*\n"]
+        return f"📊 *3.1 Корпоративні новини — {today}*\n\nНовин за день не знайдено."
+    lines = [f"📊 *3.1 Корпоративні новини — {today}*\n"]
     for i, item in enumerate(items, 1):
         link   = item.get("telegram_link") or item.get("url", "")
         source = item.get("source_name", "")
@@ -61,12 +71,12 @@ def _fmt_corporate_news(section: dict, today: str) -> str:
 def _fmt_network_expansion(section: dict, today: str) -> str:
     if not section.get("changes_detected"):
         return (
-            f"🗺 *Мережа Румунії — {today}*\n\n"
+            f"🗺 *3.2 Мережа Румунії — {today}*\n\n"
             + section.get("message", "Змін не виявлено.")
         )
     _UA = {"opened": "відкрито", "closed": "закрито",
            "relocated": "переміщено", "rebranded": "ребрендинг"}
-    lines = [f"🗺 *Мережа Румунії — {today}*\n"]
+    lines = [f"🗺 *3.2 Мережа Румунії — {today}*\n"]
     for brand, counts in section.get("by_brand", {}).items():
         parts = []
         if counts.get("opened"):    parts.append(f"+{counts['opened']} відкрито")
@@ -85,10 +95,10 @@ def _fmt_network_expansion(section: dict, today: str) -> str:
     return "\n".join(lines)[:4090]
 
 
-def _fmt_competitor_intel(result: dict, today: str) -> str:
+def _fmt_competitor_intel(result: dict, today: str, sources: list = None) -> str:
     if not result or not result.get("brands"):
-        return f"🏪 *Конкурентна розвідка — {today}*\n\n_Даних сьогодні не зібрано._"
-    lines = [f"🏪 *Конкурентна розвідка — {today}*\n"]
+        return f"🏪 *1.2 Конкурентна розвідка — {today}*\n\n_Даних сьогодні не зібрано._"
+    lines = [f"🏪 *1.2 Конкурентна розвідка — {today}*\n"]
     pattern     = (result.get("market_pattern") or "").strip()
     aurora_impl = (result.get("aurora_implication") or "").strip()
     if pattern:
@@ -109,53 +119,88 @@ def _fmt_competitor_intel(result: dict, today: str) -> str:
         if expansion:
             lines.append(f"📍 {expansion}")
         lines.append("")
+    if sources:
+        lines.append("📎 *Джерела:*")
+        for src in sources[:5]:
+            title = (src.get("title") or "")[:60]
+            url   = src.get("url", "")
+            if url:
+                lines.append(f"[{title}]({url})")
     return "\n".join(lines)[:4090]
 
 
 def _fmt_commercial_activity(social_analysis: dict, today: str) -> str:
+    import re as _re
+    header = f"📸 *1.3 Комерційна активність — {today}*\n"
     if not social_analysis:
-        return (
-            f"📸 *Комерційна активність — {today}*\n\n"
-            "_Instagram-аналіз сьогодні недоступний._"
-        )
+        return header + "\n_Instagram-аналіз сьогодні недоступний._"
+
+    lines = [header]
+
+    # AI narrative — covers Aurora + all tracked competitors
+    raw_narrative = (social_analysis.get("daily_narrative") or "").strip()
+    if raw_narrative:
+        narrative = _re.sub(r'^\s*\[[\d./:,\s]+\][^\n]*\n*', '', raw_narrative).strip()
+        narrative = _re.sub(r'\n+', '\n\n', narrative)
+        narrative = _re.sub(r'\((https?://[^\s)]+)\)', r'([пост](\1))', narrative)
+        narrative = _re.sub(r'(?<!\]\()(https?://[^\s)]+)', r'[пост](\1)', narrative)
+        lines.append(narrative[:700])
+        lines.append("")
+
     digest   = social_analysis.get("commercial_digest") or {}
     promos   = digest.get("promos",   [])
     products = digest.get("products", [])
     openings = digest.get("openings", [])
-    if not promos and not products and not openings:
-        return (
-            f"📸 *Комерційна активність — {today}*\n\n"
-            "_Значущої комерційної активності сьогодні не виявлено._"
-        )
-    lines = [f"📸 *Комерційна активність — {today}*\n"]
+
+    # Per-brand one-line summaries for competitor visibility
+    brand_summary = social_analysis.get("brand_summary") or {}
+    active_brands = {b: s.strip() for b, s in brand_summary.items() if s and s.strip()}
+    if active_brands:
+        lines.append("*Активність брендів:*")
+        for brand, summary in active_brands.items():
+            lines.append(f"• *{brand}:* {summary[:160]}")
+        lines.append("")
+
+    if not raw_narrative and not active_brands and not promos and not products and not openings:
+        return header + "\n_Значущої комерційної активності сьогодні не виявлено._"
+
     if promos:
         lines.append("*Акції:*")
         for item in promos[:6]:
-            lines.append(f"• {str(item)[:150]}")
+            lines.append(f"• {str(item)[:160]}")
         lines.append("")
     if products:
         lines.append("*Нові продукти / Категорії:*")
         for item in products[:4]:
-            lines.append(f"• {str(item)[:150]}")
+            lines.append(f"• {str(item)[:160]}")
         lines.append("")
     if openings:
         lines.append("*Відкриття (підтверджено):*")
         for item in openings[:4]:
-            lines.append(f"• {str(item)[:150]}")
+            lines.append(f"• {str(item)[:160]}")
         lines.append("")
+
+    posts = social_analysis.get("posts") or []
+    linked = [p for p in posts if p.get("post_url") and p.get("is_relevant")][:8]
+    if linked:
+        lines.append("📎 *Пости:*")
+        for p in linked:
+            brand = p.get("brand") or p.get("competitor") or "Aurora"
+            url   = p.get("post_url", "")
+            lines.append(f"• [{brand}]({url})")
     return "\n".join(lines)[:4090]
 
 
 def _fmt_macro_environment(result: dict, today: str) -> str:
     if not result:
-        return f"📊 *Макросередовище — {today}*\n\n_Даних сьогодні не зібрано._"
+        return f"📊 *2.1 Макросередовище — {today}*\n\n_Даних сьогодні не зібрано._"
     _RO = {"inflation": "Інфляція", "bnr_rate": "Ставка BNR",
            "unemployment": "Безробіття", "consumer_sentiment": "Споживач",
            "energy": "Енергетика", "fiscal": "Фіскальна"}
     _UA = {"inflation": "Інфляція", "nbu_rate": "Ставка НБУ",
            "unemployment": "Безробіття", "wages": "Зарплати",
            "energy": "Енергетика", "fiscal": "Фіскальна"}
-    lines = [f"📊 *Макросередовище — {today}*\n"]
+    lines = [f"📊 *2.1 Макросередовище — {today}*\n"]
     ro = result.get("romania") or {}
     if ro:
         lines.append("🇷🇴 *Румунія:*")
@@ -177,6 +222,14 @@ def _fmt_macro_environment(result: dict, today: str) -> str:
         lines.append("*Aurora:*")
         for b in bullets[:2]:
             lines.append(f"• {b.strip()}")
+    sources = result.get("_sources") or []
+    if sources:
+        lines.append("\n📎 *Джерела:*")
+        for src in sources[:6]:
+            title = (src.get("title") or "")[:60]
+            url   = src.get("url", "")
+            if url:
+                lines.append(f"[{title}]({url})")
     return "\n".join(lines)[:4090]
 
 
@@ -334,31 +387,22 @@ def run_pipeline(
 
                     if not dry_run:
                         new_count = save_social_posts(social_posts)
-                        logger.info(f"Apify Instagram: {len(social_posts)} fetched, {new_count} new, {len(new_social_posts)} for analysis")
+                        logger.info(f"Apify Instagram: {len(social_posts)} fetched, {new_count} new")
                     else:
-                        logger.info(f"Apify Instagram: {len(social_posts)} fetched (dry-run), {len(new_social_posts)} for analysis")
+                        logger.info(f"Apify Instagram: {len(social_posts)} fetched (dry-run)")
 
                     if not new_social_posts:
-                        logger.info("Instagram: no new posts since last run — skipping analysis")
-                        if not skip_alerts:
-                            from src.alerts.telegram_alerts import TelegramBot
-                            TelegramBot()._send(
-                                f"📸 Instagram-дайджест — {_date.today().isoformat()}\n"
-                                "Нових постів за сьогодні не знайдено.",
-                                disable_preview=True,
-                            )
+                        logger.info("Instagram: no new posts since last scrape — skipping analysis (re-run will load from DB)")
                     else:
-                        # AI batch analysis on new posts only
+                        # Analyze ALL of today's posts for a comprehensive daily digest
+                        # (not just new ones — competitor posts need to be included)
                         from src.analysis.social_analyzer import analyze_social_batch
-                        social_analysis = analyze_social_batch(new_social_posts)
+                        social_analysis = analyze_social_batch(social_posts)
                         if social_analysis:
                             if not dry_run:
                                 from src.storage.sqlite_store import save_batch_analysis, update_social_posts_ai
                                 save_batch_analysis(social_analysis)
                                 update_social_posts_ai(social_analysis.get("posts", []))
-                            if not skip_alerts:
-                                from src.alerts.telegram_alerts import send_social_batch_alert
-                                send_social_batch_alert(social_analysis)
             except Exception as e:
                 logger.error(f"Apify Instagram + AI analysis failed: {e}")
 
@@ -490,7 +534,8 @@ def run_pipeline(
             logger.info("[7b] Running Tavily daily brief")
             try:
                 from src.analysis.daily_brief import run_daily_brief
-                run_daily_brief(dry_run=dry_run, skip_alerts=skip_alerts)
+                # skip_alerts=True: sections 1.2–3.2 below send the content individually
+                run_daily_brief(dry_run=dry_run, skip_alerts=True)
             except Exception as e:
                 logger.error(f"Daily brief failed: {e}")
 
@@ -500,33 +545,95 @@ def run_pipeline(
     _bot    = _TGBot()
     _output: dict = {}
 
+    # Load today's aurora_output early so we can detect re-runs and load saved Instagram data
+    _ao_path = DATA_DIR / f"aurora_output_{today}.json"
+    _ao_existing: dict = {}
+    if _ao_path.exists() and not dry_run:
+        try:
+            _ao_existing = json.loads(_ao_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    # Gate section Telegram sends: skip on re-runs to prevent duplicate delivery
+    _tg_sections_done = not dry_run and bool(_ao_existing.get("_tg_sent"))
+    if _tg_sections_done and not skip_alerts:
+        logger.info(
+            "Section Telegram sends already completed today — skipping to avoid duplicates "
+            "(delete aurora_output_%s.json to force re-send)", today
+        )
+
+    # Validate Telegram credentials before attempting any section sends
+    if not skip_alerts and not _tg_sections_done:
+        if _bot.test_connection():
+            logger.info("Telegram startup check: OK")
+        else:
+            logger.warning(
+                "Telegram startup check failed — TELEGRAM_BOT_TOKEN may be invalid or "
+                "Telegram API is temporarily unreachable; section sends will proceed anyway"
+            )
+
     # [7c] 1.2 Competitor Intelligence
     logger.info("[7c] Section 1.2: Competitor Intelligence")
     try:
         from src.storage.sqlite_store import load_recent_web_search
         from src.analysis.competitor_intelligence import synthesize_competitor_intel
+        _tavily = load_recent_web_search(days=7)
         _ci = synthesize_competitor_intel(
-            load_recent_web_search(days=7), catalogue_data,
-            news_articles, social_analysis, today,
+            _tavily, catalogue_data, news_articles, social_analysis, today,
         )
         _output["1.2_competitor_intelligence"] = _ci
-        if not skip_alerts:
-            _bot._send(_fmt_competitor_intel(_ci, today), disable_preview=True)
+        if not skip_alerts and not _tg_sections_done:
+            _ci_sources = [{"title": r["title"], "url": r["url"]}
+                           for r in _tavily[:5] if r.get("url")]
+            _bot._send(_fmt_competitor_intel(_ci, today, sources=_ci_sources),
+                       disable_preview=True)
     except Exception as e:
         logger.error(f"Competitor intelligence failed: {e}")
 
     # [7d] 1.3 Commercial Activity (Instagram digest)
     logger.info("[7d] Section 1.3: Commercial Activity")
     try:
-        _digest = (social_analysis or {}).get("commercial_digest") or {}
+        # On re-runs social_analysis is empty (dedup left no new posts).
+        # Fall back to the daily_narrative saved in DB by the first run.
+        _social_13 = social_analysis
+        if not _social_13:
+            try:
+                import sqlite3 as _sqlite3
+                from src.config import DB_PATH as _DB_PATH
+                _conn13 = _sqlite3.connect(str(_DB_PATH))
+                _row13 = _conn13.execute(
+                    "SELECT daily_narrative FROM batch_analyses "
+                    "WHERE run_date = ? ORDER BY id DESC LIMIT 1",
+                    (today,),
+                ).fetchone()
+                # Load today's relevant posts with their URLs for the links section
+                _posts13 = _conn13.execute(
+                    "SELECT competitor, post_url FROM social_posts "
+                    "WHERE DATE(scraped_at) = ? AND is_relevant = 1 "
+                    "ORDER BY relevance_score DESC LIMIT 8",
+                    (today,),
+                ).fetchall()
+                _conn13.close()
+                if _row13 or _posts13:
+                    _social_13 = {
+                        "daily_narrative": (_row13[0] if _row13 else ""),
+                        "posts": [
+                            {"brand": r[0] or "Aurora", "post_url": r[1], "is_relevant": True}
+                            for r in _posts13
+                        ],
+                    }
+                    logger.info(f"1.3: loaded from DB — narrative + {len(_posts13)} posts (re-run)")
+            except Exception as _e13:
+                logger.debug(f"1.3 DB load failed: {_e13}")
+        _digest = (_social_13 or {}).get("commercial_digest") or {}
         _ca = {
             "promos":   _digest.get("promos",   []),
             "products": _digest.get("products", []),
             "openings": _digest.get("openings", []),
         }
         _output["1.3_commercial_activity"] = _ca
-        if not skip_alerts:
-            _bot._send(_fmt_commercial_activity(social_analysis or {}, today), disable_preview=True)
+        if not skip_alerts and not _tg_sections_done:
+            _bot._send(_fmt_commercial_activity(_social_13 or {}, today), disable_preview=True)
     except Exception as e:
         logger.error(f"Commercial activity failed: {e}")
 
@@ -537,7 +644,7 @@ def run_pipeline(
             from src.analysis.macro_intelligence import run_macro_intelligence
             _me = run_macro_intelligence(today)
             _output["2.1_macro_environment"] = _me
-            if not skip_alerts:
+            if not skip_alerts and not _tg_sections_done:
                 _bot._send(_fmt_macro_environment(_me, today), disable_preview=True)
         except Exception as e:
             logger.error(f"Macro environment failed: {e}")
@@ -549,7 +656,7 @@ def run_pipeline(
             from modules.retail_news import run as _run_retail_news
             _rn = _run_retail_news()
             _output["2.2_retail_news"] = _rn
-            if not skip_alerts:
+            if not skip_alerts and not _tg_sections_done:
                 _bot._send(_fmt_retail_news(_rn, today), disable_preview=True)
         except Exception as e:
             logger.error(f"Retail news failed: {e}")
@@ -561,7 +668,7 @@ def run_pipeline(
             from modules.industry_research import run as _run_industry_research
             _ir = _run_industry_research()
             _output["2.3_industry_research"] = _ir
-            if not skip_alerts:
+            if not skip_alerts and not _tg_sections_done:
                 _bot._send(_fmt_industry_research(_ir, today), disable_preview=True)
         except Exception as e:
             logger.error(f"Industry research failed: {e}")
@@ -573,7 +680,7 @@ def run_pipeline(
             from modules.corporate_news import run as _run_corporate_news
             _cn = _run_corporate_news(today=today)
             _output["3.1_corporate_news"] = _cn
-            if not skip_alerts:
+            if not skip_alerts and not _tg_sections_done:
                 _bot._send(_fmt_corporate_news(_cn, today), disable_preview=True)
         except Exception as e:
             logger.error(f"Corporate news failed: {e}")
@@ -584,21 +691,16 @@ def run_pipeline(
         from modules.network_expansion_ro import run as _run_network_expansion
         _ne = _run_network_expansion(today=today)
         _output["3.2_network_expansion_ro"] = _ne
-        if not skip_alerts:
+        if not skip_alerts and not _tg_sections_done:
             _bot._send(_fmt_network_expansion(_ne, today), disable_preview=True)
     except Exception as e:
         logger.error(f"Network expansion diff failed: {e}")
 
     # [7j] Write final aurora_output JSON (consolidates all sections)
     if _output and not dry_run:
-        _ao_path = DATA_DIR / f"aurora_output_{today}.json"
-        _ao_existing: dict = {}
-        if _ao_path.exists():
-            try:
-                _ao_existing = json.loads(_ao_path.read_text(encoding="utf-8"))
-            except Exception:
-                pass
         _ao_existing.update(_output)
+        if not skip_alerts and not _tg_sections_done:
+            _ao_existing["_tg_sent"] = True  # prevents re-sends on subsequent runs today
         _ao_path.write_text(
             json.dumps(_ao_existing, ensure_ascii=False, indent=2),
             encoding="utf-8",

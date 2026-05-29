@@ -1,7 +1,7 @@
 """Shared Tavily search helper for modules."""
 import time
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from src.config import TAVILY_API_KEY, REQUEST_TIMEOUT, setup_logging
 
@@ -65,12 +65,15 @@ def collect(
     min_n: int = 3,
     domains: list = None,
     require_date: bool = False,
+    max_age_days: int = None,
 ) -> tuple[list[dict], int]:
     """
     Run queries through increasing day-windows until min_n unique results.
     Returns (deduplicated results, actual_days_used).
     require_date=True discards results with no parseable published_date.
+    max_age_days: discard results whose published_date parses to older than N days ago.
     """
+    cutoff = datetime.utcnow() - timedelta(days=max_age_days) if max_age_days else None
     last_results: list[dict] = []
     last_days: int = fallback_windows[-1]
 
@@ -83,6 +86,10 @@ def collect(
                     continue
                 if require_date and not _parse_date(r["published_date"]):
                     continue
+                if cutoff:
+                    parsed = _parse_date(r.get("published_date", ""))
+                    if parsed and parsed < cutoff:
+                        continue  # article too old despite Tavily's days parameter
                 seen.add(r["url"])
                 results.append(r)
         if len(results) >= min_n:

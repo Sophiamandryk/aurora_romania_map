@@ -18,6 +18,9 @@ from src.config import (
 
 logger = setup_logging("alerts.telegram")
 
+_last_tg_send: float = 0.0
+_MIN_TG_INTERVAL: float = 1.5  # minimum seconds between consecutive bot sends
+
 EMOJI = {
     "NEW_STORE": "🟢",
     "REMOVED_STORE": "🔴",
@@ -348,9 +351,15 @@ class TelegramBot:
 
     @retry(stop=stop_after_attempt(MAX_RETRIES), wait=wait_exponential(multiplier=1, min=2, max=10))
     def _send(self, text: str, parse_mode: str = "Markdown", disable_preview: bool = False) -> bool:
+        global _last_tg_send
         if not self.enabled:
             logger.info(f"[Telegram MOCK] {text[:100]}...")
             return True
+        # enforce minimum interval between sends to avoid HTTP 429
+        elapsed = time.time() - _last_tg_send
+        if elapsed < _MIN_TG_INTERVAL:
+            time.sleep(_MIN_TG_INTERVAL - elapsed)
+        _last_tg_send = time.time()
         for chat_id in [self.chat_id] + self.extra_ids:
             resp = requests.post(
                 f"{self.base_url}/sendMessage",
@@ -362,6 +371,39 @@ class TelegramBot:
                 },
                 timeout=REQUEST_TIMEOUT,
             )
+            if not resp.ok:
+                logger.warning(
+                    f"Telegram sendMessage HTTP {resp.status_code} "
+                    f"(chat_id={chat_id}): {resp.text[:400]}"
+                )
+                _perm = ("chat not found", "bot was blocked", "user is deactivated",
+                         "have no rights", "CHAT_WRITE_FORBIDDEN")
+                # Permanent errors — skip without burning retries
+                if resp.status_code == 400 and any(p in resp.text for p in _perm):
+                    logger.error(f"Skipping unreachable chat_id={chat_id} (permanent error)")
+                    continue
+                # Markdown parse error — retry immediately without parse_mode
+                if resp.status_code == 400 and "can't parse entities" in resp.text:
+                    logger.info(f"Markdown parse error — retrying as plain text for chat_id={chat_id}")
+                    resp2 = requests.post(
+                        f"{self.base_url}/sendMessage",
+                        json={
+                            "chat_id": chat_id,
+                            "text": text,
+                            "disable_web_page_preview": disable_preview,
+                        },
+                        timeout=REQUEST_TIMEOUT,
+                    )
+                    if resp2.ok:
+                        continue  # plain text delivered — move to next recipient
+                    logger.warning(
+                        f"Plain-text fallback HTTP {resp2.status_code} "
+                        f"(chat_id={chat_id}): {resp2.text[:200]}"
+                    )
+                    if resp2.status_code == 400 and any(p in resp2.text for p in _perm):
+                        logger.error(f"Skipping unreachable chat_id={chat_id} (permanent error)")
+                        continue  # permanent even in plain text — skip, don't raise
+                    resp = resp2  # non-permanent failure → raise_for_status triggers retry
             resp.raise_for_status()
         return True
 

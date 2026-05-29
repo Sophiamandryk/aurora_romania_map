@@ -207,6 +207,16 @@ def run_macro_intelligence(today: str = None) -> dict:
         ua_fields = sum(1 for v in result.get("ukraine", {}).values() if v)
         bullets = len(result.get("aurora_bullets") or [])
         logger.info(f"Macro intel: Romania {ro_fields}/6, Ukraine {ua_fields}/6, Aurora {bullets} bullets")
+        # Attach top source URLs for Telegram formatting
+        seen_urls: set = set()
+        sources = []
+        for country in ("ro", "ua"):
+            for hits in data.get(country, {}).values():
+                for h in hits[:1]:
+                    if h.get("url") and h["url"] not in seen_urls:
+                        seen_urls.add(h["url"])
+                        sources.append({"title": h.get("title", ""), "url": h["url"]})
+        result["_sources"] = sources[:6]
         return result
     except Exception as e:
         logger.error(f"Macro intel AI synthesis failed: {e}")

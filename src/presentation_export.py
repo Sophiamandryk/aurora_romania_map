@@ -72,7 +72,7 @@ def _load_today_data(today_str: str) -> dict:
             (cutoff,),
         )]
 
-        # Today's Instagram batch analysis
+        # Today's Instagram batch analysis (includes saved daily_narrative)
         batch = conn.execute(
             "SELECT * FROM batch_analyses WHERE run_date = ? ORDER BY id DESC LIMIT 1",
             (today_str,),
@@ -82,6 +82,22 @@ def _load_today_data(today_str: str) -> dict:
             batch_data["competitor_activity"] = json.loads(
                 batch_data["competitor_activity_json"]
             )
+
+        # Today's map changes
+        map_change_rows = [dict(r) for r in conn.execute(
+            "SELECT change_type, city FROM changes WHERE detected_date = ?",
+            (today_str,),
+        )]
+
+        # Today's аналітичний бриф (saved headline + sections)
+        brief_row = conn.execute(
+            "SELECT * FROM daily_briefs WHERE run_date = ? ORDER BY id DESC LIMIT 1",
+            (today_str,),
+        ).fetchone()
+        brief_data = dict(brief_row) if brief_row else {}
+        if brief_data.get("sections_json"):
+            brief_data["sections"]    = json.loads(brief_data["sections_json"])
+            brief_data["top_actions"] = json.loads(brief_data.get("top_actions_json") or "[]")
 
         # Top relevant social posts today
         ig_cutoff = (datetime.now() - timedelta(hours=25)).isoformat()
@@ -104,13 +120,15 @@ def _load_today_data(today_str: str) -> dict:
             "web_results": web_results,
             "batch": batch_data,
             "ig_posts": ig_posts,
+            "brief": brief_data,
+            "map_changes": map_change_rows,
         }
     except Exception as e:
         logger.warning(f"Data load failed: {e}")
         return {
             "stores": 0, "cities": 0, "pepco_cities": 0, "pepco_gap": 0,
             "by_region": {}, "gap_cities": [], "web_results": [],
-            "batch": {}, "ig_posts": [],
+            "batch": {}, "ig_posts": [], "map_changes": [],
         }
 
 
@@ -140,18 +158,21 @@ _USER_TPL = """\
 Магазинів: {stores} | Міст: {cities} | Розрив vs Pepco: +{gap} міст
 Регіони: {regions}
 Міста-прогалини (є конкуренти, немає Aurora): {gap_cities}
+Зміни на карті сьогодні: {map_changes_summary}
 
-=== КОНКУРЕНТНА АКТИВНІСТЬ (веб-пошук сьогодні) ===
-{competitor_results}
+=== АНАЛІТИЧНИЙ БРИФ СЬОГОДНІ ===
+Заголовок: {brief_headline}
 
-=== РИНКОВІ ТРЕНДИ ===
-{market_results}
+{brief_sections_text}
 
-=== INSTAGRAM — РЕЛЕВАНТНІ ПОСТИ СЬОГОДНІ ===
-{ig_block}
+=== INSTAGRAM ДАЙДЖЕСТ ===
+{ig_narrative}
 
-=== AI-РЕКОМЕНДАЦІЯ ДЛЯ AURORA ===
-{recommendations}
+=== ДІЇ НА СЬОГОДНІ ===
+{brief_actions}
+
+=== МІСТО ДЛЯ ПЕРЕВІРКИ ===
+{brief_city}
 
 Побудуй до 8 слайдів. Для type=metric заповни поле metrics списком \
 {{"label":"...","value":"..."}}. Для type=action заповни items списком рядків.
@@ -175,24 +196,46 @@ def _build_slides_with_ai(data: dict, today_str: str) -> list[dict]:
         logger.error("openai not installed — using fallback slides")
         return _build_slides_fallback(data, today_str)
 
-    comp = [r for r in data["web_results"] if r["query_topic"] == "competitor"]
-    mkt  = [r for r in data["web_results"] if r["query_topic"] in
-            ("retail_trends", "consumer", "products")]
+    brief   = data.get("brief", {})
+    batch   = data.get("batch", {})
 
-    comp_block = "\n".join(
-        f"- {r['title']} ({r['url']})\n  {r['snippet'][:200]}" for r in comp[:6]
-    ) or "Даних не знайдено"
-    mkt_block = "\n".join(
-        f"- {r['title']}\n  {r['snippet'][:200]}" for r in mkt[:5]
-    ) or "Даних не знайдено"
+    # Use saved brief text when available; fall back to raw Tavily snippets
+    brief_headline = (brief.get("headline") or "").strip()
+    brief_sections = brief.get("sections") or []
+    brief_actions  = brief.get("top_actions") or []
+    brief_city     = (brief.get("expansion_signal") or "").strip()
 
-    ig_block = "\n".join(
-        f"- {p['competitor']}: {(p['caption'] or '')[:120]} → {p['post_url']}"
-        for p in data["ig_posts"][:4]
-    ) or "Постів не знайдено"
+    brief_sections_text = "\n\n".join(
+        f"[{s.get('title','')}]\n{s.get('content','')}"
+        for s in brief_sections if s.get("content")
+    ) if brief_sections else ""
+
+    # Instagram digest: use saved narrative when available
+    ig_narrative = (batch.get("daily_narrative") or "").strip()
+    if not ig_narrative:
+        ig_narrative = "\n".join(
+            f"- {p['competitor']}: {(p['caption'] or '')[:120]}"
+            for p in data["ig_posts"][:4]
+        ) or "Постів не знайдено"
 
     regions_str = ", ".join(f"{k}: {v}" for k, v in data["by_region"].items())
-    recs = (data["batch"].get("aurora_recommendations") or "")[:400]
+
+    # Map changes one-sentence summary
+    raw_changes = data.get("map_changes", [])
+    if raw_changes:
+        opened = [c["city"] for c in raw_changes if c.get("change_type") == "new_store"]
+        closed = [c["city"] for c in raw_changes if c.get("change_type") == "removed_store"]
+        parts = []
+        if opened:
+            parts.append(f"відкрито {len(opened)} новий магазин(-ів) у {', '.join(opened[:3])}")
+        if closed:
+            parts.append(f"закрито {len(closed)} магазин(-ів) у {', '.join(closed[:3])}")
+        other_n = len(raw_changes) - len(opened) - len(closed)
+        if other_n:
+            parts.append(f"{other_n} інших змін")
+        map_changes_summary = "; ".join(parts) + "." if parts else "змін на карті не виявлено."
+    else:
+        map_changes_summary = "змін на карті сьогодні не виявлено."
 
     user_msg = _USER_TPL.format(
         date=today_str,
@@ -201,10 +244,12 @@ def _build_slides_with_ai(data: dict, today_str: str) -> list[dict]:
         gap=max(data["pepco_gap"], 0),
         regions=regions_str or "немає даних",
         gap_cities=", ".join(data["gap_cities"][:5]) or "немає даних",
-        competitor_results=comp_block,
-        market_results=mkt_block,
-        ig_block=ig_block,
-        recommendations=recs or "немає даних",
+        map_changes_summary=map_changes_summary,
+        brief_headline=brief_headline or "немає даних",
+        brief_sections_text=brief_sections_text or "немає секцій",
+        ig_narrative=ig_narrative,
+        brief_actions="\n".join(f"• {a}" for a in brief_actions[:5]) or "немає даних",
+        brief_city=brief_city or "немає сигналу",
     )
 
     client = OpenAI(api_key=OPENAI_API_KEY)

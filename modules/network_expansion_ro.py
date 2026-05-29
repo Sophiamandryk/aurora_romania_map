@@ -264,6 +264,10 @@ def run(today: str = None) -> dict:
     if not first_run_comps:
         for brand, curr_stores in comp_curr.items():
             prev_stores = prev_comps.get(brand, [])
+            if not prev_stores:
+                # Brand was added after the last snapshot — treat as baseline, skip diff
+                logger.info(f"3.2 {brand}: not in previous snapshot ({prev_comps_date}) — baseline only")
+                continue
             res = _diff_stores(prev_stores, curr_stores)
             by_brand[brand] = {k: res[k] for k in ("opened", "closed", "relocated", "rebranded", "announced")}
             for det in res["_details"]:

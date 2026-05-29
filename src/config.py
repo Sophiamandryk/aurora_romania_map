@@ -115,5 +115,6 @@ def setup_logging(name: str = "aurora") -> logging.Logger:
         ch.setFormatter(fmt)
         logger.addHandler(fh)
         logger.addHandler(ch)
+        logger.propagate = False  # prevent child loggers (e.g. reports.presentation) from duplicating into parent handlers
 
     return logger
