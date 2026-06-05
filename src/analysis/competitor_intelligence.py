@@ -33,6 +33,11 @@ Rules:
 - Omit brands with no meaningful data
 - Return valid JSON only, no markdown fences
 
+GROUNDING RULE: Only use information explicitly present in the provided source data (Tavily results,
+catalogue scrapes, news articles, Instagram). Do not infer, extrapolate, or use training knowledge
+to fill gaps. If a brand has no meaningful data in the sources, omit it entirely.
+When in doubt, leave it out. Never invent pricing figures, dates, or expansion facts.
+
 JSON schema:
 {
   "brands": {

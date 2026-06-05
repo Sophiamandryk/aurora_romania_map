@@ -247,6 +247,7 @@ def search(query: str, days: int, n: int = 5, domains: list = None) -> list[dict
                     "url":            r.get("url", ""),
                     "snippet":        (r.get("content") or r.get("snippet", ""))[:500],
                     "published_date": r.get("published_date", ""),
+                    "_source":        "tavily",
                 })
         return out
     except Exception as e:

@@ -326,19 +326,32 @@ _SYSTEM = (
     "highlight any CEE or UA–RO comparison if present. "
     "Start with the date range covered "
     "(e.g. 'За останній тиждень...' or 'За останні 30 днів...'). "
-    "Neutral tone, no bullets, plain paragraph."
+    "After each specific fact or statistic, add the source URL in parentheses, "
+    "e.g. 'показники зросли на 3% (https://example.com/article)'. "
+    "Only cite URLs from the provided source list. "
+    "Neutral tone, no bullets, plain paragraph. "
+    "\n\n"
+    "GROUNDING RULE: Only use information explicitly present in the provided source texts. "
+    "If you are not certain a fact appears in the source, omit it. "
+    "Do not infer, extrapolate, or use training knowledge to fill gaps. "
+    "When in doubt, leave it out. "
+    "If the sources contain no usable information — write: "
+    "'Новин за цей період не знайдено.' "
+    "Do NOT invent companies, numbers, or facts."
 )
 
 
-def _summarize(label: str, results: list[dict], max_stage: int) -> str:
+def _summarize(label: str, results: list[dict], max_stage: int) -> tuple[str, list[dict]]:
+    """Returns (summary_text, cited_sources). cited_sources contains only URLs mentioned."""
     if not results:
-        return "Відповідних матеріалів не знайдено."
+        return "Новин за цей період не знайдено.", []
     if not OPENAI_API_KEY:
-        return f"OPENAI_API_KEY не налаштовано ({len(results)} джерел знайдено)."
+        return f"OPENAI_API_KEY не налаштовано ({len(results)} джерел знайдено).", []
 
     snippets = "\n\n".join(
         f"Title: {r['title']}\nURL: {r['url']}\n"
-        f"Date: {r.get('published_date') or 'n/a'}\n{r['snippet']}"
+        f"Date: {r.get('published_date') or 'n/a'}\nSource: {r.get('_source', 'tavily')}\n"
+        f"{r['snippet']}"
         for r in results[:8]
     )
     user_msg = f"Topic: {label}\n\n{snippets}"
@@ -363,22 +376,49 @@ def _summarize(label: str, results: list[dict], max_stage: int) -> str:
                 "\n⚠️ _Частина результатів знайдена через широкий пошук (стадія 3–4) — "
                 "перевіряйте посилання вручну._"
             )
-        return validated
+
+        # Only include cited sources (no orphan links)
+        import re as _re
+        cited_urls = set(_re.findall(r'https?://[^\s\)]+', validated))
+        cited_sources = [
+            {"title": r["title"], "url": r["url"]}
+            for r in results if r.get("url") and r["url"] in cited_urls
+        ]
+        return validated, cited_sources
     except Exception as e:
         logger.error(f"AI summary '{label}': {e}")
-        return f"AI недоступний ({len(results)} джерел знайдено)."
+        return f"AI недоступний ({len(results)} джерел знайдено).", []
 
 
 # ── Main entry point ──────────────────────────────────────────────────────────
 
 def run() -> list[dict]:
     """Run all 6 sub-topics. Returns list of result dicts."""
+    from datetime import date as _date
+    from modules._qa_log import write_entry as _qa_write
+    today = _date.today().isoformat()
     output = []
     for st in _SUBTOPICS:
         logger.info(f"Industry research: {st['label']}")
         results, max_stage = _search_subtopic(st["queries"], st["domains"], st["country"])
         logger.info(f"  {len(results)} results (max_stage={max_stage})")
-        summary = _summarize(st["label"], results, max_stage)
+        summary, cited_sources = _summarize(st["label"], results, max_stage)
+
+        # QA log for every result
+        cited_urls = {s["url"] for s in cited_sources}
+        for r in results:
+            url = r.get("url", "")
+            _qa_write(
+                section="2.3",
+                url=url,
+                fetch_method=r.get("_source", "tavily"),
+                status="fetched",
+                published_date=r.get("published_date", ""),
+                used_in_report=url in cited_urls,
+                content_chars=len(r.get("snippet", "")),
+                today=today,
+            )
+
         output.append({
             "id":            st["id"],
             "label":         st["label"],
@@ -386,10 +426,7 @@ def run() -> list[dict]:
             "results_count": len(results),
             "days_used":     180,
             "max_stage":     max_stage,
-            "sources": [
-                {"title": r["title"], "url": r["url"]}
-                for r in results[:3] if r.get("url")
-            ],
+            "sources":       cited_sources[:3],
         })
     return output
 

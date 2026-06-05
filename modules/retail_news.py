@@ -3,12 +3,16 @@
 6 sub-topics × 3 queries (UA / RO / EN) → per-query fallback → GPT summary.
 
 Key design decisions:
+- RSS feeds tried first (never blocked, always have parsed dates)
+- Tavily as fallback when RSS yields insufficient results
 - Year baked into every query string (Tavily date filter unreliable)
-- Per-query fallback: each query expands its window independently
+- Per-query fallback: each query expands its window independently (30 → 90 → 180 days)
+- Published_date must be parseable — results without a parseable date are discarded
 - Multi-signal year inference (published_date + URL + title + snippet)
 - Preferred news domains boost for Stage 1 (days ≤ 30)
 - Recency sort before GPT — freshest articles appear first in context
 - Google News parallel channel (optional, graceful fallback if unavailable)
+- QA log entry written for every source used in the final report
 """
 import re
 import time
@@ -17,8 +21,10 @@ from datetime import datetime
 import requests
 
 from src.config import OPENAI_API_KEY, TAVILY_API_KEY, REQUEST_TIMEOUT, setup_logging
-from modules._tavily import _BLOCKED_DOMAINS, _is_blocked, _token_overlap
+from modules._tavily import _BLOCKED_DOMAINS, _is_blocked, _token_overlap, _parse_date
 from modules._validator import validate_summary
+from modules._qa_log import write_entry as _qa_write
+from modules._rss import fetch_rss_for_domains, filter_by_keywords as _rss_filter
 
 logger = setup_logging("modules.retail_news")
 
@@ -36,6 +42,9 @@ CURRENT_YEAR = str(datetime.now().year)   # "2026"
 _TAVILY_URL = "https://api.tavily.com/search"
 _DELAY = 0.35
 
+# Date recency windows per spec: 30 → 90 → 180 → "not found"
+_FALLBACK_WINDOWS = [30, 90, 180]
+
 # Preferred domains for Stage 1 (days ≤ 30) — open retail/business news sites
 PREFERRED_NEWS_DOMAINS = [
     # Ukrainian retail & business
@@ -49,6 +58,12 @@ PREFERRED_NEWS_DOMAINS = [
     "logisticsmanager.com", "supplychaindigital.com",
 ]
 
+# RSS-enabled domains to pre-fetch before Tavily
+_RSS_DOMAINS = [
+    "retail.ro", "profit.ro", "wall-street.ro", "zf.ro", "economica.net",
+    "retailer.ua", "retailers.ua", "rau.ua", "allretail.ua",
+]
+
 # ── Sub-topics ────────────────────────────────────────────────────────────────
 
 SUBTOPICS = [
@@ -60,6 +75,7 @@ SUBTOPICS = [
             f"retail M&A investment Romania {CURRENT_YEAR}",
             f"retail merger acquisition CEE investment {CURRENT_YEAR}",
         ],
+        "keywords": ["злиття", "інвестиці", "M&A", "investment", "merger", "acquisition", "retail"],
         "geo": ["Ukraine", "Romania"],
     },
     {
@@ -70,6 +86,7 @@ SUBTOPICS = [
             f"deschidere inchidere magazine retail Romania {CURRENT_YEAR}",
             f"retail store openings closures Ukraine Romania {CURRENT_YEAR}",
         ],
+        "keywords": ["відкрит", "закрит", "deschidere", "inchidere", "store opening", "retail"],
         "geo": ["Ukraine", "Romania"],
     },
     {
@@ -80,6 +97,7 @@ SUBTOPICS = [
             f"format nou marca proprie retail Romania {CURRENT_YEAR}",
             f"new retail format private label launch Ukraine Romania {CURRENT_YEAR}",
         ],
+        "keywords": ["формат", "приватна марка", "format", "private label", "retail"],
         "geo": ["Ukraine", "Romania"],
     },
     {
@@ -90,6 +108,7 @@ SUBTOPICS = [
             f"e-commerce marketplace omnichannel Romania {CURRENT_YEAR}",
             f"online retail marketplace growth CEE Ukraine Romania {CURRENT_YEAR}",
         ],
+        "keywords": ["e-commerce", "marketplace", "онлайн", "omnichannel", "retail"],
         "geo": ["Ukraine", "Romania"],
     },
     {
@@ -100,6 +119,7 @@ SUBTOPICS = [
             f"tendinte consum comportament cumparator Romania {CURRENT_YEAR}",
             f"consumer trends shopper behavior Ukraine Romania {CURRENT_YEAR}",
         ],
+        "keywords": ["споживч", "тренд", "consumer", "tendinte", "retail"],
         "geo": ["Ukraine", "Romania"],
     },
     {
@@ -110,6 +130,7 @@ SUBTOPICS = [
             f"logistica depozite supply chain retail Romania {CURRENT_YEAR}",
             f"retail logistics warehouse supply chain Ukraine Romania {CURRENT_YEAR}",
         ],
+        "keywords": ["логістик", "склад", "logistica", "supply chain", "warehouse", "retail"],
         "geo": ["Ukraine", "Romania"],
     },
 ]
@@ -150,7 +171,12 @@ def _infer_year(result: dict) -> int | None:
 
 # ── Quality filter ─────────────────────────────────────────────────────────────
 
-def _passes_quality(result: dict, accepted: list[dict], min_year: int = 2026) -> bool:
+def _passes_quality(
+    result: dict,
+    accepted: list[dict],
+    min_year: int = 2026,
+    require_parsed_date: bool = True,
+) -> bool:
     """Combined quality + freshness + geo-relevance check."""
     snippet = result.get("snippet") or result.get("content", "")
     url = result.get("url", "")
@@ -161,15 +187,19 @@ def _passes_quality(result: dict, accepted: list[dict], min_year: int = 2026) ->
     # 2. Blocked domain
     if _is_blocked(url):
         return False
-    # 3. Year check with multi-signal inference
+    # 3. Published date must be parseable (per spec: discard unparseable dates)
+    pub_dt = _parse_date(result.get("published_date", ""))
+    if require_parsed_date and pub_dt is None:
+        return False
+    # 4. Year check with multi-signal inference
     inferred = _infer_year(result)
     if inferred is not None and inferred < min_year:
         return False   # confirmed old — reject
-    # 4. Geographic relevance
+    # 5. Geographic relevance
     text = (result.get("title", "") + " " + snippet[:400]).lower()
     if not any(g in text for g in _GEO_SIGNALS):
         return False
-    # 5. Jaccard dedup against already accepted
+    # 6. Jaccard dedup against already accepted
     for acc in accepted:
         acc_snip = acc.get("snippet") or acc.get("content", "")
         if _token_overlap(snippet[:300], acc_snip[:300]) >= 0.70:
@@ -213,6 +243,7 @@ def _tavily_call(query: str, days: int, include_domains: list = None) -> list[di
                     "url":            r.get("url", ""),
                     "snippet":        (r.get("content") or r.get("snippet", ""))[:600],
                     "published_date": r.get("published_date", ""),
+                    "_source":        "tavily",
                 })
         return out
     except Exception as e:
@@ -242,11 +273,15 @@ def _search_google_news_retail(subtopic: dict) -> list[dict]:
                 title   = entry.get("title", "")
                 summary = re.sub(r"<[^>]+>", " ", entry.get("summary") or "").strip()
                 snippet = f"{title}. {summary}" if len(summary) < 180 else summary
+                pub_str = entry.get("published", "")
+                # Require parseable date for Google News results too
+                if not _parse_date(pub_str):
+                    continue
                 results.append({
                     "url":            raw_url,
                     "title":          title,
                     "snippet":        snippet[:600],
-                    "published_date": entry.get("published", ""),
+                    "published_date": pub_str,
                     "_source":        "google_news",
                     "_days_window":   30,
                 })
@@ -266,36 +301,44 @@ def _collect_subtopic(
     max_n: int = 10,
 ) -> tuple[list[dict], int]:
     """
-    Per-query fallback: each query expands its window independently.
+    Source priority: RSS → Google News → Tavily (with per-query window fallback).
+    Date recency fallback windows: 30 → 90 → 180 days (per spec).
+    Results without a parseable published_date are discarded.
     Returns (results, max_window_used).
     """
     if fallback_windows is None:
-        fallback_windows = [7, 30, 90, 180]
+        fallback_windows = _FALLBACK_WINDOWS  # [30, 90, 180]
 
-    queries = subtopic["queries"]
     accepted: list[dict] = []
     seen_urls: set[str] = set()
     max_window_used = fallback_windows[0]
 
-    # Start with Google News (free, fresh)
+    # ── Channel 1: RSS (never blocked, always has parsed dates) ──────────────
+    rss_raw = fetch_rss_for_domains(_RSS_DOMAINS, max_age_days=fallback_windows[-1])
+    rss_filtered = _rss_filter(rss_raw, subtopic.get("keywords", []) + subtopic.get("queries", []))
+    for r in rss_filtered:
+        if r["url"] and r["url"] not in seen_urls and _passes_quality(r, accepted, min_year):
+            r["_days_window"] = 30
+            accepted.append(r)
+            seen_urls.add(r["url"])
+
+    # ── Channel 2: Google News ────────────────────────────────────────────────
     for r in _search_google_news_retail(subtopic):
         if r["url"] and r["url"] not in seen_urls and _passes_quality(r, accepted, min_year):
             r["_days_window"] = 30
             accepted.append(r)
             seen_urls.add(r["url"])
 
-    # Track which queries have already contributed at least one result
-    query_contributed: dict[str, bool] = {q: False for q in queries}
+    # ── Channel 3: Tavily (per-query window fallback) ─────────────────────────
+    query_contributed: dict[str, bool] = {q: False for q in subtopic["queries"]}
 
     for window in fallback_windows:
         max_window_used = max(max_window_used, window)
 
-        # Only run queries that haven't found anything yet
-        pending = [q for q in queries if not query_contributed[q]]
+        pending = [q for q in subtopic["queries"] if not query_contributed[q]]
         if not pending:
-            break  # every query found something
+            break
 
-        # Domain boost for fresh windows only
         domains = PREFERRED_NEWS_DOMAINS if window <= 30 else None
 
         for q in pending:
@@ -329,9 +372,18 @@ _SYSTEM = (
     "write a 3–5 sentence summary in Ukrainian: "
     "state the key finding, name specific companies/reports/figures only if present in sources, "
     "highlight any UA–RO comparison if data exists for both countries. "
-    "Write ONLY facts that appear in the provided sources. "
+    "After each specific fact or statistic, add the source URL in parentheses on the same line, "
+    "e.g. 'продажі зросли на 5% (https://example.com/article)'. "
+    "Only cite URLs from the provided source list. "
+    "Never include a URL that has no preceding fact from that source. "
+    "Never include a fact without a backing URL. "
+    "\n\n"
+    "GROUNDING RULE: Only use information explicitly present in the provided source texts. "
+    "If you are not certain a fact appears in the source, omit it. "
+    "Do not infer, extrapolate, or use training knowledge to fill gaps. "
+    "When in doubt, leave it out. "
     "If sources don't contain enough information — write: "
-    "'Достатньо підтверджених даних із джерел не знайдено.' "
+    "'Новин за цей період не знайдено.' "
     "Do NOT invent companies, numbers, or facts."
 )
 
@@ -348,6 +400,7 @@ def _build_prompt(results: list[dict], label: str, max_window: int) -> str:
     sources_block = "\n\n".join(
         f"[{i+1}] {r.get('title','')}\n"
         f"Дата: {r.get('published_date') or (_infer_year(r) or 'невідома')} | "
+        f"Джерело: {r.get('_source', 'tavily')} | "
         f"Вікно пошуку: {r.get('_days_window', '?')}д\n"
         f"URL: {r.get('url','')}\n"
         f"Текст: {(r.get('snippet') or r.get('content',''))[:500]}"
@@ -361,11 +414,24 @@ def _build_prompt(results: list[dict], label: str, max_window: int) -> str:
     )
 
 
-def _summarize(label: str, results: list[dict], max_window: int) -> str:
+def _extract_cited_urls(summary: str) -> set[str]:
+    """Find all https?:// URLs appearing in parentheses in the summary."""
+    return set(re.findall(r'\(https?://[^\s\)]+\)', summary))
+
+
+def _summarize(
+    label: str,
+    results: list[dict],
+    max_window: int,
+) -> tuple[str, list[dict]]:
+    """
+    Returns (summary_text, sources_actually_cited).
+    sources_actually_cited: only results whose URL appears in the summary text.
+    """
     if not results:
-        return f"За останні {max_window} дн. релевантних новин не знайдено."
+        return "Новин за цей період не знайдено.", []
     if not OPENAI_API_KEY:
-        return f"OPENAI_API_KEY не налаштовано ({len(results)} джерел знайдено)."
+        return f"OPENAI_API_KEY не налаштовано ({len(results)} джерел знайдено).", []
 
     user_msg = _build_prompt(results, label, max_window)
 
@@ -381,15 +447,27 @@ def _summarize(label: str, results: list[dict], max_window: int) -> str:
             max_tokens=450,
         )
         raw = resp.choices[0].message.content.strip()
-        return validate_summary(raw, results, topic=label)
+        validated = validate_summary(raw, results, topic=label)
+
+        # Build sources list: only URLs actually cited in the summary (no orphan links)
+        cited_urls = set(re.findall(r'https?://[^\s\)]+', validated))
+        cited_sources = [
+            {"title": r["title"], "url": r["url"]}
+            for r in results
+            if r.get("url") and r["url"] in cited_urls
+        ]
+        return validated, cited_sources
+
     except Exception as e:
         logger.error(f"AI summary '{label}': {e}")
-        return f"AI недоступний ({len(results)} джерел знайдено)."
+        return f"AI недоступний ({len(results)} джерел знайдено).", []
 
 
 # ── Main entry point ───────────────────────────────────────────────────────────
 
 def run() -> list[dict]:
+    from datetime import date as _date
+    today = _date.today().isoformat()
     output = []
     for st in SUBTOPICS:
         logger.info(f"Retail news: {st['label']}")
@@ -399,17 +477,34 @@ def run() -> list[dict]:
             f"  {len(results)} results (max_window={max_window}d, "
             f"years={sorted(set(years), reverse=True)[:3] if years else 'unknown'})"
         )
-        summary = _summarize(st["label"], results, max_window)
+        summary, cited_sources = _summarize(st["label"], results, max_window)
+
+        # QA log: every result, tagged used_in_report based on citation
+        cited_urls = {s["url"] for s in cited_sources}
+        for r in results:
+            url = r.get("url", "")
+            _qa_write(
+                section="2.2",
+                url=url,
+                fetch_method=r.get("_source", "tavily"),
+                status="fetched",
+                published_date=r.get("published_date", ""),
+                used_in_report=url in cited_urls,
+                content_chars=len(r.get("snippet", "")),
+                today=today,
+            )
+
+        # Fallback message if nothing found
+        if not results:
+            summary = "Новин за цей період не знайдено."
+
         output.append({
             "id":            st["id"],
             "label":         st["label"],
             "summary":       summary,
             "results_count": len(results),
             "days_used":     max_window,
-            "sources": [
-                {"title": r["title"], "url": r["url"]}
-                for r in results[:3] if r.get("url")
-            ],
+            "sources":       cited_sources[:3],  # only cited sources, no orphan links
         })
     return output
 
@@ -433,4 +528,8 @@ if __name__ == "__main__":
         if bad_geo:
             print("    ⚠️  GEO MISMATCH")
 
-    print(f"\nSummary:\n{_summarize(st['label'], results, max_window)}")
+    summary, sources = _summarize(st["label"], results, max_window)
+    print(f"\nSummary:\n{summary}")
+    print(f"\nCited sources ({len(sources)}):")
+    for s in sources:
+        print(f"  {s['url']}")
