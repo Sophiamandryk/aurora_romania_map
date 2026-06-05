@@ -29,6 +29,7 @@ Rules:
 - Deduplicate: if multiple sources say the same thing, write it once
 - Expansion bullet only for confirmed, explicitly dated/located facts
 - key_insight: single most important sentence for Aurora decision-making
+- sources: list 1–3 URLs from the provided Tavily results that back up the bullets for this brand — copy URLs exactly as given, do not invent
 - Omit brands with no meaningful data
 - Return valid JSON only, no markdown fences
 
@@ -38,7 +39,8 @@ JSON schema:
     "<BrandName>": {
       "key_insight": "<1 sentence>",
       "bullets": ["<bullet>", ...],
-      "expansion": "<confirmed expansion text or null>"
+      "expansion": "<confirmed expansion text or null>",
+      "sources": ["<url1>", "<url2>"]
     }
   },
   "market_pattern": "<1-2 sentences: what do competitors collectively signal this week>",

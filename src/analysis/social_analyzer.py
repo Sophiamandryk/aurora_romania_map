@@ -37,6 +37,11 @@ Tracked brands: Aurora, Pepco, Penny, Profi, KiK, TEDi, Action, MrDIY.
 Your task: extract COMMERCIAL INTELLIGENCE from Instagram posts.
 Commercial intelligence means: active promotions, product launches, confirmed store openings.
 
+LANGUAGE RULE — CRITICAL:
+ALL text you write in ANY field must be in Ukrainian.
+Posts are in Romanian — translate all Romanian content to Ukrainian before writing any field value.
+Brand names (Pepco, KiK, etc.) and URLs stay as-is. Everything else: Ukrainian.
+
 STRICT rules:
 - A store opening is ONLY "confirmed" if the post text explicitly announces it with a location.
 - Do NOT speculate about future expansion from vague location mentions or hashtags.
@@ -61,9 +66,9 @@ Return a JSON object with this EXACT structure:
       "category": "promo|product|opening|noise",
       "is_relevant": true,
       "relevance_score": 0,
-      "promo_detail": "<discount %, campaign name, seasonal angle — or empty string>",
-      "product_detail": "<product name, category, collaboration — or empty string>",
-      "opening_detail": "<city or mall ONLY if post explicitly confirms opening — or empty string>"
+      "promo_detail": "<in Ukrainian: discount %, campaign name, seasonal angle — or empty string>",
+      "product_detail": "<in Ukrainian: product name, category, collaboration — or empty string>",
+      "opening_detail": "<in Ukrainian: city or mall ONLY if post explicitly confirms opening — or empty string>"
     }}
   ],
   "commercial_digest": {{
@@ -72,7 +77,7 @@ Return a JSON object with this EXACT structure:
     "openings": ["<brand> — <city/mall> відкриття (<post_url>)"]
   }},
   "brand_summary": {{
-    "<brand>": "<one sentence: what commercial activity today, or empty if brand had no relevant posts>"
+    "<brand>": "<in Ukrainian: one sentence about commercial activity today, or empty if no relevant posts>"
   }},
   "patterns": ["<cross-brand pattern if 2+ brands do the same thing simultaneously>"],
   "daily_narrative": "<Ukrainian analytical text — see rules below>"
@@ -97,7 +102,9 @@ Add to "promos" only if score >= 40 AND promo_detail is non-empty.
 Add to "products" only if score >= 40 AND product_detail is non-empty.
 
 Rules for daily_narrative:
-- Minimum 130 words in Ukrainian, analytical prose. No bullet lists, no section headers.
+- WRITE ENTIRELY IN UKRAINIAN. This is mandatory. Do NOT write in Romanian or any other language.
+- Translate all Romanian post captions to Ukrainian before including them in the narrative.
+- Minimum 130 words, analytical prose. No bullet lists, no section headers.
 - Cover: (1) what each active brand showed commercially today with specifics,
   (2) cross-brand category or pricing patterns, (3) one concrete insight for Aurora.
 - Follow each specific brand claim with the post URL in parentheses.

@@ -74,7 +74,7 @@ def _match_keywords(caption: str) -> list[str]:
 _APIFY_BASE = "https://api.apify.com/v2"
 _ACTOR_ID   = "apify~instagram-scraper"
 _POLL_INTERVAL_S = 10
-_POLL_TIMEOUT_S  = 300  # 5 minutes
+_POLL_TIMEOUT_S  = 900  # 15 minutes
 
 
 def _apify_headers() -> dict:

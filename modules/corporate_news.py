@@ -7,13 +7,15 @@ GPT-4o-mini curates the 5 most relevant items and writes to aurora_output_YYYY-M
 import json
 import time
 import requests
-from datetime import date
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
 
 from src.config import (
     TAVILY_API_KEY, OPENAI_API_KEY, REQUEST_TIMEOUT, DATA_DIR, setup_logging,
 )
+from modules._tavily import _parse_date, validate_results
+from modules._validator import validate_summary
 
 logger = setup_logging("modules.corporate_news")
 
@@ -77,15 +79,61 @@ def _search(query: str, days: int) -> list[dict]:
         time.sleep(_DELAY)
 
 
+def _tokens(text: str) -> set[str]:
+    """Lowercase word tokens (len >= 4) — short words are too common across stories."""
+    return {w for w in text.lower().split() if len(w) >= 4}
+
+
+def _jaccard(a: set, b: set) -> float:
+    union = a | b
+    return len(a & b) / len(union) if union else 0.0
+
+
+def _dedup_by_story(results: list[dict]) -> list[dict]:
+    """
+    Remove same-story duplicates — multiple outlets covering the same event.
+    Keeps first article per cluster. Two articles are the same story if:
+      - Title token overlap >= 0.25  OR
+      - Snippet token overlap >= 0.35
+    These thresholds handle cross-script variants (Aurora/Аврора) and
+    paraphrased headlines from different Ukrainian outlets.
+    """
+    kept: list[dict] = []
+    for r in results:
+        combined  = _tokens(r.get("title", "") + " " + (r.get("snippet") or "")[:300])
+        is_dup = False
+        for k in kept:
+            k_combined = _tokens(k.get("title", "") + " " + (k.get("snippet") or "")[:300])
+            # Same story: 25%+ shared vocabulary across title+snippet
+            if _jaccard(combined, k_combined) >= 0.25:
+                is_dup = True
+                break
+        if not is_dup:
+            kept.append(r)
+        else:
+            logger.debug(f"Deduped same-story: {r.get('title','')[:70]}")
+    return kept
+
+
 def _collect(days: int) -> list[dict]:
+    cutoff = datetime.utcnow() - timedelta(days=days)
     seen: set[str] = set()
-    results: list[dict] = []
+    raw: list[dict] = []
     for q in _QUERIES:
         for r in _search(q, days):
-            if r["url"] not in seen:
-                seen.add(r["url"])
-                results.append(r)
-    return results
+            if r["url"] in seen:
+                continue
+            # Reject articles with no parseable date — can't verify freshness
+            parsed = _parse_date(r.get("published_date", ""))
+            if not parsed:
+                continue
+            # Reject articles older than the requested window
+            if parsed < cutoff:
+                continue
+            seen.add(r["url"])
+            raw.append(r)
+    validated = validate_results(raw)
+    return _dedup_by_story(validated)
 
 
 def _curate(results: list[dict]) -> list[dict]:
@@ -113,7 +161,17 @@ def _curate(results: list[dict]) -> list[dict]:
             max_tokens=1500,
         )
         raw = resp.choices[0].message.content.strip()
-        return json.loads(raw)
+        curated = json.loads(raw)
+        # Validate each item's summary_uk against its source snippet
+        source_map = {r["url"]: r for r in results}
+        for item in curated:
+            src = source_map.get(item.get("url", ""))
+            if src and item.get("summary_uk"):
+                item["summary_uk"] = validate_summary(
+                    item["summary_uk"], [src],
+                    topic=item.get("title", "")[:60],
+                )
+        return curated
     except json.JSONDecodeError:
         logger.error(f"Malformed JSON from OpenAI curation: {raw!r}")
         return []
@@ -142,10 +200,11 @@ def run(today: str = None) -> dict:
 
     results = _collect(days=1)
     actual_days = 1
-    if len(results) < 5:
-        logger.info(f"Only {len(results)} results for days=1, retrying with days=2")
-        results = _collect(days=2)
-        actual_days = 2
+    for next_days in [3, 7]:
+        if len(results) < 3:
+            logger.info(f"Only {len(results)} results for days={actual_days}, retrying with days={next_days}")
+            results = _collect(days=next_days)
+            actual_days = next_days
 
     logger.info(f"3.1 corporate news: {len(results)} raw results (days={actual_days})")
 

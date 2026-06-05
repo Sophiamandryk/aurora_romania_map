@@ -381,10 +381,12 @@ def run_daily_brief(dry_run: bool = False, skip_alerts: bool = False) -> Optiona
         logger.warning("Daily brief: Tavily returned no results")
         return None
 
-    # 2. Dedup against last 7 days in DB
+    # 2. Dedup against last 7 days in DB, then quality-filter
     from src.storage.sqlite_store import get_known_search_urls, save_web_search_results
+    from modules._tavily import validate_results
     known_urls  = get_known_search_urls(days=7)
-    new_results = [r for r in all_results if r["url"] not in known_urls]
+    deduped     = [r for r in all_results if r["url"] not in known_urls]
+    new_results = validate_results(deduped)
     logger.info(
         f"Daily brief: {len(all_results)} fetched, "
         f"{len(new_results)} new (not seen in 7 days)"

@@ -17,39 +17,57 @@ logger = setup_logging("main")
 
 # ── Telegram section formatters ───────────────────────────────────────────────
 
+import re as _re
+
+def _md(text: str) -> str:
+    """Escape Markdown v1 special chars in dynamic content."""
+    return _re.sub(r'([_*`\[])', r'\\\1', str(text))
+
+def _src_link(src: dict) -> str:
+    """Format a source as a safe Markdown link."""
+    title = (_md((src.get("title") or "")[:60]))
+    url   = src.get("url", "")
+    return f"📎 [{title}]({url})" if url else ""
+
+
 def _fmt_retail_news(data: list, today: str) -> str:
     lines = [f"📰 *2.2 Retail News — {today}*\n"]
     for s in data:
         n    = s.get("results_count", 0)
         days = s.get("days_used", 1)
-        lines.append(f"*{s.get('label', '')}* ({n} джерел, {days}д)")
+        lines.append(f"*{_md(s.get('label', ''))}* ({n} джерел, {days}д)")
         summary = (s.get("summary") or "").strip()
         if summary:
-            lines.append(summary[:350])
+            lines.append(_md(summary[:800]))
         for src in s.get("sources", [])[:3]:
-            title = (src.get("title") or "")[:60]
-            url   = src.get("url", "")
-            if url:
-                lines.append(f"📎 [{title}]({url})")
+            link = _src_link(src)
+            if link:
+                lines.append(link)
         lines.append("")
     return "\n".join(lines)[:4090]
 
 
-def _fmt_industry_research(data: list, today: str) -> str:
-    lines = [f"🔬 *2.3 Industry Research — {today}*\n"]
-    for s in data:
-        n = s.get("results_count", 0)
-        lines.append(f"*{s.get('label', '')}* ({n} джерел)")
-        summary = (s.get("summary") or "").strip()
-        if summary:
-            lines.append(summary[:350])
-        for src in s.get("sources", [])[:3]:
-            title = (src.get("title") or "")[:60]
-            url   = src.get("url", "")
-            if url:
-                lines.append(f"📎 [{title}]({url})")
-        lines.append("")
-    return "\n".join(lines)[:4090]
+def _fmt_industry_research(data: list, today: str) -> list[str]:
+    """Returns a list of messages (one per country) to avoid Telegram 4090-char limit."""
+    msgs = []
+    for flag, country_key in [("🇺🇦", "ua"), ("🇷🇴", "ro")]:
+        country_data = [s for s in data if s.get("id", "").endswith(f"_{country_key}")]
+        if not country_data:
+            continue
+        lines = [f"🔬 *2.3 Industry Research {flag} — {today}*\n"]
+        for s in country_data:
+            n = s.get("results_count", 0)
+            lines.append(f"*{_md(s.get('label', ''))}* ({n} джерел)")
+            summary = (s.get("summary") or "").strip()
+            if summary:
+                lines.append(_md(summary[:800]))
+            for src in s.get("sources", [])[:3]:
+                link = _src_link(src)
+                if link:
+                    lines.append(link)
+            lines.append("")
+        msgs.append("\n".join(lines)[:4090])
+    return msgs or [f"🔬 *2.3 Industry Research — {today}*\n\n_Даних не зібрано._"]
 
 
 def _fmt_corporate_news(section: dict, today: str) -> str:
@@ -92,6 +110,25 @@ def _fmt_network_expansion(section: dict, today: str) -> str:
             dtype = _UA.get(d.get("type", ""), d.get("type", ""))
             loc   = d.get("location") or d.get("to") or d.get("from", "")
             lines.append(f"• {d.get('brand', '')} {dtype} — {loc}")
+
+    # Source links — competitor store locators scraped to produce this diff
+    _SOURCES = {
+        "Pepco":  ("pepco.ro/store-locator", "https://pepco.ro/store-locator"),
+        "TEDi":   ("tedi.com/ro", "https://www.tedi.com/ro/cautare-filiala"),
+        "KiK":    ("companie.kik.ro", "https://companie.kik.ro/localizare-magazin"),
+        "Profi":  ("OpenStreetMap Overpass", "https://overpass-api.de"),
+        "Penny":  ("penny.ro/api/stores", "https://www.penny.ro/magazinul-meu"),
+        "MrDIY":  ("mrdiy.com/ro", "https://www.mrdiy.com/ro/storelocator"),
+        "Aurora": ("aurora-retail.com/store\\_map", "https://aurora-retail.com/en/pages/store_map/"),
+    }
+    brands_in_diff = {d.get("brand") for d in details} | set(section.get("by_brand", {}).keys())
+    src_lines = []
+    for brand in sorted(brands_in_diff):
+        if brand in _SOURCES:
+            label, url = _SOURCES[brand]
+            src_lines.append(f"[{label}]({url})")
+    if src_lines:
+        lines.append("\n📎 *Джерела:* " + " • ".join(src_lines))
     return "\n".join(lines)[:4090]
 
 
@@ -106,9 +143,10 @@ def _fmt_competitor_intel(result: dict, today: str, sources: list = None) -> str
     if aurora_impl:
         lines.append(f"*Aurora:* {aurora_impl}\n")
     for brand, bdata in result.get("brands", {}).items():
-        key_insight = (bdata.get("key_insight") or "").strip()
-        bullets     = bdata.get("bullets") or []
-        expansion   = (bdata.get("expansion") or "").strip()
+        key_insight  = (bdata.get("key_insight") or "").strip()
+        bullets      = bdata.get("bullets") or []
+        expansion    = (bdata.get("expansion") or "").strip()
+        brand_sources = bdata.get("sources") or []
         if not key_insight and not bullets:
             continue
         lines.append(f"*{brand}*")
@@ -118,10 +156,16 @@ def _fmt_competitor_intel(result: dict, today: str, sources: list = None) -> str
             lines.append(f"• {b}")
         if expansion:
             lines.append(f"📍 {expansion}")
+        if brand_sources:
+            src_links = " | ".join(
+                f"[джерело {i+1}]({u})" for i, u in enumerate(brand_sources[:2]) if u
+            )
+            if src_links:
+                lines.append(f"📎 {src_links}")
         lines.append("")
     if sources:
-        lines.append("📎 *Джерела:*")
-        for src in sources[:5]:
+        lines.append("📎 *Загальні джерела:*")
+        for src in sources[:3]:
             title = (src.get("title") or "")[:60]
             url   = src.get("url", "")
             if url:
@@ -201,6 +245,9 @@ def _fmt_macro_environment(result: dict, today: str) -> str:
            "unemployment": "Безробіття", "wages": "Зарплати",
            "energy": "Енергетика", "fiscal": "Фіскальна"}
     lines = [f"📊 *2.1 Макросередовище — {today}*\n"]
+    ro_sources = result.get("_sources_ro") or []
+    ua_sources = result.get("_sources_ua") or []
+
     ro = result.get("romania") or {}
     if ro:
         lines.append("🇷🇴 *Румунія:*")
@@ -208,7 +255,16 @@ def _fmt_macro_environment(result: dict, today: str) -> str:
             val = (ro.get(key) or "").strip()
             if val:
                 lines.append(f"• {label}: {val}")
+        if ro_sources:
+            links = " | ".join(
+                f"[{(s.get('title') or '')[:45]}]({s['url']})"
+                for s in ro_sources[:3] if s.get("url")
+            )
+            lines.append(f"📎 {links}")
+        else:
+            lines.append("_⚠️ Джерела для Румунії не знайдено_")
         lines.append("")
+
     ua = result.get("ukraine") or {}
     if ua:
         lines.append("🇺🇦 *Україна:*")
@@ -216,20 +272,21 @@ def _fmt_macro_environment(result: dict, today: str) -> str:
             val = (ua.get(key) or "").strip()
             if val:
                 lines.append(f"• {label}: {val}")
+        if ua_sources:
+            links = " | ".join(
+                f"[{(s.get('title') or '')[:45]}]({s['url']})"
+                for s in ua_sources[:3] if s.get("url")
+            )
+            lines.append(f"📎 {links}")
+        else:
+            lines.append("_⚠️ Джерела для України не знайдено — дані непідтверджені_")
         lines.append("")
+
     bullets = result.get("aurora_bullets") or []
     if bullets:
         lines.append("*Aurora:*")
         for b in bullets[:2]:
             lines.append(f"• {b.strip()}")
-    sources = result.get("_sources") or []
-    if sources:
-        lines.append("\n📎 *Джерела:*")
-        for src in sources[:6]:
-            title = (src.get("title") or "")[:60]
-            url   = src.get("url", "")
-            if url:
-                lines.append(f"[{title}]({url})")
     return "\n".join(lines)[:4090]
 
 
@@ -601,15 +658,24 @@ def run_pipeline(
                 import sqlite3 as _sqlite3
                 from src.config import DB_PATH as _DB_PATH
                 _conn13 = _sqlite3.connect(str(_DB_PATH))
+                # Try today first, then fall back to most recent available
                 _row13 = _conn13.execute(
-                    "SELECT daily_narrative FROM batch_analyses "
-                    "WHERE run_date = ? ORDER BY id DESC LIMIT 1",
+                    "SELECT daily_narrative, run_date FROM batch_analyses "
+                    "WHERE run_date = ? AND length(daily_narrative) > 10 "
+                    "ORDER BY id DESC LIMIT 1",
                     (today,),
                 ).fetchone()
-                # Load today's relevant posts with their URLs for the links section
+                if not _row13:
+                    _row13 = _conn13.execute(
+                        "SELECT daily_narrative, run_date FROM batch_analyses "
+                        "WHERE length(daily_narrative) > 10 "
+                        "ORDER BY id DESC LIMIT 1",
+                    ).fetchone()
+                _narrative_date = _row13[1] if _row13 else today
+                # Load relevant posts — today first, else last 3 days
                 _posts13 = _conn13.execute(
                     "SELECT competitor, post_url FROM social_posts "
-                    "WHERE DATE(scraped_at) = ? AND is_relevant = 1 "
+                    "WHERE DATE(scraped_at) >= DATE(?, '-3 days') AND is_relevant = 1 "
                     "ORDER BY relevance_score DESC LIMIT 8",
                     (today,),
                 ).fetchall()
@@ -622,7 +688,7 @@ def run_pipeline(
                             for r in _posts13
                         ],
                     }
-                    logger.info(f"1.3: loaded from DB — narrative + {len(_posts13)} posts (re-run)")
+                    logger.info(f"1.3: loaded from DB — narrative ({_narrative_date}) + {len(_posts13)} posts")
             except Exception as _e13:
                 logger.debug(f"1.3 DB load failed: {_e13}")
         _digest = (_social_13 or {}).get("commercial_digest") or {}
@@ -669,7 +735,8 @@ def run_pipeline(
             _ir = _run_industry_research()
             _output["2.3_industry_research"] = _ir
             if not skip_alerts and not _tg_sections_done:
-                _bot._send(_fmt_industry_research(_ir, today), disable_preview=True)
+                for _msg in _fmt_industry_research(_ir, today):
+                    _bot._send(_msg, disable_preview=True)
         except Exception as e:
             logger.error(f"Industry research failed: {e}")
 

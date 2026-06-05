@@ -292,10 +292,13 @@ class ProfiScraper:
         "https://overpass-api.de/api/interpreter",
     ]
     QUERY = (
-        "[out:json][timeout:60];"
+        "[out:json][timeout:180];"
         'node["brand"="Profi"](43.5,20.0,48.5,30.0);'
-        "out body;"
+        "out qt;"
     )
+    # Overpass can be slow for large datasets — give it 5 minutes before giving up.
+    # A single patient wait beats three 90s timeouts that each fail and retry.
+    _OVERPASS_TIMEOUT = 300
 
     def __init__(self):
         self.session = requests.Session()
@@ -308,7 +311,7 @@ class ProfiScraper:
                 resp = self.session.post(
                     url,
                     data={"data": self.QUERY},
-                    timeout=90,
+                    timeout=self._OVERPASS_TIMEOUT,
                 )
                 if resp.status_code == 200:
                     return resp
@@ -318,7 +321,7 @@ class ProfiScraper:
                 last_exc = e
         raise last_exc or RuntimeError("All Overpass mirrors failed")
 
-    @retry(stop=stop_after_attempt(MAX_RETRIES), wait=wait_exponential(multiplier=1, min=2, max=10))
+    @retry(stop=stop_after_attempt(2), wait=wait_exponential(multiplier=1, min=5, max=30))
     def scrape(self) -> list[dict]:
         logger.info("Scraping Profi via OpenStreetMap Overpass (profi.ro is Cloudflare-blocked)")
         resp = self._post_overpass()
