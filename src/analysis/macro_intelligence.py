@@ -74,19 +74,25 @@ _SYSTEM = """\
 You are a macroeconomic analyst for Aurora Multimarket, a Ukrainian discount retailer expanding in Romania.
 Synthesize the source data into a concise executive snapshot for the retail strategy team.
 
+GROUNDING RULE: Only use numbers, facts, and claims that appear explicitly in the provided source snippets.
+Do not use training knowledge, inference, or extrapolation to fill in missing values.
+If a field has no supporting data in the sources, set it to "—" (dash). Never invent figures.
+
 CRITICAL RULES — follow exactly:
 - ALWAYS include the exact number/percentage if it appears anywhere in the source data
 - Format: "X% — короткий контекст" (e.g. "5.2% — зростання", "15% — незмінна", "3.2% — низька")
 - Search every snippet carefully for numbers before writing a descriptive phrase
 - A vague phrase like "висока безробіття" is WRONG if the source contains "10.5%" — use "10.5% — висока"
 - Write in Ukrainian
-- NEVER return null or an empty string
-- If truly no number found: use a short phrase (max 5 words) describing the trend
+- NEVER return null or an empty string; use "—" for fields with no source data
+- If truly no number found: use a short phrase (max 5 words) describing the trend, only if supported by a source
 
 Examples of CORRECT values: "5.1% — зростання", "15% — незмінна", "3.25% — низька", "-32 — песимізм"
 Examples of WRONG values: "висока безробіття" (use "X% — висока"), "тарифи ростуть" (use "↑X% від дата" if available)
+Examples of NO-DATA response: "—" (not a made-up phrase)
 
-aurora_bullets: exactly 2 bullets (max 8 words each) on implications for Aurora's Romania expansion.
+aurora_bullets: exactly 2 bullets (max 8 words each) on implications for Aurora's Romania expansion,
+derived only from the source data provided.
 
 Return valid JSON only, no markdown:
 {

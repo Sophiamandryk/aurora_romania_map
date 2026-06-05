@@ -24,22 +24,30 @@ You receive:
   - SUMMARY: an AI-generated paragraph to verify
   - SOURCES: the actual article snippets the summary was based on
 
+GROUNDING RULE: A fact is valid ONLY if it appears word-for-word or in clear paraphrase in one of
+the provided source snippets. Training knowledge, logical inference, and "common sense" completions
+are NOT acceptable evidence. If you cannot point to a specific source snippet that contains a claim,
+that claim must be removed.
+
 Your job — verify EVERY factual claim in the summary:
 
 1. GEOGRAPHY — Is each country/region correctly attributed?
    Example of ERROR: "investments in Ukraine may grow 15% to £48bn" when the source says this about the UK.
    Example of ERROR: "Romania's retail grew 11%" when source says this about Ukraine.
 
-2. NUMBERS — Does each figure (%, €, £, amount) actually appear in the sources?
+2. NUMBERS — Does each figure (%, €, £, amount) actually appear verbatim in the sources?
 
-3. COMPANIES — Are named companies actually mentioned in the sources?
+3. COMPANIES — Are named companies actually mentioned in the provided source snippets?
 
-4. TEMPORAL — Are date references (2026, Q1, last week) consistent with the sources?
+4. TEMPORAL — Are date references (2026, Q1, last week) consistent with the source dates?
+
+5. INVENTED CONTENT — Remove any sentence that cannot be traced to a specific source snippet,
+   even if it sounds plausible. When in doubt, leave it out.
 
 Decision:
 - If ALL claims are fully supported by the sources → return the original summary UNCHANGED.
-- If ANY claim is wrong/misattributed → rewrite the summary in Ukrainian using ONLY
-  facts that are clearly present in the sources. Keep the same language and style.
+- If ANY claim is wrong/misattributed/uninventable → rewrite the summary in Ukrainian using ONLY
+  facts that are clearly present in the source snippets. Keep the same language and style.
 - If the sources don't support any meaningful summary on this topic →
   return exactly: "Достатньо підтверджених даних із джерел не знайдено."
 

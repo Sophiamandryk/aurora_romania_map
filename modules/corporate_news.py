@@ -40,8 +40,14 @@ Ignore politics, sports, unrelated industries.
 Return only a valid JSON array of 5 objects — no markdown, no explanation:
 [{ "title": "...", "url": "...", "published_date": "...", "source_name": "...", "summary_uk": "...", "anchor_text": "..." }]
 source_name: short name (e.g. RAU, Delo, Speka).
-summary_uk: 2-3 sentences in Ukrainian on why this item matters for retail.
-anchor_text: 4-6 word Ukrainian phrase suitable as a hyperlink label."""
+summary_uk: 2-3 sentences in Ukrainian on why this item matters for retail. \
+Only use information explicitly stated in the provided snippet for this article. \
+Do not infer, extrapolate, or fill gaps from training knowledge.
+anchor_text: 4-6 word Ukrainian phrase suitable as a hyperlink label.
+
+GROUNDING RULE: Only select items and write summaries using facts explicitly present in the \
+provided snippets. If a snippet is too short or vague to write a factual summary, exclude that item. \
+Do not infer, extrapolate, or use training knowledge to fill gaps. When in doubt, leave it out."""
 
 
 def _search(query: str, days: int) -> list[dict]:
