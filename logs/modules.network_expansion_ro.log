@@ -1,0 +1,330 @@
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1456 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 15:24:08 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 17:28:02 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 17:28:15 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 17:38:01 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 17:44:15 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 18:18:45 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 18:21:07 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 18:38:39 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 18:49:11 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 19:05:34 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 Competitors: no previous JSON snapshot — first run
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-06
+2026-06-06 19:09:03 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 61 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 61 → 61 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1473 stores | opened=0 closed=0 relocated=0 rebranded=1
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 00:47:31 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 61 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 61 → 61 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1473 stores | opened=0 closed=0 relocated=0 rebranded=1
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 00:48:51 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 61 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 61 → 61 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1473 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 13:40:02 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=False
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 61 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1473 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 61 → 61 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1473 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 13:44:48 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=False
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1459 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1459 stores | opened=0 closed=12 relocated=0 rebranded=0
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 14:13:15 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1459 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1459 stores | opened=0 closed=12 relocated=0 rebranded=0
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 14:13:47 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1459 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1459 stores | opened=0 closed=12 relocated=0 rebranded=0
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 14:24:26 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1459 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1459 stores | opened=0 closed=12 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1459 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1459 stores | opened=0 closed=12 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 14:53:52 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1459 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1459 stores | opened=0 closed=12 relocated=0 rebranded=0
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 15:32:13 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Aurora previous: 62 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Competitors previous snapshot: 2026-06-06
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Aurora current: 61 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 KiK current: 159 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 MrDIY current: 3 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Penny current: 464 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Pepco current: 518 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Profi current: 1459 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 TEDi current: 78 stores
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Aurora diff: 62 → 61 stores | opened=1 closed=2 relocated=0 rebranded=0
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 KiK diff: 159 → 159 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 MrDIY diff: 3 → 3 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Penny diff: 464 → 464 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Pepco diff: 518 → 518 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 Profi diff: 1473 → 1459 stores | opened=0 closed=12 relocated=0 rebranded=0
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 TEDi diff: 78 → 78 stores | opened=0 closed=0 relocated=0 rebranded=0
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 saved competitor snapshot for 2026-06-07
+2026-06-07 15:34:47 [INFO] modules.network_expansion_ro: 3.2 done: changes_detected=True

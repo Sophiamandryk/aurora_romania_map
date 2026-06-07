@@ -1,0 +1,211 @@
+2026-06-06 15:24:04 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:24:04 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:24:05 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 15:24:05 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:24:06 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:24:06 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 15:24:07 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:24:07 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:24:08 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 15:24:08 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 15:24:08 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 17:27:58 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:27:59 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:27:59 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 17:28:00 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:00 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:01 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 17:28:01 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:02 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:02 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 17:28:02 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 17:28:02 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 17:28:11 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:12 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:12 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 17:28:13 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:13 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:14 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 17:28:14 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:15 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:28:15 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 17:28:15 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 17:28:15 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 17:37:57 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:58 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:58 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 17:37:58 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:59 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:38:00 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 17:38:00 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:38:01 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:38:01 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 17:38:01 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 17:38:01 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 17:44:11 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:12 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:12 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 17:44:13 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:14 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:14 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 17:44:14 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:15 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:15 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 17:44:15 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 17:44:15 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 18:18:41 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:18:42 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:18:42 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 18:18:42 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:18:43 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:18:44 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 18:18:44 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:18:45 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:18:45 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 18:18:45 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 18:18:45 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 18:21:02 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:21:03 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:21:03 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 18:21:04 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:21:05 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:21:05 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 18:21:05 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:21:06 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:21:07 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 18:21:07 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 18:21:07 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 18:38:35 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:38:35 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:38:36 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 18:38:36 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:38:37 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:38:37 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 18:38:38 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:38:38 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:38:39 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 18:38:39 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 18:38:39 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 18:49:07 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:49:08 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:49:08 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 18:49:08 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:49:09 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:49:09 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 18:49:10 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:49:11 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:49:11 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 18:49:11 [ERROR] modules.corporate_news: OpenAI curation failed: No module named 'openai'
+2026-06-06 18:49:11 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 19:05:29 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:05:30 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:05:31 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 19:05:31 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:05:32 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:05:32 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 19:05:32 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:05:33 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:05:34 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 19:05:34 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-06 19:08:58 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:08:59 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:08:59 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-06 19:08:59 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:09:00 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:09:01 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-06 19:09:01 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:09:02 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:09:02 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-06 19:09:03 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 00:47:25 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:47:26 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:47:27 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 00:47:27 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:47:28 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:47:28 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 00:47:29 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:47:29 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:47:30 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 00:47:30 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 00:48:46 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:48:47 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:48:47 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 00:48:47 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:48:48 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:48:49 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 00:48:49 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:48:50 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:48:50 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 00:48:51 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 13:39:57 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:58 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:59 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 13:39:59 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:00 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:00 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 13:40:01 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:01 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:02 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 13:40:02 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 13:44:43 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:44:44 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:44:44 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 13:44:44 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:44:45 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:44:45 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 13:44:46 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:44:47 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:44:47 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 13:44:48 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 14:13:10 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:11 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:12 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 14:13:12 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:13 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:13 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 14:13:13 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:14 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:15 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 14:13:15 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 14:13:42 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:43 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:43 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 14:13:43 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:44 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:44 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 14:13:45 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:46 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:13:46 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 14:13:47 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 14:24:13 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 14:24:18 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 14:24:25 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 14:24:26 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 14:53:46 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 14:53:46 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 14:53:49 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 14:53:50 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 14:53:51 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 14:53:52 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 14:53:52 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 14:53:52 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 15:32:08 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:32:09 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:32:09 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 15:32:09 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:32:10 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:32:10 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 15:32:11 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:32:12 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:32:12 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 15:32:13 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved
+2026-06-07 15:34:41 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:34:42 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:34:43 [INFO] modules.corporate_news: Only 0 results for days=1, retrying with days=3
+2026-06-07 15:34:43 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:34:44 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:34:44 [INFO] modules.corporate_news: Only 0 results for days=3, retrying with days=7
+2026-06-07 15:34:44 [WARNING] modules.corporate_news: Tavily 'фінансові результати звітність виручка прибуток збиток ритей': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:34:45 [WARNING] modules.corporate_news: Tavily 'стратегічні оголошення плани розширення M&A злиття поглинанн': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:34:46 [INFO] modules.corporate_news: 3.1 corporate news: 0 raw results (days=7)
+2026-06-07 15:34:47 [INFO] modules.corporate_news: 3.1 corporate news: 0 curated items saved

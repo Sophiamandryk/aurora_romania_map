@@ -1,0 +1,22 @@
+2026-06-06 15:20:09 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 17:24:26 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 17:24:44 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 17:37:38 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 17:43:52 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 18:14:17 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 18:16:39 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 18:34:14 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 18:44:46 [ERROR] analysis.competitor_intel: Competitor intel synthesis failed: No module named 'openai'
+2026-06-06 19:00:32 [INFO] analysis.competitor_intel: Competitor intel: 3 brands synthesized
+2026-06-06 19:03:57 [INFO] analysis.competitor_intel: Competitor intel: 3 brands synthesized
+2026-06-07 00:42:44 [INFO] analysis.competitor_intel: Competitor intel: 3 brands synthesized
+2026-06-07 00:44:15 [INFO] analysis.competitor_intel: Competitor intel: 3 brands synthesized
+2026-06-07 13:35:12 [INFO] analysis.competitor_intel: Competitor intel: 3 brands synthesized
+2026-06-07 13:39:52 [INFO] analysis.competitor_intel: Competitor intel: 3 brands synthesized
+2026-06-07 14:09:34 [INFO] analysis.competitor_intel: Competitor intel: 6 brands synthesized
+2026-06-07 14:10:11 [INFO] analysis.competitor_intel: Competitor intel: 3 brands synthesized
+2026-06-07 14:14:21 [INFO] analysis.competitor_intel: Competitor intel: 5 brands synthesized
+2026-06-07 14:45:36 [INFO] analysis.competitor_intel: Competitor intel: 5 brands synthesized
+2026-06-07 14:45:40 [INFO] analysis.competitor_intel: Competitor intel: 5 brands synthesized
+2026-06-07 15:27:09 [INFO] analysis.competitor_intel: Competitor intel: 6 brands synthesized
+2026-06-07 15:30:24 [INFO] analysis.competitor_intel: Competitor intel: 4 brands synthesized

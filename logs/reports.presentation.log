@@ -1,0 +1,101 @@
+2026-06-06 15:24:10 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 15:24:10 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 15:24:10 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 15:24:10 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 17:28:02 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 17:28:02 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 17:28:02 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 17:28:02 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 17:28:15 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 17:28:15 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 17:28:15 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 17:28:15 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 17:38:01 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 17:38:01 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 17:38:01 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 17:38:01 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 17:44:15 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 17:44:15 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 17:44:15 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 17:44:15 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 18:18:45 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 18:18:45 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 18:18:45 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 18:18:45 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 18:21:07 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 18:21:07 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 18:21:07 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 18:21:07 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 18:38:39 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 18:38:39 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 18:38:39 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 18:38:39 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 18:49:11 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 18:49:11 [ERROR] reports.presentation: openai not installed — using fallback slides
+2026-06-06 18:49:11 [INFO] reports.presentation: Presentation: generating 3 slides → presentation_2026-06-06.pptx
+2026-06-06 18:49:11 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 19:05:34 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 19:05:34 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-06 19:05:41 [INFO] reports.presentation: Presentation: AI returned 5 slides
+2026-06-06 19:05:41 [INFO] reports.presentation: Presentation: generating 6 slides → presentation_2026-06-06.pptx
+2026-06-06 19:05:41 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-06 19:09:03 [INFO] reports.presentation: Presentation: loading today's data (2026-06-06)
+2026-06-06 19:09:03 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-06 19:09:10 [INFO] reports.presentation: Presentation: AI returned 5 slides
+2026-06-06 19:09:10 [INFO] reports.presentation: Presentation: generating 5 slides → presentation_2026-06-06.pptx
+2026-06-06 19:09:10 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 00:47:32 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 00:47:32 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 00:47:36 [INFO] reports.presentation: Presentation: AI returned 4 slides
+2026-06-07 00:47:36 [INFO] reports.presentation: Presentation: generating 4 slides → presentation_2026-06-07.pptx
+2026-06-07 00:47:36 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 00:48:53 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 00:48:53 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 00:48:59 [INFO] reports.presentation: Presentation: AI returned 6 slides
+2026-06-07 00:48:59 [INFO] reports.presentation: Presentation: generating 6 slides → presentation_2026-06-07.pptx
+2026-06-07 00:48:59 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 13:40:02 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 13:40:02 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 13:40:11 [INFO] reports.presentation: Presentation: AI returned 6 slides
+2026-06-07 13:40:11 [INFO] reports.presentation: Presentation: generating 6 slides → presentation_2026-06-07.pptx
+2026-06-07 13:40:11 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 13:44:48 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 13:44:48 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 13:44:54 [INFO] reports.presentation: Presentation: AI returned 5 slides
+2026-06-07 13:44:54 [INFO] reports.presentation: Presentation: generating 5 slides → presentation_2026-06-07.pptx
+2026-06-07 13:44:54 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 14:13:15 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 14:13:15 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 14:13:22 [INFO] reports.presentation: Presentation: AI returned 5 slides
+2026-06-07 14:13:22 [INFO] reports.presentation: Presentation: generating 5 slides → presentation_2026-06-07.pptx
+2026-06-07 14:13:22 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 14:13:47 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 14:13:47 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 14:13:54 [INFO] reports.presentation: Presentation: AI returned 5 slides
+2026-06-07 14:13:54 [INFO] reports.presentation: Presentation: generating 5 slides → presentation_2026-06-07.pptx
+2026-06-07 14:13:54 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 14:24:26 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 14:24:26 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 14:24:35 [INFO] reports.presentation: Presentation: AI returned 7 slides
+2026-06-07 14:24:35 [INFO] reports.presentation: Presentation: generating 7 slides → presentation_2026-06-07.pptx
+2026-06-07 14:24:35 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 14:53:52 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 14:53:52 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 14:53:52 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 14:53:52 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 14:53:59 [INFO] reports.presentation: Presentation: AI returned 5 slides
+2026-06-07 14:53:59 [INFO] reports.presentation: Presentation: generating 5 slides → presentation_2026-06-07.pptx
+2026-06-07 14:53:59 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 14:54:02 [INFO] reports.presentation: Presentation: AI returned 6 slides
+2026-06-07 14:54:02 [INFO] reports.presentation: Presentation: generating 6 slides → presentation_2026-06-07.pptx
+2026-06-07 14:54:02 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 15:32:13 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 15:32:13 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 15:32:22 [INFO] reports.presentation: Presentation: AI returned 6 slides
+2026-06-07 15:32:22 [INFO] reports.presentation: Presentation: generating 6 slides → presentation_2026-06-07.pptx
+2026-06-07 15:32:22 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'
+2026-06-07 15:34:47 [INFO] reports.presentation: Presentation: loading today's data (2026-06-07)
+2026-06-07 15:34:47 [INFO] reports.presentation: Presentation: calling GPT-4o-mini for slide structure
+2026-06-07 15:34:54 [INFO] reports.presentation: Presentation: AI returned 5 slides
+2026-06-07 15:34:54 [INFO] reports.presentation: Presentation: generating 5 slides → presentation_2026-06-07.pptx
+2026-06-07 15:34:54 [ERROR] reports.presentation: Node.js execution failed: [Errno 2] No such file or directory: 'node'

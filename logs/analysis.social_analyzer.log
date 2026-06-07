@@ -1,0 +1,7 @@
+2026-06-06 15:18:46 [ERROR] analysis.social_analyzer: openai package not installed — pip install openai
+2026-06-07 13:31:27 [INFO] analysis.social_analyzer: OpenAI batch analysis: 15 posts → gpt-4o-mini
+2026-06-07 13:32:10 [INFO] analysis.social_analyzer: Batch analysis: 6/15 relevant, narrative 97 words
+2026-06-07 14:07:15 [INFO] analysis.social_analyzer: OpenAI batch analysis: 16 posts → gpt-4o-mini
+2026-06-07 14:07:52 [INFO] analysis.social_analyzer: Batch analysis: 10/16 relevant, narrative 93 words
+2026-06-07 15:23:47 [INFO] analysis.social_analyzer: OpenAI batch analysis: 17 posts → gpt-4o-mini
+2026-06-07 15:24:22 [INFO] analysis.social_analyzer: Batch analysis: 8/17 relevant, narrative 104 words

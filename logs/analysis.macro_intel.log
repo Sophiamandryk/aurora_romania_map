@@ -1,0 +1,710 @@
+2026-06-06 15:20:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:13 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:29 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 15:20:29 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 17:24:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:36 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:36 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:38 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:38 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:44 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 17:24:44 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 17:24:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:25:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:25:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:25:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:25:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:25:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:25:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:25:02 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 17:25:02 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 17:37:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:56 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 17:37:56 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 17:43:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:03 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:05 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:05 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:06 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:08 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:08 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:09 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:44:11 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 17:44:11 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 18:14:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:35 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 18:14:35 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 18:16:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:57 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 18:16:57 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 18:34:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:32 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 18:34:32 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 18:44:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:03 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:03 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:45:05 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 18:45:05 [ERROR] analysis.macro_intel: Macro intel AI synthesis failed: No module named 'openai'
+2026-06-06 19:00:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:36 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:36 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:38 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:38 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:50 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 19:00:53 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-06 19:00:53 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-06 19:00:53 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-06 19:03:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:03 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:03 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:05 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:05 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:06 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:08 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:08 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:09 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:11 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:11 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:13 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:13 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:13 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:04:15 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-06 19:04:18 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-06 19:04:18 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-06 19:04:18 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-07 00:42:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:03 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:05 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-07 00:43:08 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-07 00:43:08 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-07 00:43:08 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-07 00:44:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:36 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-07 00:44:38 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-07 00:44:38 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-07 00:44:38 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-07 13:35:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:13 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:13 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:30 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-07 13:35:33 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-07 13:35:33 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-07 13:35:33 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-07 13:39:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:53 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:54 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:55 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:56 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:57 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:58 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:59 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:00 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:01 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:02 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:03 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:04 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:05 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:05 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:06 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:07 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:08 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:08 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:09 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:10 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:40:11 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-07 13:40:13 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-07 13:40:13 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-07 13:40:13 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-07 14:09:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:36 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:36 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:38 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:38 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:43 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:44 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:45 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:46 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:47 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:48 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:49 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:50 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:51 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:52 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:53 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-07 14:09:56 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-07 14:09:56 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-07 14:09:56 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-07 14:10:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:12 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:13 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:14 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:15 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:16 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:17 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:18 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:19 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:20 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:21 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:22 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:23 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:30 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-07 14:10:32 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-07 14:10:32 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-07 14:10:32 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
+2026-06-07 14:14:43 [INFO] analysis.macro_intel: Macro intel: 25 Tavily hits across 12 queries
+2026-06-07 14:14:46 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (6 src), Ukraine 6/6 (6 src)
+2026-06-07 14:45:55 [INFO] analysis.macro_intel: Macro intel: 27 Tavily hits across 12 queries
+2026-06-07 14:45:56 [INFO] analysis.macro_intel: Macro intel: 29 Tavily hits across 12 queries
+2026-06-07 14:45:59 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (6 src), Ukraine 6/6 (6 src)
+2026-06-07 14:46:00 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (6 src), Ukraine 6/6 (6 src)
+2026-06-07 15:27:29 [INFO] analysis.macro_intel: Macro intel: 27 Tavily hits across 12 queries
+2026-06-07 15:27:33 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (6 src), Ukraine 6/6 (5 src)
+2026-06-07 15:30:24 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:25 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania inflation rate BNR interest rate GDP growt': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:26 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:27 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania fiscal policy budget deficit tax changes 2': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:28 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania consumer confidence retail spending discou': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:29 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:30 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania unemployment rate wages labor market retai': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:31 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania trade balance imports exports 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:32 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:33 [WARNING] analysis.macro_intel: Tavily macro query failed 'Romania electricity gas prices energy tariffs reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:34 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine inflation NBU interest rate GDP economic g': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:35 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:36 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine tax policy fiscal changes business regulat': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:37 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine consumer spending retail market purchasing': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:38 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:39 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine unemployment employment wages labor market': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:40 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine trade imports exports customs 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:41 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:42 [WARNING] analysis.macro_intel: Tavily macro query failed 'Ukraine electricity gas tariffs energy prices reta': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:42 [INFO] analysis.macro_intel: Macro intel: 0 Tavily hits across 12 queries
+2026-06-07 15:30:53 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Ukraine — marking fields unverified
+2026-06-07 15:30:53 [WARNING] analysis.macro_intel: Macro intel: no verified sources for Romania — marking fields unverified
+2026-06-07 15:30:53 [INFO] analysis.macro_intel: Macro intel: Romania 6/6 (0 src), Ukraine 6/6 (0 src)
