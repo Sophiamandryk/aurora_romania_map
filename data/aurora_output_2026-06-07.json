@@ -1,0 +1,348 @@
+{
+  "1.2_competitor_intelligence": {
+    "brands": {
+      "Action": {
+        "key_insight": "Action активно розширюється в Румунії, відкриваючи нові магазини з доступними цінами.",
+        "bullets": [
+          "Action пропонує 1,500 продуктів за ціною до 5 леїв, що робить їх стратегію цін дуже привабливою для споживачів.",
+          "Відкриття нових магазинів заплановане в містах Читила та Орштія, що свідчить про агресивну експансію на ринку.",
+          "У 2026 році Action відкриє перший магазин у Рімніку Вилчі, що підтверджує їх наміри розширити присутність в Румунії."
+        ],
+        "expansion": "Action відкриє перший магазин у Рімніку Вилчі в 2026 році.",
+        "sources": [
+          "https://www.profit.ro/povesti-cu-profit/retail/lant-olandez-celebru-de-magazine-confirma-profit-ro-si-anunta-primul-magazin-din-romania-centru-de-distributie-pregatit-de-la-zero-22147119",
+          "https://www.economica.net/magazinele-cu-produse-ieftine-action-se-vor-deschide-in-doua-noi-orase-si-fac-angajari-salariile-oferite_941821.html",
+          "https://www.libertatea.ro/stiri/action-deschide-primul-magazin-romania-pitesti-produse-preturi-5456116"
+        ]
+      },
+      "Pepco": {
+        "key_insight": "Pepco активно просуває літні колекції та акції, щоб залучити споживачів у сезон відпусток.",
+        "bullets": [
+          "Pepco пропонує знижки до 20% на популярні літні товари, що підкреслює їх сезонну стратегію.",
+          "Компанія акцентує увагу на продуктах для сім'ї, включаючи одяг та товари для дому.",
+          "Акції на літні колекції сприяють залученню нових клієнтів у магазинах."
+        ],
+        "expansion": null,
+        "sources": [
+          "https://pepco.ro",
+          "https://www.kimbino.ro/pepco"
+        ]
+      },
+      "KiK": {
+        "key_insight": "KiK пропонує значні знижки, що робить їх привабливими для споживачів, які шукають економію.",
+        "bullets": [
+          "KiK проводить акції зі знижками до 40% на різні категорії товарів.",
+          "Компанія пропонує широкий асортимент товарів, включаючи продукти харчування та побутову хімію.",
+          "Знижки на різноманітні товари підкреслюють їх стратегію залучення клієнтів у період літніх розпродажів."
+        ],
+        "expansion": null,
+        "sources": [
+          "https://mooldo.ro/ro/catalog/kik/549/catalogul-cu-reduceri"
+        ]
+      },
+      "Penny": {
+        "key_insight": "Penny адаптує свої пропозиції до сезонних свят, щоб залучити більше клієнтів.",
+        "bullets": [
+          "Penny проводить акції до свят, пропонуючи спеціальні пропозиції на популярні товари.",
+          "Компанія підтримує звичайний графік роботи під час свят, що забезпечує зручність для покупців.",
+          "Сезонні акції на продукти підкреслюють їх фокус на залученні споживачів у святкові періоди."
+        ],
+        "expansion": null,
+        "sources": [
+          "https://www.smark.ro/articol/75723/penny-romania-program-normal-de-rusalii-si-1-iunie-cu-oferte-de-sezon-in-toate"
+        ]
+      }
+    },
+    "market_pattern": "Конкуренти активно просувають літні колекції та акції, щоб залучити споживачів у період відпусток, зосереджуючи увагу на знижках і сезонних пропозиціях.",
+    "aurora_implication": "Aurora повинна розглянути можливість впровадження агресивних акцій та сезонних пропозицій, щоб залишатися конкурентоспроможною на ринку Румунії."
+  },
+  "1.3_commercial_activity": {
+    "promos": [],
+    "products": [],
+    "openings": []
+  },
+  "2.1_macro_environment": {
+    "romania": {
+      "inflation": "немає даних ⚠️",
+      "bnr_rate": "немає даних ⚠️",
+      "unemployment": "немає даних ⚠️",
+      "consumer_sentiment": "немає даних ⚠️",
+      "energy": "немає даних ⚠️",
+      "fiscal": "немає даних ⚠️"
+    },
+    "ukraine": {
+      "inflation": "немає даних ⚠️",
+      "nbu_rate": "немає даних ⚠️",
+      "unemployment": "немає даних ⚠️",
+      "wages": "немає даних ⚠️",
+      "energy": "немає даних ⚠️",
+      "fiscal": "немає даних ⚠️"
+    },
+    "aurora_bullets": [
+      "Відсутність даних ускладнює аналіз.",
+      "Необхідно отримати нову інформацію."
+    ],
+    "_sources_ro": [],
+    "_sources_ua": [],
+    "_sources": []
+  },
+  "2.2_retail_news": [
+    {
+      "id": "ma_investments",
+      "label": "M&A, інвестиції, нові гравці ринку",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "sources": []
+    },
+    {
+      "id": "store_openings",
+      "label": "Відкриття / закриття магазинів, розширення мережі",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "sources": []
+    },
+    {
+      "id": "new_formats",
+      "label": "Нові формати, концепції, приватні марки",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "sources": []
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-commerce, маркетплейси, омніканальність",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "sources": []
+    },
+    {
+      "id": "consumer_trends",
+      "label": "Споживчі тренди, поведінка покупців",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "sources": []
+    },
+    {
+      "id": "logistics",
+      "label": "Логістика, склади, ланцюги постачання",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "sources": []
+    }
+  ],
+  "2.3_industry_research": [
+    {
+      "id": "consumer_ua",
+      "label": "Retail & споживча поведінка — Україна",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "max_stage": 4,
+      "sources": []
+    },
+    {
+      "id": "realestate_ua",
+      "label": "Комерційна нерухомість — Україна",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "max_stage": 4,
+      "sources": []
+    },
+    {
+      "id": "forecast_ua",
+      "label": "Галузеві прогнози & CEE — Україна",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "max_stage": 4,
+      "sources": []
+    },
+    {
+      "id": "consumer_ro",
+      "label": "Retail & споживча поведінка — Румунія",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "max_stage": 4,
+      "sources": []
+    },
+    {
+      "id": "realestate_ro",
+      "label": "Комерційна нерухомість — Румунія",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "max_stage": 4,
+      "sources": []
+    },
+    {
+      "id": "forecast_ro",
+      "label": "Галузеві прогнози & CEE — Румунія",
+      "summary": "Даних не знайдено.",
+      "results_count": 0,
+      "days_used": 180,
+      "max_stage": 4,
+      "sources": []
+    }
+  ],
+  "3.1_corporate_news": {
+    "actual_days_searched": 7,
+    "items": []
+  },
+  "3.2_network_expansion_ro": {
+    "checked_at": "2026-06-07T12:34:47.169373+00:00",
+    "period_hours": 24,
+    "changes_detected": true,
+    "by_brand": {
+      "Aurora": {
+        "opened": 1,
+        "closed": 2,
+        "relocated": 0,
+        "rebranded": 0,
+        "announced": 0
+      },
+      "KiK": {
+        "opened": 0,
+        "closed": 0,
+        "relocated": 0,
+        "rebranded": 0,
+        "announced": 0
+      },
+      "MrDIY": {
+        "opened": 0,
+        "closed": 0,
+        "relocated": 0,
+        "rebranded": 0,
+        "announced": 0
+      },
+      "Penny": {
+        "opened": 0,
+        "closed": 0,
+        "relocated": 0,
+        "rebranded": 0,
+        "announced": 0
+      },
+      "Pepco": {
+        "opened": 0,
+        "closed": 0,
+        "relocated": 0,
+        "rebranded": 0,
+        "announced": 0
+      },
+      "Profi": {
+        "opened": 0,
+        "closed": 12,
+        "relocated": 0,
+        "rebranded": 0,
+        "announced": 0
+      },
+      "TEDi": {
+        "opened": 0,
+        "closed": 0,
+        "relocated": 0,
+        "rebranded": 0,
+        "announced": 0
+      }
+    },
+    "details": [
+      {
+        "brand": "Aurora",
+        "type": "opened",
+        "store_id": "aurora_45_6072_22_9582",
+        "location": "Hateg, strada Nicolae Titulescu ,nr.39 judet Hunedoara \"Retail Park\""
+      },
+      {
+        "brand": "Aurora",
+        "type": "closed",
+        "store_id": "aurora_44_1125_24_9902",
+        "location": "Rosiori de Vede, strada Oltului nr.1"
+      },
+      {
+        "brand": "Aurora",
+        "type": "closed",
+        "store_id": "aurora_43_8076_28_5749",
+        "location": "Mangalia, bdul 1 decembrie 1918, nr.33-35"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "47.6454,26.2419",
+        "location": "Suceava"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "44.1480,25.5463",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "47.1530,27.5689",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "46.7741,23.5940",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "47.1338,23.8872",
+        "location": "Strada Unirii"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "44.8706,24.8594",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "44.9551,26.0038",
+        "location": "Ploiești, Șoseaua Nordului 5"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "44.4375,26.1626",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "44.8849,23.3963",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "45.2281,27.4373",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "44.6325,22.6603",
+        "location": "невідомо"
+      },
+      {
+        "brand": "Profi",
+        "type": "closed",
+        "store_id": "44.4341,26.1654",
+        "location": "невідомо"
+      }
+    ]
+  },
+  "_tg_sent": true
+}

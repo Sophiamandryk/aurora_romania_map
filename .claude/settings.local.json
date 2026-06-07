@@ -9,7 +9,10 @@
       "Bash(curl -s \"https://pepco.ro/store-locator\" -A \"Mozilla/5.0\")",
       "Bash(curl -s \"https://storefinder-microservice.kik.de/storefinder/results.json?lat=45.9&long=24.9&country=RO&distance=1000\" -A \"Mozilla/5.0\")",
       "Bash(curl -s \"https://storeviewer-phkw2veu6jdfq.azureedge.net/storeFinder.bundle.js?v=QYqRg22K1JPU4zPG7loWCHQkkLlLrQI1vQgSqhYQI28\")",
-      "Bash(grep -oE '\"https?://[^\"]{15,100}\\(store|api|json|data\\)[^\"]{0,60}\"')"
+      "Bash(grep -oE '\"https?://[^\"]{15,100}\\(store|api|json|data\\)[^\"]{0,60}\"')",
+      "Bash(git restore *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)"
     ]
   }
 }

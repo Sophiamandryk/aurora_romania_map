@@ -1,0 +1,416 @@
+2026-06-06 15:19:54 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:19:55 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:19:56 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:19:56 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:19:57 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:19:58 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:19:59 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:00 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:01 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:01 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:02 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:03 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:04 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:05 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:05 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:06 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:07 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:08 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:09 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 15:20:09 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 15:20:09 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 17:06:53 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:06:54 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:06:55 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:06:55 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:06:56 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:06:57 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:06:58 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:06:59 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:00 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:00 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:01 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:02 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:03 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:04 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:04 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:05 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:06 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:07 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:08 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:07:08 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 17:07:08 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 17:24:11 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:12 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:12 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:13 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:14 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:15 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:16 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:17 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:17 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:18 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:19 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:20 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:21 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:21 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:22 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:23 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:24 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:25 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:25 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:26 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 17:24:26 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 17:24:29 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:30 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:31 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:32 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:32 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:33 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:34 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:35 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:36 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:36 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:37 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:38 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:39 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:40 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:40 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:41 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:42 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:43 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:44 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:24:44 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 17:24:44 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 17:37:23 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:24 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:25 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:26 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:26 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:27 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:28 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:29 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:30 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:30 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:31 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:32 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:33 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:34 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:35 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:35 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:36 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:37 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:38 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:37:38 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 17:37:38 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 17:43:37 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:38 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:39 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:40 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:41 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:41 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:42 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:43 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:44 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:45 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:46 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:46 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:47 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:48 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:49 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:50 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:50 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:51 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:52 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 17:43:52 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 17:43:52 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 18:14:02 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:03 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:03 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:04 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:05 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:06 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:07 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:07 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:08 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:09 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:10 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:11 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:11 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:12 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:13 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:14 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:15 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:16 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:16 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:14:17 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 18:14:17 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 18:16:24 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:25 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:25 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:26 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:27 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:28 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:29 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:30 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:30 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:31 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:32 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:33 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:34 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:34 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:35 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:36 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:37 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:38 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:38 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:16:39 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 18:16:39 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 18:33:59 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:33:59 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:00 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:01 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:02 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:03 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:03 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:04 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:05 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:06 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:07 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:07 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:08 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:09 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:10 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:11 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:12 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:12 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:13 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:34:14 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 18:34:14 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 18:44:31 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:32 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:32 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:33 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:34 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:35 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:36 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:37 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:37 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:38 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:39 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:40 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:41 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:41 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:42 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:43 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:44 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:45 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:46 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 18:44:46 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 18:44:46 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 19:00:09 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:10 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:11 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:12 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:13 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:13 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:14 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:15 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:16 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:17 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:18 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:18 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:19 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:20 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:21 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:21 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:22 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:23 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:24 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:00:24 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 19:00:24 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-06 19:03:36 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:36 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:37 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:38 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:39 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:40 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:40 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:41 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:42 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:43 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:44 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:45 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:45 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:46 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:47 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:48 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:49 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:49 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:50 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-06 19:03:51 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-06 19:03:51 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-07 00:42:24 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:25 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:26 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:26 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:27 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:28 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:29 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:30 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:30 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:31 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:32 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:33 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:34 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:35 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:35 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:36 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:37 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:38 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:39 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:42:39 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-07 00:42:39 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-07 00:43:55 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:55 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:56 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:57 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:58 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:43:59 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:00 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:00 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:01 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:02 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:03 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:04 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:04 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:05 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:06 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:07 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:08 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:08 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:09 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 00:44:10 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-07 00:44:10 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-07 13:34:50 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:51 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:52 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:52 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:53 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:54 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:55 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:56 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:56 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:57 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:58 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:34:59 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:00 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:01 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:01 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:02 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:03 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:04 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:05 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:35:05 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-07 13:35:05 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-07 13:39:31 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:32 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:33 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:34 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:35 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:36 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:36 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:37 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:38 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:39 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:40 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:40 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:41 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:42 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:43 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:44 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:45 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:45 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:46 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 13:39:47 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-07 13:39:47 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-07 14:09:10 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:11 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:12 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:13 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:13 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:14 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:15 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:16 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:17 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:17 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:18 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:19 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:20 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:21 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:21 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:22 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:23 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:24 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:25 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:25 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-07 14:09:25 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-07 14:09:49 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:50 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:50 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:51 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:52 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:53 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:54 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:54 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:55 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:56 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:57 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:58 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:58 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:09:59 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:00 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:01 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:02 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:03 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:03 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 14:10:04 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-07 14:10:04 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
+2026-06-07 14:14:02 [INFO] analysis.daily_brief: Tavily: 83 unique results from 19 queries
+2026-06-07 14:14:02 [INFO] analysis.daily_brief: Daily brief: 83 fetched, 45 new (not seen in 7 days)
+2026-06-07 14:14:02 [INFO] analysis.daily_brief: Daily brief: saved 45 results to web_search_results
+2026-06-07 14:14:02 [INFO] analysis.daily_brief: Daily brief AI analysis: 40 results → gpt-4o-mini
+2026-06-07 14:14:09 [INFO] analysis.daily_brief: Daily brief: AI returned 3 sections
+2026-06-07 14:45:18 [INFO] analysis.daily_brief: Tavily: 89 unique results from 19 queries
+2026-06-07 14:45:18 [INFO] analysis.daily_brief: Daily brief: 89 fetched, 17 new (not seen in 7 days)
+2026-06-07 14:45:18 [INFO] analysis.daily_brief: Daily brief: saved 17 results to web_search_results
+2026-06-07 14:45:18 [INFO] analysis.daily_brief: Daily brief AI analysis: 17 results → gpt-4o-mini
+2026-06-07 14:45:25 [INFO] analysis.daily_brief: Daily brief: AI returned 2 sections
+2026-06-07 14:45:27 [INFO] analysis.daily_brief: Tavily: 89 unique results from 19 queries
+2026-06-07 14:45:27 [INFO] analysis.daily_brief: Daily brief: 89 fetched, 0 new (not seen in 7 days)
+2026-06-07 15:26:50 [INFO] analysis.daily_brief: Tavily: 87 unique results from 19 queries
+2026-06-07 15:26:50 [INFO] analysis.daily_brief: Daily brief: 87 fetched, 8 new (not seen in 7 days)
+2026-06-07 15:26:50 [INFO] analysis.daily_brief: Daily brief: saved 8 results to web_search_results
+2026-06-07 15:26:50 [INFO] analysis.daily_brief: Daily brief AI analysis: 8 results → gpt-4o-mini
+2026-06-07 15:26:54 [INFO] analysis.daily_brief: Daily brief: AI returned 1 sections
+2026-06-07 15:29:53 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:54 [WARNING] analysis.daily_brief: Tavily query failed 'Action Romania deschidere magazin iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:54 [WARNING] analysis.daily_brief: Tavily query failed 'Profi Penny TEDi KiK Romania stiri iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:55 [WARNING] analysis.daily_brief: Tavily query failed 'Pepco promotii oferte Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:56 [WARNING] analysis.daily_brief: Tavily query failed 'TEDi KiK oferte saptamana Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:57 [WARNING] analysis.daily_brief: Tavily query failed 'Penny Profi reduceri promotii Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:58 [WARNING] analysis.daily_brief: Tavily query failed 'Mr.DIY Action promotii Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:58 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket Romania iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:29:59 [WARNING] analysis.daily_brief: Tavily query failed 'Aurora Multimarket deschidere iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:00 [WARNING] analysis.daily_brief: Tavily query failed 'retail Romania tendinte iunie 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:01 [WARNING] analysis.daily_brief: Tavily query failed 'supermarket discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:02 [WARNING] analysis.daily_brief: Tavily query failed 'comportament cumparator Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:03 [WARNING] analysis.daily_brief: Tavily query failed 'retail park Romania 2026 deschidere': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:03 [WARNING] analysis.daily_brief: Tavily query failed 'parc comercial Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:04 [WARNING] analysis.daily_brief: Tavily query failed 'best cities retail expansion Romania': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:05 [WARNING] analysis.daily_brief: Tavily query failed 'produse populare discount Romania 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:06 [WARNING] analysis.daily_brief: Tavily query failed 'one euro store trends Europe 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:07 [WARNING] analysis.daily_brief: Tavily query failed 'dollar store equivalent popular products 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:07 [WARNING] analysis.daily_brief: Tavily query failed 'Romanian consumer spending trends 2026': 432 Client Error:  for url: https://api.tavily.com/search
+2026-06-07 15:30:08 [INFO] analysis.daily_brief: Tavily: 0 unique results from 19 queries
+2026-06-07 15:30:08 [WARNING] analysis.daily_brief: Daily brief: Tavily returned no results
