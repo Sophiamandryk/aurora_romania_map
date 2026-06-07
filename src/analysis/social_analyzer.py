@@ -48,6 +48,11 @@ STRICT rules:
 - Focus on: pricing signals, category strategy, campaign intensity, seasonal focus.
 - Catalogue/promotional activity is commercial intelligence — categorise it as such, not as expansion.
 
+GROUNDING RULE: Only describe what is explicitly visible in the provided post captions and metadata.
+Do not infer, extrapolate, or use training knowledge about these brands to fill gaps.
+Every claim in daily_narrative must be traceable to a specific post in the input.
+When in doubt, leave it out.
+
 Return ONLY valid JSON — no markdown fences, no text outside the JSON object.
 """
 
